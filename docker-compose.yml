@@ -1,0 +1,92 @@
+services:
+  app:
+    build: .
+    container_name: porty_app
+    ports:
+      - "80:80"
+    environment:
+      APP_NAME: Porty
+      APP_ENV: production
+      APP_DEBUG: "false"
+      APP_KEY: ${APP_KEY}
+      APP_URL: ${APP_URL:-http://localhost}
+
+      DB_CONNECTION: mysql
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_DATABASE: porty
+      DB_USERNAME: porty_user
+      DB_PASSWORD: ${DB_PASSWORD}
+
+      DB_AUTH_HOST: db_auth
+      DB_AUTH_PORT: 3306
+      DB_AUTH_DATABASE: porty_auth
+      DB_AUTH_USERNAME: porty_user
+      DB_AUTH_PASSWORD: ${DB_AUTH_PASSWORD}
+
+      SESSION_DRIVER: database
+      SESSION_CONNECTION: porty_auth
+      SESSION_LIFETIME: 120
+
+      CACHE_STORE: database
+      QUEUE_CONNECTION: database
+
+      PORTY_COMMISSION_RATE: 10.00
+      PORTY_CURRENCY: EUR
+      PORTY_PAYMENT_PROVIDER: mock
+    depends_on:
+      db:
+        condition: service_healthy
+      db_auth:
+        condition: service_healthy
+    networks:
+      - porty_network
+    restart: unless-stopped
+
+  db:
+    image: mysql:8.0
+    container_name: porty_db
+    environment:
+      MYSQL_DATABASE: porty
+      MYSQL_USER: porty_user
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - porty_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  db_auth:
+    image: mysql:8.0
+    container_name: porty_db_auth
+    environment:
+      MYSQL_DATABASE: porty_auth
+      MYSQL_USER: porty_user
+      MYSQL_PASSWORD: ${DB_AUTH_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+    volumes:
+      - mysql_auth_data:/var/lib/mysql
+    networks:
+      - porty_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  mysql_data:
+    driver: local
+  mysql_auth_data:
+    driver: local
+
+networks:
+  porty_network:
+    driver: bridge

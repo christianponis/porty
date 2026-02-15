@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    ::selection {
+        background-color: rgba(0, 109, 199, 0.15);
+        color: #003d6e;
+    }
+
+    body {
+        background-color: #f8fafc;
+    }
+}
+
+@layer components {
+    /* ======================
+       CARD SYSTEM
+       ====================== */
+    .card {
+        @apply bg-white rounded-xl shadow-card border border-slate-100;
+    }
+
+    .card-hover {
+        @apply bg-white rounded-xl shadow-card border border-slate-100 transition-all duration-300 hover:shadow-card-hover hover:-translate-y-0.5;
+    }
+
+    .card-body {
+        @apply p-6 sm:p-8;
+    }
+
+    /* ======================
+       BADGE SYSTEM
+       ====================== */
+    .badge {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold;
+    }
+
+    .badge-ocean {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-ocean-100 text-ocean-700;
+    }
+
+    .badge-seafoam {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-seafoam-100 text-seafoam-700;
+    }
+
+    .badge-amber {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-100 text-amber-700;
+    }
+
+    .badge-red {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-red-100 text-red-700;
+    }
+
+    .badge-purple {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-purple-100 text-purple-700;
+    }
+
+    .badge-gray {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-600;
+    }
+
+    /* Status-specific badges */
+    .badge-pending {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-600/20;
+    }
+
+    .badge-confirmed {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-seafoam-50 text-seafoam-700 ring-1 ring-inset ring-seafoam-500/20;
+    }
+
+    .badge-cancelled {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-red-50 text-red-700 ring-1 ring-inset ring-red-500/20;
+    }
+
+    .badge-completed {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-ocean-50 text-ocean-700 ring-1 ring-inset ring-ocean-500/20;
+    }
+
+    /* ======================
+       BUTTON SYSTEM
+       ====================== */
+    .btn-primary {
+        @apply inline-flex items-center justify-center px-5 py-2.5 bg-ocean-600 text-white font-semibold text-sm
+               rounded-lg shadow-sm hover:bg-ocean-700 hover:shadow-md
+               focus:outline-none focus:ring-2 focus:ring-ocean-500 focus:ring-offset-2
+               active:bg-ocean-800 transition-all duration-200;
+    }
+
+    .btn-secondary {
+        @apply inline-flex items-center justify-center px-5 py-2.5 bg-white text-slate-700 font-semibold text-sm
+               rounded-lg border border-slate-200 shadow-sm
+               hover:bg-slate-50 hover:border-slate-300 hover:shadow-md
+               focus:outline-none focus:ring-2 focus:ring-ocean-500 focus:ring-offset-2
+               transition-all duration-200;
+    }
+
+    .btn-danger {
+        @apply inline-flex items-center justify-center px-5 py-2.5 bg-red-600 text-white font-semibold text-sm
+               rounded-lg shadow-sm hover:bg-red-700 hover:shadow-md
+               focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2
+               active:bg-red-800 transition-all duration-200;
+    }
+
+    .btn-ghost {
+        @apply inline-flex items-center justify-center px-4 py-2 text-ocean-600 font-medium text-sm
+               rounded-lg hover:bg-ocean-50 transition-all duration-200;
+    }
+
+    /* ======================
+       TABLE SYSTEM
+       ====================== */
+    .table-container {
+        @apply bg-white rounded-xl shadow-card border border-slate-100 overflow-hidden;
+    }
+
+    .table-header {
+        @apply px-6 py-4 text-left text-xs font-semibold text-slate-500 uppercase tracking-wider bg-slate-50/80;
+    }
+
+    .table-row {
+        @apply hover:bg-ocean-50/30 transition-colors duration-150;
+    }
+
+    /* ======================
+       FORM SYSTEM
+       ====================== */
+    .form-input {
+        @apply block w-full rounded-lg border-slate-200 bg-white
+               shadow-sm text-slate-900 placeholder:text-slate-400
+               focus:border-ocean-400 focus:ring-2 focus:ring-ocean-400/20
+               transition-all duration-200;
+    }
+
+    .form-select {
+        @apply block w-full rounded-lg border-slate-200 bg-white
+               shadow-sm text-slate-900
+               focus:border-ocean-400 focus:ring-2 focus:ring-ocean-400/20
+               transition-all duration-200;
+    }
+
+    .form-textarea {
+        @apply block w-full rounded-lg border-slate-200 bg-white
+               shadow-sm text-slate-900 placeholder:text-slate-400
+               focus:border-ocean-400 focus:ring-2 focus:ring-ocean-400/20
+               transition-all duration-200 resize-y;
+    }
+
+    .form-label {
+        @apply block text-sm font-medium text-slate-700 mb-1.5;
+    }
+
+    /* ======================
+       ALERT SYSTEM
+       ====================== */
+    .alert-success {
+        @apply bg-seafoam-50 border border-seafoam-200 text-seafoam-800 px-5 py-4 rounded-xl flex items-center gap-3;
+    }
+
+    .alert-error {
+        @apply bg-red-50 border border-red-200 text-red-800 px-5 py-4 rounded-xl flex items-center gap-3;
+    }
+
+    .alert-warning {
+        @apply bg-amber-50 border border-amber-200 text-amber-800 px-5 py-4 rounded-xl flex items-center gap-3;
+    }
+
+    /* ======================
+       GRADIENT & EFFECTS
+       ====================== */
+    .ocean-gradient {
+        @apply bg-gradient-to-br from-ocean-600 via-ocean-700 to-ocean-900;
+    }
+
+    .ocean-gradient-soft {
+        @apply bg-gradient-to-br from-ocean-50 to-ocean-100/50;
+    }
+
+    .glass {
+        @apply bg-white/80 backdrop-blur-lg;
+    }
+
+    /* ======================
+       STAT VALUE
+       ====================== */
+    .stat-value {
+        @apply text-3xl font-bold tabular-nums tracking-tight;
+    }
+
+    /* ======================
+       PAGE TRANSITION
+       ====================== */
+    .page-enter {
+        @apply animate-fade-in-up;
+    }
+}
+
+@layer utilities {
+    .text-gradient-ocean {
+        @apply bg-gradient-to-r from-ocean-600 to-ocean-400 bg-clip-text text-transparent;
+    }
+
+    .bg-grid-pattern {
+        background-image: radial-gradient(circle, rgba(0, 109, 199, 0.05) 1px, transparent 1px);
+        background-size: 24px 24px;
+    }
+}
