@@ -25,6 +25,20 @@
         </div>
     </header>
 
+    {{-- Banner Demo --}}
+    <div class="bg-gradient-to-r from-amber-500 via-orange-500 to-amber-500 border-b-2 border-amber-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <div class="flex items-center justify-center gap-3 text-white">
+                <svg class="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+                <p class="text-sm md:text-base font-semibold text-center">
+                    <span class="font-bold">VERSIONE DEMO</span> - Questa è una versione di prova non funzionante al momento. I pagamenti e le prenotazioni non sono attivi.
+                </p>
+            </div>
+        </div>
+    </div>
+
     {{-- Hero --}}
     <section class="ocean-gradient relative overflow-hidden">
         <div class="absolute inset-0">
