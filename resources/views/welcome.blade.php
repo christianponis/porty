@@ -12,7 +12,7 @@
     {{-- Header --}}
     <header class="glass border-b border-slate-200/60 shadow-nav sticky top-0 z-40">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <a href="/"><img src="/porty_logo.png" alt="Porty" class="h-24"></a>
+            <a href="/"><img src="/porty_logo.png" alt="Porty" class="h-10"></a>
             <nav class="flex items-center gap-4">
                 <a href="{{ route('search') }}" class="text-sm font-medium text-slate-600 hover:text-ocean-600 transition-colors">Cerca posti barca</a>
                 @auth
@@ -39,22 +39,32 @@
         </div>
     </div>
 
-    {{-- Hero --}}
-    <section class="ocean-gradient relative overflow-hidden">
+    {{-- Hero con slideshow --}}
+    <section class="relative overflow-hidden min-h-[520px] lg:min-h-[600px]" x-data="heroSlideshow()" x-init="start()">
+        {{-- Slideshow background --}}
         <div class="absolute inset-0">
-            <svg class="absolute bottom-0 w-full" viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0,120 C240,180 480,80 720,130 C960,180 1200,100 1440,120 L1440,200 L0,200 Z" fill="rgba(255,255,255,0.06)" class="animate-wave"/>
-                <path d="M0,140 C360,80 720,180 1080,120 C1260,100 1380,140 1440,130 L1440,200 L0,200 Z" fill="rgba(255,255,255,0.04)" class="animate-wave" style="animation-delay: -3s;"/>
-            </svg>
-            <div class="absolute inset-0 bg-grid-pattern opacity-20"></div>
+            @foreach([
+                ['src' => '/porto_santa_marinella.jpg', 'alt' => 'Porto Santa Marinella'],
+                ['src' => '/porto-cervo.jpg', 'alt' => 'Porto Cervo'],
+                ['src' => '/Sestri-Levante.jpg', 'alt' => 'Sestri Levante'],
+            ] as $i => $slide)
+                <div class="absolute inset-0 transition-opacity duration-1000 ease-in-out"
+                     :class="current === {{ $i }} ? 'opacity-100' : 'opacity-0'">
+                    <img src="{{ $slide['src'] }}" alt="{{ $slide['alt'] }}"
+                         class="w-full h-full object-cover">
+                </div>
+            @endforeach
+            {{-- Overlay leggero per leggibilita --}}
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-slate-900/20 to-slate-900/50"></div>
         </div>
 
+        {{-- Contenuto --}}
         <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
             <div class="text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight mb-6">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-white tracking-tight mb-6" style="text-shadow: 0 2px 12px rgba(0,0,0,0.6), 0 1px 3px rgba(0,0,0,0.4)">
                     Trova il tuo <span class="text-ocean-200">posto barca</span>
                 </h1>
-                <p class="text-lg md:text-xl text-ocean-100 mb-10 max-w-2xl mx-auto leading-relaxed">
+                <p class="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto leading-relaxed" style="text-shadow: 0 1px 8px rgba(0,0,0,0.5), 0 1px 2px rgba(0,0,0,0.3)">
                     Il marketplace peer-to-peer per scambiare posti barca nei porti italiani.
                     Semplice, sicuro, conveniente.
                 </p>
@@ -63,19 +73,57 @@
                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
                         Cerca un posto barca
                     </a>
-                    <a href="{{ route('register') }}" class="inline-flex items-center justify-center px-8 py-4 bg-white/10 text-white font-bold rounded-xl border border-white/20 hover:bg-white/20 hover:border-white/40 transition-all duration-300 backdrop-blur-sm text-base">
+                    <a href="{{ route('register') }}" class="inline-flex items-center justify-center px-8 py-4 bg-white/15 text-white font-bold rounded-xl border border-white/30 hover:bg-white/25 hover:border-white/50 transition-all duration-300 backdrop-blur-sm text-base shadow-lg">
                         Pubblica il tuo posto
                     </a>
                 </div>
             </div>
+
+            {{-- Indicatori slide --}}
+            <div class="flex justify-center gap-2 mt-10">
+                @for($i = 0; $i < 3; $i++)
+                    <button @click="goTo({{ $i }})"
+                        class="w-2.5 h-2.5 rounded-full transition-all duration-300"
+                        :class="current === {{ $i }} ? 'bg-white w-8' : 'bg-white/40 hover:bg-white/60'">
+                    </button>
+                @endfor
+            </div>
+
+            {{-- Nome porto corrente --}}
+            <div class="flex justify-center mt-4">
+                <span class="text-sm text-white/80 font-medium" x-text="captions[current]" style="text-shadow: 0 1px 4px rgba(0,0,0,0.5)"></span>
+            </div>
         </div>
 
+        {{-- Wave bottom --}}
         <div class="absolute bottom-0 left-0 right-0">
             <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0,40 C360,80 720,0 1080,50 C1260,70 1380,55 1440,40 L1440,80 L0,80 Z" fill="#f8fafc"/>
             </svg>
         </div>
     </section>
+
+    <script>
+        function heroSlideshow() {
+            return {
+                current: 0,
+                total: 3,
+                interval: null,
+                captions: ['Porto Santa Marinella', 'Porto Cervo', 'Sestri Levante'],
+                start() {
+                    this.interval = setInterval(() => this.next(), 5000);
+                },
+                next() {
+                    this.current = (this.current + 1) % this.total;
+                },
+                goTo(index) {
+                    this.current = index;
+                    clearInterval(this.interval);
+                    this.start();
+                }
+            }
+        }
+    </script>
 
     {{-- Come funziona --}}
     <section class="py-20 bg-slate-50">
@@ -104,6 +152,88 @@
             </div>
         </div>
     </section>
+
+    {{-- Piu gettonati --}}
+    @if(isset($topBerths) && $topBerths->isNotEmpty())
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">I piu gettonati</h2>
+                <p class="mt-3 text-slate-500">I posti barca con le migliori valutazioni</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                @foreach($topBerths as $berth)
+                    <a href="{{ route('berths.show', $berth) }}" class="card group hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300 overflow-hidden relative block">
+                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-ocean-500 to-ocean-600"></div>
+                        <div class="p-6 pt-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-base font-bold text-slate-900 group-hover:text-ocean-700 transition-colors">{{ $berth->title }}</h3>
+                                <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-ocean-50 text-ocean-700 ring-1 ring-inset ring-ocean-500/20">{{ $berth->code }}</span>
+                            </div>
+                            <p class="text-sm text-slate-500 mb-3">{{ $berth->port->name }} - {{ $berth->port->city }}</p>
+                            @if($berth->getEffectiveAnchorCount() > 0 || $berth->review_count > 0)
+                                <div class="flex items-center gap-2 mb-3">
+                                    @if($berth->getEffectiveAnchorCount() > 0)
+                                        <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()->value" size="sm" />
+                                    @endif
+                                    @if($berth->review_count > 0)
+                                        <x-review-stars :rating="$berth->review_average" :count="$berth->review_count" size="sm" />
+                                    @endif
+                                </div>
+                            @endif
+                            <div class="flex justify-between items-center pt-3 border-t border-slate-100">
+                                <span class="text-sm text-slate-500">{{ $berth->length_m }}m x {{ $berth->width_m }}m</span>
+                                <div>
+                                    <span class="text-lg font-bold text-ocean-600">&euro; {{ number_format($berth->price_per_day, 0, ',', '.') }}</span>
+                                    <span class="text-xs text-slate-400">/giorno</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                @endforeach
+            </div>
+        </div>
+    </section>
+    @endif
+
+    {{-- Ultimi inseriti --}}
+    @if(isset($latestBerths) && $latestBerths->isNotEmpty())
+    <section class="py-16 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-slate-900 tracking-tight">Ultimi inseriti</h2>
+                <p class="mt-3 text-slate-500">I posti barca appena aggiunti alla piattaforma</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                @foreach($latestBerths as $berth)
+                    <a href="{{ route('berths.show', $berth) }}" class="card group hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300 overflow-hidden relative block">
+                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-seafoam-400 to-seafoam-500"></div>
+                        <div class="p-6 pt-5">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-base font-bold text-slate-900 group-hover:text-ocean-700 transition-colors">{{ $berth->title }}</h3>
+                                <span class="text-xs text-slate-400">{{ $berth->created_at->diffForHumans() }}</span>
+                            </div>
+                            <p class="text-sm text-slate-500 mb-3">{{ $berth->port->name }} - {{ $berth->port->city }}</p>
+                            <div class="flex justify-between items-center pt-3 border-t border-slate-100">
+                                <span class="text-sm text-slate-500">{{ $berth->length_m }}m x {{ $berth->width_m }}m</span>
+                                <div>
+                                    <span class="text-lg font-bold text-ocean-600">&euro; {{ number_format($berth->price_per_day, 0, ',', '.') }}</span>
+                                    <span class="text-xs text-slate-400">/giorno</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                @endforeach
+            </div>
+            <div class="text-center mt-8">
+                <a href="{{ route('search') }}" class="btn-primary inline-flex items-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    Vedi tutti i posti barca
+                </a>
+            </div>
+        </div>
+    </section>
+    @endif
 
     {{-- Stats --}}
     <section class="py-16 bg-white">

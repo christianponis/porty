@@ -26,6 +26,16 @@
                             </span>
                         </div>
 
+                        @if($berth->getEffectiveAnchorCount() > 0)
+                            <div class="flex items-center gap-3 mb-4">
+                                <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()->value" size="md" :showLabel="true" />
+                                @if($berth->review_count > 0)
+                                    <span class="text-slate-300">|</span>
+                                    <x-review-stars :rating="$berth->review_average" :count="$berth->review_count" size="md" />
+                                @endif
+                            </div>
+                        @endif
+
                         @if($berth->description)
                             <div class="mb-6">
                                 <h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Descrizione</h3>
@@ -102,6 +112,38 @@
                         </div>
                     </div>
 
+                    {{-- Recensioni --}}
+                    @if(isset($berth->reviews) && $berth->reviews->isNotEmpty())
+                        <div class="card card-body">
+                            <div class="flex justify-between items-center mb-4">
+                                <h3 class="text-lg font-bold text-slate-900">Recensioni ({{ $berth->review_count }})</h3>
+                                <x-review-stars :rating="$berth->review_average" :count="$berth->review_count" />
+                            </div>
+                            <div class="space-y-4">
+                                @foreach($berth->reviews->take(5) as $review)
+                                    <div class="border-b border-slate-100 last:border-0 pb-4 last:pb-0">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <div class="flex items-center gap-2">
+                                                <div class="w-8 h-8 rounded-full bg-ocean-100 flex items-center justify-center text-ocean-700 text-xs font-bold">
+                                                    {{ strtoupper(substr($review->guest->name, 0, 2)) }}
+                                                </div>
+                                                <span class="text-sm font-semibold text-slate-900">{{ $review->guest->name }}</span>
+                                                @if($review->is_verified)
+                                                    <span class="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-seafoam-50 text-seafoam-700">Verificata</span>
+                                                @endif
+                                            </div>
+                                            <span class="text-xs text-slate-400">{{ $review->created_at->diffForHumans() }}</span>
+                                        </div>
+                                        <x-review-stars :rating="$review->average_rating" size="sm" />
+                                        @if($review->comment)
+                                            <p class="text-sm text-slate-600 mt-2">{{ $review->comment }}</p>
+                                        @endif
+                                    </div>
+                                @endforeach
+                            </div>
+                        </div>
+                    @endif
+
                     {{-- Disponibilita --}}
                     @if($berth->availabilities->isNotEmpty())
                         <div class="card card-body">
@@ -153,6 +195,19 @@
                                     </div>
                                 @endif
                             </div>
+
+                            @if($berth->sharing_enabled && $berth->nodi_value_per_day)
+                                <div class="mt-4 pt-4 border-t border-slate-100">
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-slate-600 flex items-center gap-1">
+                                            <svg class="w-4 h-4 text-seafoam-600" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 400 400"><path d="M24 219.943C73.8113 211.642 120.446 207.312 169.006 155.742"/><path d="M199.206 130.337C250.916 99.842 326.254 151.462 318.438 211.641C310.211 274.983 221.728 286.903 176.199 281.931C130.669 276.958 109.033 266.778 88.6484 233.191"/><path d="M27.875 242.635C92.0763 233.78 144.795 214.431 190.039 169.025"/><path d="M221.711 148.426C250.633 136.713 322.466 192.991 283.323 225.705C235.939 265.308 146.315 263.113 119.195 227.691"/><path d="M79.9414 189.261C82.332 133.37 147.283 104.175 182.528 122.421C216.417 139.967 245.676 179.692 289.891 197.842"/><path d="M319.883 205.305C347.282 210.877 363.254 212.284 375.998 206.857"/><path d="M104.094 184.721C132.549 119.68 181.475 149.902 198.771 163.673C216.068 177.444 258.788 215.116 282.202 219.8"/><path d="M315.047 228.935C328.797 233.688 357.329 236.533 376 230.429"/></svg>
+                                            Nodi/giorno
+                                        </span>
+                                        <span class="text-lg font-bold text-seafoam-600">{{ number_format($berth->nodi_value_per_day, 0) }} Nodi</span>
+                                    </div>
+                                    <p class="text-xs text-slate-400 mt-1">Moltiplicatore: x{{ $berth->getNodiMultiplier() }}</p>
+                                </div>
+                            @endif
 
                             <div class="mt-6 pt-6 border-t border-slate-100">
                                 @auth

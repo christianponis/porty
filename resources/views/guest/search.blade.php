@@ -10,7 +10,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             {{-- Filtri --}}
             <div class="card card-body mb-8 lg:sticky lg:top-20 lg:z-10">
-                <form method="GET" action="{{ route('search') }}" class="grid grid-cols-1 md:grid-cols-5 gap-4">
+                <form method="GET" action="{{ route('search') }}" class="grid grid-cols-1 md:grid-cols-6 gap-4">
                     <div>
                         <x-input-label value="Regione" />
                         <select name="region" class="form-select mt-1 block w-full">
@@ -31,6 +31,15 @@
                     <div>
                         <x-input-label value="Prezzo max/giorno" />
                         <x-text-input type="number" name="max_price" :value="request('max_price')" class="mt-1 block w-full" step="5" min="1" />
+                    </div>
+                    <div>
+                        <x-input-label value="Min Ancore" />
+                        <select name="min_anchors" class="form-select mt-1 block w-full">
+                            <option value="">Tutte</option>
+                            @for($i = 1; $i <= 5; $i++)
+                                <option value="{{ $i }}" {{ request('min_anchors') == $i ? 'selected' : '' }}>{{ $i }}+ ancore</option>
+                            @endfor
+                        </select>
                     </div>
                     <div class="flex items-end">
                         <button type="submit" class="btn-primary w-full justify-center inline-flex items-center gap-2">
@@ -63,6 +72,17 @@
                                     </span>
                                 </div>
                                 <p class="text-sm text-slate-500 mb-4">{{ $berth->port->name }} - {{ $berth->port->city }}</p>
+
+                                @if($berth->getEffectiveAnchorCount() > 0 || $berth->review_count > 0)
+                                    <div class="flex items-center gap-2 mb-3">
+                                        @if($berth->getEffectiveAnchorCount() > 0)
+                                            <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()->value" size="sm" />
+                                        @endif
+                                        @if($berth->review_count > 0)
+                                            <x-review-stars :rating="$berth->review_average" :count="$berth->review_count" size="sm" />
+                                        @endif
+                                    </div>
+                                @endif
 
                                 <div class="flex gap-2 mb-4">
                                     <span class="inline-flex items-center px-2.5 py-1 rounded-lg bg-slate-50 text-xs font-medium text-slate-600">

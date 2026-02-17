@@ -11,7 +11,7 @@ class SearchController extends Controller
     public function __invoke(Request $request)
     {
         $berths = Berth::query()
-            ->with(['port', 'owner'])
+            ->with(['port', 'owner'])->withCount('reviews')
             ->active()
             ->available()
             ->when($request->port_id, fn($q, $id) => $q->where('port_id', $id))
@@ -19,6 +19,10 @@ class SearchController extends Controller
             ->when($request->city, fn($q, $c) => $q->whereHas('port', fn($pq) => $pq->where('city', 'like', "%{$c}%")))
             ->when($request->min_length, fn($q, $l) => $q->where('length_m', '>=', $l))
             ->when($request->max_price, fn($q, $p) => $q->where('price_per_day', '<=', $p))
+            ->when($request->min_anchors, fn($q, $a) => $q->where(function($q2) use ($a) {
+                $q2->where('blue_anchor_count', '>=', $a)
+                    ->orWhere('grey_anchor_count', '>=', $a);
+            }))
             ->orderBy('price_per_day')
             ->paginate(12);
 
@@ -33,7 +37,7 @@ class SearchController extends Controller
 
     public function show(Berth $berth)
     {
-        $berth->load(['port', 'owner', 'availabilities']);
+        $berth->load(['port', 'owner', 'availabilities', 'reviews.guest', 'selfAssessment', 'latestCertification']);
 
         return view('guest.berth-detail', compact('berth'));
     }

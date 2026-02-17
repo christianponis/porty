@@ -16,6 +16,10 @@ class DatabaseSeeder extends Seeder
             PortSeeder::class,
             BerthSeeder::class,
             BookingSeeder::class,
+            AssessmentQuestionSeeder::class,
+            SelfAssessmentSeeder::class,
+            ReviewSeeder::class,
+            NodiWalletSeeder::class,
         ]);
     }
 }

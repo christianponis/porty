@@ -82,6 +82,25 @@
     }
 
     /* ======================
+       ANCHOR RATING BADGES
+       ====================== */
+    .badge-grey-anchor {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-600 ring-1 ring-inset ring-slate-300/40;
+    }
+
+    .badge-blue-anchor {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-ocean-50 text-ocean-700 ring-1 ring-inset ring-ocean-500/20;
+    }
+
+    .badge-gold-anchor {
+        @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 ring-1 ring-inset ring-amber-500/20;
+    }
+
+    .nodi-badge {
+        @apply inline-flex items-center gap-1.5 px-3 py-1 font-semibold rounded-full bg-seafoam-50 text-seafoam-700 border border-seafoam-200;
+    }
+
+    /* ======================
        BUTTON SYSTEM
        ====================== */
     .btn-primary {

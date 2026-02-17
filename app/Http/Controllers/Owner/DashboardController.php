@@ -16,6 +16,8 @@ class DashboardController extends Controller
         $user = Auth::user();
         $berthIds = $user->berths()->pluck('id');
 
+        $nodiBalance = $user->nodiWallet?->balance ?? 0;
+
         $stats = [
             'total_berths' => $user->berths()->count(),
             'active_berths' => $user->berths()->where('is_active', true)->count(),
@@ -33,6 +35,7 @@ class DashboardController extends Controller
             'total_volume' => Booking::whereIn('berth_id', $berthIds)
                 ->whereIn('status', ['confirmed', 'completed'])
                 ->sum('total_price'),
+            'nodi_balance' => $nodiBalance,
         ];
 
         $recent_bookings = Booking::with(['berth.port', 'guest'])
@@ -43,7 +46,7 @@ class DashboardController extends Controller
 
         $berths = $user->berths()
             ->with('port')
-            ->withCount(['bookings', 'availabilities'])
+            ->withCount(['bookings', 'availabilities', 'reviews'])
             ->get();
 
         return view('owner.dashboard', compact('stats', 'recent_bookings', 'berths'));

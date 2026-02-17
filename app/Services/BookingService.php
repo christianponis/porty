@@ -2,7 +2,9 @@
 
 namespace App\Services;
 
+use App\Enums\BookingMode;
 use App\Enums\BookingStatus;
+use App\Enums\NodoTransactionType;
 use App\Models\Berth;
 use App\Models\Booking;
 use App\Models\User;
@@ -11,6 +13,10 @@ use Illuminate\Validation\ValidationException;
 
 class BookingService
 {
+    public function __construct(
+        private NodiService $nodiService,
+    ) {}
+
     public function calculatePrice(Berth $berth, Carbon $startDate, Carbon $endDate): array
     {
         $totalDays = $startDate->diffInDays($endDate);
@@ -96,6 +102,7 @@ class BookingService
     {
         $startDate = Carbon::parse($data['start_date']);
         $endDate = Carbon::parse($data['end_date']);
+        $bookingMode = BookingMode::tryFrom($data['booking_mode'] ?? 'rental') ?? BookingMode::Rental;
 
         // Non puoi prenotare il tuo posto
         if ($berth->owner_id === $guest->id) {
@@ -111,10 +118,10 @@ class BookingService
             ]);
         }
 
-        // Calcola prezzo
+        // Calcola prezzo EUR
         $pricing = $this->calculatePrice($berth, $startDate, $endDate);
 
-        return Booking::create([
+        $bookingData = [
             'berth_id' => $berth->id,
             'guest_id' => $guest->id,
             'start_date' => $startDate,
@@ -123,6 +130,71 @@ class BookingService
             'total_price' => $pricing['total_price'],
             'status' => BookingStatus::Pending,
             'guest_notes' => $data['guest_notes'] ?? null,
-        ]);
+            'booking_mode' => $bookingMode,
+        ];
+
+        // Gestione Nodi per modalita sharing
+        if ($bookingMode === BookingMode::Sharing) {
+            if (! $berth->sharing_enabled) {
+                throw ValidationException::withMessages([
+                    'booking_mode' => 'Questo posto barca non accetta lo sharing.',
+                ]);
+            }
+
+            $nodiAmount = $this->nodiService->calculateNodiForBooking($berth, $pricing['total_days']);
+            $guestWallet = $this->nodiService->getOrCreateWallet($guest);
+
+            if ($guestWallet->balance < $nodiAmount) {
+                throw ValidationException::withMessages([
+                    'booking_mode' => 'Saldo Nodi insufficiente. Servono ' . $nodiAmount . ' Nodi.',
+                ]);
+            }
+
+            $bookingData['nodi_amount'] = $nodiAmount;
+            $bookingData['total_price'] = 0;
+        } elseif ($bookingMode === BookingMode::SharingCompensation) {
+            if (! $berth->sharing_enabled) {
+                throw ValidationException::withMessages([
+                    'booking_mode' => 'Questo posto barca non accetta lo sharing.',
+                ]);
+            }
+
+            $nodiAmount = $this->nodiService->calculateNodiForBooking($berth, $pricing['total_days']);
+            $guestWallet = $this->nodiService->getOrCreateWallet($guest);
+
+            $nodiAvailable = min($guestWallet->balance, $nodiAmount);
+            $eurCompensation = ($nodiAmount - $nodiAvailable) > 0
+                ? round($pricing['total_price'] * (($nodiAmount - $nodiAvailable) / $nodiAmount), 2)
+                : 0;
+
+            $bookingData['nodi_amount'] = $nodiAvailable;
+            $bookingData['eur_compensation'] = $eurCompensation;
+            $bookingData['total_price'] = $eurCompensation;
+        }
+
+        $booking = Booking::create($bookingData);
+
+        // Processa transazioni Nodi
+        if (in_array($bookingMode, [BookingMode::Sharing, BookingMode::SharingCompensation]) && ($booking->nodi_amount ?? 0) > 0) {
+            $guestWallet = $this->nodiService->getOrCreateWallet($guest);
+            $this->nodiService->debitNodi(
+                $guestWallet,
+                $booking->nodi_amount,
+                NodoTransactionType::Spent,
+                $booking,
+                "Prenotazione #{$booking->id} - {$berth->title}"
+            );
+
+            $ownerWallet = $this->nodiService->getOrCreateWallet($berth->owner);
+            $this->nodiService->creditNodi(
+                $ownerWallet,
+                $booking->nodi_amount,
+                NodoTransactionType::Earned,
+                $booking,
+                "Prenotazione #{$booking->id} - {$berth->title}"
+            );
+        }
+
+        return $booking;
     }
 }

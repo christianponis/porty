@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Enums\BookingMode;
 use App\Enums\BookingStatus;
 use App\Enums\TransactionStatus;
 use App\Enums\TransactionType;
@@ -70,6 +71,64 @@ class BookingSeeder extends Seeder
                 'status' => BookingStatus::Pending,
                 'with_transaction' => false,
             ],
+            // Prenotazione completata (per recensioni)
+            [
+                'guest_index' => 0,
+                'berth_index' => 0,
+                'start_offset' => -30,
+                'days' => 5,
+                'status' => BookingStatus::Completed,
+                'with_transaction' => true,
+            ],
+            // Prenotazione completata su altro berth
+            [
+                'guest_index' => 1,
+                'berth_index' => 2,
+                'start_offset' => -20,
+                'days' => 7,
+                'status' => BookingStatus::Completed,
+                'with_transaction' => true,
+            ],
+            // Prenotazione completata terzo berth
+            [
+                'guest_index' => 0,
+                'berth_index' => 2,
+                'start_offset' => -45,
+                'days' => 3,
+                'status' => BookingStatus::Completed,
+                'with_transaction' => true,
+            ],
+            // Prenotazione completata quarto
+            [
+                'guest_index' => 1,
+                'berth_index' => 0,
+                'start_offset' => -60,
+                'days' => 4,
+                'status' => BookingStatus::Completed,
+                'with_transaction' => true,
+            ],
+            // Prenotazione in sharing (Nodi)
+            [
+                'guest_index' => 0,
+                'berth_index' => 5,
+                'start_offset' => 40,
+                'days' => 5,
+                'status' => BookingStatus::Confirmed,
+                'with_transaction' => true,
+                'booking_mode' => BookingMode::Sharing,
+                'nodi_amount' => 50.00,
+            ],
+            // Prenotazione sharing completata
+            [
+                'guest_index' => 1,
+                'berth_index' => 5,
+                'start_offset' => -15,
+                'days' => 3,
+                'status' => BookingStatus::Completed,
+                'with_transaction' => true,
+                'booking_mode' => BookingMode::Sharing,
+                'nodi_amount' => 30.00,
+            ],
         ];
 
         foreach ($bookings as $data) {
@@ -97,6 +156,8 @@ class BookingSeeder extends Seeder
                 'total_price' => round($totalPrice, 2),
                 'status' => $data['status'],
                 'guest_notes' => 'Prenotazione demo - barca a vela 10m.',
+                'booking_mode' => $data['booking_mode'] ?? BookingMode::Rental,
+                'nodi_amount' => $data['nodi_amount'] ?? null,
             ];
 
             if ($data['status'] === BookingStatus::Cancelled) {

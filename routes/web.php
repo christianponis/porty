@@ -2,14 +2,13 @@
 
 use App\Http\Controllers\Admin;
 use App\Http\Controllers\Guest;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Owner;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 // --- Pubblica ---
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', HomeController::class);
 
 Route::get('/search', Guest\SearchController::class)->name('search');
 Route::get('/berths/{berth}', [Guest\SearchController::class, 'show'])->name('berths.show');
@@ -36,6 +35,10 @@ Route::middleware('auth')->group(function () {
     Route::get('/my-bookings', [Guest\BookingController::class, 'index'])->name('my-bookings');
     Route::get('/my-bookings/{booking}', [Guest\BookingController::class, 'show'])->name('my-bookings.show');
     Route::put('/my-bookings/{booking}/cancel', [Guest\BookingController::class, 'cancel'])->name('my-bookings.cancel');
+
+    // Recensioni
+    Route::get('/my-bookings/{booking}/review', [Guest\ReviewController::class, 'create'])->name('my-bookings.review');
+    Route::post('/my-bookings/{booking}/review', [Guest\ReviewController::class, 'store'])->name('my-bookings.review.store');
 });
 
 // --- Admin ---
@@ -52,6 +55,9 @@ Route::middleware(['auth', 'role:admin'])->prefix('admin')->name('admin.')->grou
     Route::put('/ports/{port}', [Admin\PortController::class, 'update'])->name('ports.update');
 
     Route::get('/transactions', [Admin\TransactionController::class, 'index'])->name('transactions');
+
+    Route::get('/ratings', [Admin\RatingController::class, 'index'])->name('ratings');
+    Route::get('/certifications', [Admin\RatingController::class, 'certifications'])->name('certifications');
 });
 
 // --- Owner ---
@@ -71,11 +77,21 @@ Route::middleware(['auth', 'role:owner'])->prefix('owner')->name('owner.')->grou
 
     Route::get('/bookings', [Owner\BookingController::class, 'index'])->name('bookings');
     Route::put('/bookings/{booking}', [Owner\BookingController::class, 'updateStatus'])->name('bookings.update');
+
+    // Self-Assessment
+    Route::get('/berths/{berth}/assessment', [Owner\SelfAssessmentController::class, 'show'])->name('assessment.show');
+    Route::post('/berths/{berth}/assessment', [Owner\SelfAssessmentController::class, 'store'])->name('assessment.store');
+
+    // Nodi Wallet
+    Route::get('/nodi', [Owner\NodiController::class, 'index'])->name('nodi');
 });
 
 // --- Guest ---
 Route::middleware(['auth', 'role:guest,owner'])->prefix('guest')->name('guest.')->group(function () {
     Route::get('/dashboard', Guest\DashboardController::class)->name('dashboard');
+
+    // Nodi Wallet
+    Route::get('/nodi', [Guest\NodiController::class, 'index'])->name('nodi');
 });
 
 require __DIR__.'/auth.php';

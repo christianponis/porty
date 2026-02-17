@@ -25,6 +25,23 @@
                     :icon="'<svg class=\'w-5 h-5 text-ocean-600\' fill=\'none\' stroke=\'currentColor\' viewBox=\'0 0 24 24\'><path stroke-linecap=\'round\' stroke-linejoin=\'round\' stroke-width=\'1.5\' d=\'M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5\'/></svg>'" />
             </div>
 
+            {{-- Nodi --}}
+            @if($stats['nodi_balance'] > 0)
+            <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Nodi Wallet</p>
+            <div class="grid grid-cols-1 md:grid-cols-1 gap-4 mb-6">
+                <div class="card card-body flex items-center gap-4">
+                    <div class="w-14 h-14 rounded-xl bg-seafoam-50 flex items-center justify-center">
+                        <svg class="w-10 h-10 text-seafoam-600" fill="none" stroke="currentColor" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 400 400"><path d="M24 219.943C73.8113 211.642 120.446 207.312 169.006 155.742"/><path d="M199.206 130.337C250.916 99.842 326.254 151.462 318.438 211.641C310.211 274.983 221.728 286.903 176.199 281.931C130.669 276.958 109.033 266.778 88.6484 233.191"/><path d="M27.875 242.635C92.0763 233.78 144.795 214.431 190.039 169.025"/><path d="M221.711 148.426C250.633 136.713 322.466 192.991 283.323 225.705C235.939 265.308 146.315 263.113 119.195 227.691"/><path d="M79.9414 189.261C82.332 133.37 147.283 104.175 182.528 122.421C216.417 139.967 245.676 179.692 289.891 197.842"/><path d="M319.883 205.305C347.282 210.877 363.254 212.284 375.998 206.857"/><path d="M104.094 184.721C132.549 119.68 181.475 149.902 198.771 163.673C216.068 177.444 258.788 215.116 282.202 219.8"/><path d="M315.047 228.935C328.797 233.688 357.329 236.533 376 230.429"/></svg>
+                    </div>
+                    <div class="flex-1">
+                        <p class="text-sm text-slate-500">Saldo Nodi</p>
+                        <p class="text-2xl font-bold text-seafoam-700">{{ number_format($stats['nodi_balance'], 0) }} Nodi</p>
+                    </div>
+                    <a href="{{ route('owner.nodi') }}" class="btn-ghost text-sm">Dettagli</a>
+                </div>
+            </div>
+            @endif
+
             {{-- Stats finanziarie --}}
             <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Finanze</p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
@@ -123,9 +140,15 @@
                                                 {{ $berth->is_active ? 'Attivo' : 'Inattivo' }}
                                             </span>
                                         </div>
-                                        <div class="flex gap-4 mt-2 text-xs text-slate-500">
+                                        <div class="flex flex-wrap gap-3 mt-2 text-xs text-slate-500 items-center">
                                             <span>{{ $berth->bookings_count }} prenotazioni</span>
                                             <span>{{ $berth->availabilities_count }} periodi</span>
+                                            @if($berth->reviews_count > 0)
+                                                <span>{{ $berth->reviews_count }} recensioni</span>
+                                            @endif
+                                            @if($berth->getEffectiveAnchorCount() > 0)
+                                                <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()->value" size="sm" />
+                                            @endif
                                             <span class="font-semibold text-ocean-600">&euro; {{ number_format($berth->price_per_day, 0, ',', '.') }}/gg</span>
                                         </div>
                                     </a>

@@ -2,11 +2,13 @@
 
 namespace App\Models;
 
+use App\Enums\BookingMode;
 use App\Enums\BookingStatus;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Booking extends Model
 {
@@ -26,6 +28,9 @@ class Booking extends Model
         'owner_notes',
         'cancelled_by',
         'cancelled_at',
+        'booking_mode',
+        'nodi_amount',
+        'eur_compensation',
     ];
 
     protected function casts(): array
@@ -36,6 +41,9 @@ class Booking extends Model
             'total_price' => 'decimal:2',
             'status' => BookingStatus::class,
             'cancelled_at' => 'datetime',
+            'booking_mode' => BookingMode::class,
+            'nodi_amount' => 'decimal:2',
+            'eur_compensation' => 'decimal:2',
         ];
     }
 
@@ -54,6 +62,11 @@ class Booking extends Model
     public function transactions(): HasMany
     {
         return $this->hasMany(Transaction::class);
+    }
+
+    public function review(): HasOne
+    {
+        return $this->hasOne(Review::class);
     }
 
     // --- Scopes ---

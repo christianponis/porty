@@ -47,7 +47,7 @@ class BookingController extends Controller
             abort(403);
         }
 
-        $booking->load(['berth.port', 'berth.owner', 'transactions']);
+        $booking->load(['berth.port', 'berth.owner', 'transactions', 'review']);
 
         return view('guest.bookings.show', compact('booking'));
     }

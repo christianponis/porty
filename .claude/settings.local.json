@@ -6,7 +6,12 @@
       "Bash(php artisan route:list:*)",
       "Bash(npm install:*)",
       "Bash(php artisan config:clear:*)",
-      "Bash(php artisan tinker:*)"
+      "Bash(php artisan tinker:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(php artisan migrate:*)",
+      "Bash(php artisan db:seed:*)"
     ]
   }
 }

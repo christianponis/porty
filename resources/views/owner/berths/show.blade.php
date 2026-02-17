@@ -53,6 +53,29 @@
                             @endforeach
                         </div>
                     @endif
+
+                    {{-- Rating --}}
+                    <div class="mt-5 pt-4 border-t border-slate-100">
+                        <h4 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Rating</h4>
+                        @if($berth->getEffectiveAnchorCount() > 0)
+                            <div class="mb-2">
+                                <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()->value" size="md" :showLabel="true" />
+                            </div>
+                        @else
+                            <p class="text-sm text-slate-400 mb-2">Nessun rating ancora</p>
+                        @endif
+                        @if($berth->review_count > 0)
+                            <div class="flex items-center gap-2">
+                                <x-review-stars :rating="$berth->review_average" :count="$berth->review_count" size="sm" />
+                            </div>
+                        @endif
+                        @if(!$berth->selfAssessment || $berth->selfAssessment->status->value !== 'submitted')
+                            <a href="{{ route('owner.assessment.show', $berth) }}" class="mt-3 inline-flex items-center gap-1.5 text-sm text-ocean-600 hover:text-ocean-800 font-medium transition-colors">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+                                Compila autovalutazione
+                            </a>
+                        @endif
+                    </div>
                 </div>
 
                 {{-- Colonna destra --}}
@@ -162,6 +185,36 @@
                                         @endforeach
                                     </tbody>
                                 </table>
+                            </div>
+                        @endif
+                    </div>
+
+                    {{-- Recensioni --}}
+                    <div class="card card-body">
+                        <h3 class="text-lg font-bold text-slate-900 mb-4">Recensioni</h3>
+                        @if($berth->reviews->isEmpty())
+                            <div class="text-center py-6">
+                                <p class="text-slate-500">Nessuna recensione per questo posto.</p>
+                            </div>
+                        @else
+                            <div class="space-y-4">
+                                @foreach($berth->reviews->sortByDesc('created_at')->take(10) as $review)
+                                    <div class="border-b border-slate-100 last:border-0 pb-3 last:pb-0">
+                                        <div class="flex items-center justify-between mb-1">
+                                            <div class="flex items-center gap-2">
+                                                <span class="text-sm font-semibold text-slate-900">{{ $review->guest->name }}</span>
+                                                @if($review->is_verified)
+                                                    <span class="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-seafoam-50 text-seafoam-700">Verificata</span>
+                                                @endif
+                                            </div>
+                                            <x-review-stars :rating="$review->average_rating" size="sm" />
+                                        </div>
+                                        @if($review->comment)
+                                            <p class="text-sm text-slate-600 mt-1">{{ $review->comment }}</p>
+                                        @endif
+                                        <span class="text-xs text-slate-400">{{ $review->created_at->diffForHumans() }}</span>
+                                    </div>
+                                @endforeach
                             </div>
                         @endif
                     </div>

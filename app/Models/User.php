@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Enums\UserRole;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -51,6 +52,16 @@ class User extends Authenticatable
         return $this->hasMany(Booking::class, 'guest_id');
     }
 
+    public function nodiWallet(): HasOne
+    {
+        return $this->hasOne(NodiWallet::class, 'user_id');
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class, 'guest_id');
+    }
+
     // --- Helpers ---
 
     public function isAdmin(): bool
@@ -66,5 +77,15 @@ class User extends Authenticatable
     public function isGuest(): bool
     {
         return $this->role === UserRole::Guest;
+    }
+
+    public function getOrCreateWallet(): NodiWallet
+    {
+        return $this->nodiWallet ?? NodiWallet::create([
+            'user_id' => $this->id,
+            'balance' => 0,
+            'total_earned' => 0,
+            'total_spent' => 0,
+        ]);
     }
 }

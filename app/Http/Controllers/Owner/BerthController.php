@@ -51,7 +51,7 @@ class BerthController extends Controller
     public function show(Berth $berth)
     {
         $this->authorizeOwner($berth);
-        $berth->load(['port', 'availabilities', 'bookings.guest']);
+        $berth->load(['port', 'availabilities', 'bookings.guest', 'selfAssessment.answers', 'reviews.guest', 'latestCertification']);
 
         return view('owner.berths.show', compact('berth'));
     }
