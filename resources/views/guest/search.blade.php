@@ -120,7 +120,7 @@
                                 @if($berth->getEffectiveAnchorCount() > 0 || $berth->review_count > 0)
                                     <div class="flex items-center gap-2 mb-3">
                                         @if($berth->getEffectiveAnchorCount() > 0)
-                                            <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()->value" size="sm" />
+                                            <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()?->value ?? 'grey'" size="sm" />
                                         @endif
                                         @if($berth->review_count > 0)
                                             <x-review-stars :rating="$berth->review_average" :count="$berth->review_count" size="sm" />

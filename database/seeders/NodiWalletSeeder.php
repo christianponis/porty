@@ -33,7 +33,7 @@ class NodiWalletSeeder extends Seeder
             $totalSpent = 0.00;
 
             // Crea o aggiorna il wallet con il saldo iniziale del bonus
-            $wallet = NodiWallet::updateOrCreate(
+            $wallet = NodiWallet::firstOrCreate(
                 ['user_id' => $user->id],
                 [
                     'balance' => $balance,
@@ -41,6 +41,13 @@ class NodiWalletSeeder extends Seeder
                     'total_spent' => $totalSpent,
                 ],
             );
+
+            // Salta le transazioni se il wallet esisteva già
+            if (! $wallet->wasRecentlyCreated) {
+                if ($user->role === 'owner') { $ownerIndex++; }
+                if ($user->role === 'guest') { $guestIndex++; }
+                continue;
+            }
 
             // Transazione bonus di benvenuto
             NodiTransaction::create([

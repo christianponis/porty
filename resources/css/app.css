@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Nasconde elementi Alpine.js prima dell'inizializzazione */
+[x-cloak] { display: none !important; }
+
 @layer base {
     html {
         scroll-behavior: smooth;

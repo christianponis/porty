@@ -33,7 +33,7 @@
 
                         @if($berth->getEffectiveAnchorCount() > 0)
                             <div class="flex items-center gap-3 mb-4">
-                                <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()->value" size="md" :showLabel="true" />
+                                <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()?->value ?? 'grey'" size="md" :showLabel="true" />
                                 @if($berth->review_count > 0)
                                     <span class="text-slate-300">|</span>
                                     <x-review-stars :rating="$berth->review_average" :count="$berth->review_count" size="md" />
@@ -130,9 +130,9 @@
                                         <div class="flex items-center justify-between mb-2">
                                             <div class="flex items-center gap-2">
                                                 <div class="w-8 h-8 rounded-full bg-ocean-100 flex items-center justify-center text-ocean-700 text-xs font-bold">
-                                                    {{ strtoupper(substr($review->guest->name, 0, 2)) }}
+                                                    {{ strtoupper(substr($review->guest?->name ?? 'UT', 0, 2)) }}
                                                 </div>
-                                                <span class="text-sm font-semibold text-slate-900">{{ $review->guest->name }}</span>
+                                                <span class="text-sm font-semibold text-slate-900">{{ $review->guest?->name ?? 'Utente' }}</span>
                                                 @if($review->is_verified)
                                                     <span class="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium bg-seafoam-50 text-seafoam-700">Verificata</span>
                                                 @endif
@@ -217,7 +217,10 @@
                             <div class="mt-6 pt-6 border-t border-slate-100">
                                 @auth
                                     @if(auth()->user()->id !== $berth->owner_id)
-                                        <form method="POST" action="{{ route('bookings.store') }}" id="booking-form">
+                                        <form method="POST" action="{{ route('bookings.store') }}" id="booking-form"
+                                              data-price-day="{{ $berth->price_per_day }}"
+                                              data-price-week="{{ $berth->price_per_week ?? 0 }}"
+                                              data-price-month="{{ $berth->price_per_month ?? 0 }}">
                                             @csrf
                                             <input type="hidden" name="berth_id" value="{{ $berth->id }}">
 
@@ -267,9 +270,10 @@
                                                 const previewEl = document.getElementById('price-preview');
                                                 const daysEl = document.getElementById('preview-days');
                                                 const priceEl = document.getElementById('preview-price');
-                                                const pricePerDay = {{ $berth->price_per_day }};
-                                                const pricePerWeek = {{ $berth->price_per_week ?? 0 }};
-                                                const pricePerMonth = {{ $berth->price_per_month ?? 0 }};
+                                                const form = document.getElementById('booking-form');
+                                                const pricePerDay = parseFloat(form.dataset.priceDay);
+                                                const pricePerWeek = parseFloat(form.dataset.priceWeek);
+                                                const pricePerMonth = parseFloat(form.dataset.priceMonth);
 
                                                 function updatePreview() {
                                                     if (!startEl.value || !endEl.value) {

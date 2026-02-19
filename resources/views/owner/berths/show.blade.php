@@ -59,7 +59,7 @@
                         <h4 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">Rating</h4>
                         @if($berth->getEffectiveAnchorCount() > 0)
                             <div class="mb-2">
-                                <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()->value" size="md" :showLabel="true" />
+                                <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()?->value ?? 'grey'" size="md" :showLabel="true" />
                             </div>
                         @else
                             <p class="text-sm text-slate-400 mb-2">Nessun rating ancora</p>

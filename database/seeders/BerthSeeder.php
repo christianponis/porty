@@ -22,7 +22,7 @@ class BerthSeeder extends Seeder
         $berths = [
             [
                 'owner_index' => 0,
-                'port_name' => 'Marina di Rimini',
+                'port_city' => 'Rimini',
                 'code' => 'A-12',
                 'title' => 'Posto barca Rimini - Zona A',
                 'description' => 'Posto barca ben riparato nella zona A del porto, ideale per barche fino a 12 metri.',
@@ -36,7 +36,7 @@ class BerthSeeder extends Seeder
             ],
             [
                 'owner_index' => 0,
-                'port_name' => 'Marina di Rimini',
+                'port_city' => 'Rimini',
                 'code' => 'B-07',
                 'title' => 'Ormeggio Rimini zona B - Medio',
                 'description' => 'Posto barca nella zona B, comodo accesso ai servizi del porto.',
@@ -50,7 +50,7 @@ class BerthSeeder extends Seeder
             ],
             [
                 'owner_index' => 1,
-                'port_name' => 'Porto di Sanremo',
+                'port_city' => 'San Remo',
                 'code' => 'C-22',
                 'title' => 'Ormeggio Sanremo - Vista mare aperto',
                 'description' => 'Posto barca con vista mare aperto, posizione privilegiata nel porto vecchio.',
@@ -64,7 +64,7 @@ class BerthSeeder extends Seeder
             ],
             [
                 'owner_index' => 0,
-                'port_name' => 'Marina di Porto Cervo',
+                'port_city' => 'Porto Cervo',
                 'code' => 'D-03',
                 'title' => 'Posto barca Porto Cervo - Premium',
                 'description' => 'Ormeggio premium nella Costa Smeralda, servizi di lusso inclusi.',
@@ -78,7 +78,7 @@ class BerthSeeder extends Seeder
             ],
             [
                 'owner_index' => 1,
-                'port_name' => 'Porto di Tropea',
+                'port_city' => 'Tropea',
                 'code' => 'A-05',
                 'title' => 'Ormeggio Tropea - Costa degli Dei',
                 'description' => 'Posto barca nel suggestivo porto di Tropea, perfetto per esplorare la costa calabrese.',
@@ -92,7 +92,7 @@ class BerthSeeder extends Seeder
             ],
             [
                 'owner_index' => 1,
-                'port_name' => 'Marina di Loano',
+                'port_city' => 'Loano',
                 'code' => 'F-18',
                 'title' => 'Posto barca Loano - Grande',
                 'description' => 'Ampio posto barca in uno dei marina più attrezzati della Liguria.',
@@ -108,7 +108,7 @@ class BerthSeeder extends Seeder
 
         foreach ($berths as $berthData) {
             $owner = $owners[$berthData['owner_index']];
-            $port = $ports->firstWhere('name', $berthData['port_name']);
+            $port = $ports->firstWhere('city', $berthData['port_city']);
 
             if (! $port) {
                 continue;

@@ -147,7 +147,7 @@
                                                 <span>{{ $berth->reviews_count }} recensioni</span>
                                             @endif
                                             @if($berth->getEffectiveAnchorCount() > 0)
-                                                <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()->value" size="sm" />
+                                                <x-anchor-rating :count="$berth->getEffectiveAnchorCount()" :level="$berth->getEffectiveRatingLevel()?->value ?? 'grey'" size="sm" />
                                             @endif
                                             <span class="font-semibold text-ocean-600">&euro; {{ number_format($berth->price_per_day, 0, ',', '.') }}/gg</span>
                                         </div>

@@ -59,14 +59,16 @@ class SelfAssessmentSeeder extends Seeder
         foreach ($assessments as $data) {
             $berth = $data['berth'];
 
-            $assessment = SelfAssessment::create([
-                'berth_id' => $berth->id,
-                'owner_id' => $berth->owner_id,
-                'status' => AssessmentStatus::Submitted,
-                'total_score' => $data['total_score'],
-                'anchor_count' => $data['anchor_count'],
-                'submitted_at' => now(),
-            ]);
+            $assessment = SelfAssessment::updateOrCreate(
+                ['berth_id' => $berth->id],
+                [
+                    'owner_id' => $berth->owner_id,
+                    'status' => AssessmentStatus::Submitted,
+                    'total_score' => $data['total_score'],
+                    'anchor_count' => $data['anchor_count'],
+                    'submitted_at' => now(),
+                ]
+            );
 
             // Crea le risposte per tutte le 20 domande
             foreach ($questions as $index => $question) {
@@ -78,12 +80,16 @@ class SelfAssessmentSeeder extends Seeder
                     $photoPath = 'assessments/' . $berth->code . '/q' . $question->id . '.jpg';
                 }
 
-                SelfAssessmentAnswer::create([
-                    'self_assessment_id' => $assessment->id,
-                    'question_id' => $question->id,
-                    'answer_value' => $answerValue,
-                    'photo_path' => $photoPath,
-                ]);
+                SelfAssessmentAnswer::updateOrCreate(
+                    [
+                        'self_assessment_id' => $assessment->id,
+                        'question_id' => $question->id,
+                    ],
+                    [
+                        'answer_value' => $answerValue,
+                        'photo_path' => $photoPath,
+                    ]
+                );
             }
 
             // Aggiorna il berth con il rating grey

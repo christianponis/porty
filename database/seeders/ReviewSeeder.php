@@ -64,30 +64,35 @@ class ReviewSeeder extends Seeder
             // Se il berth ha un self-assessment, 70% chance di essere verificata
             $isVerified = $hasAssessment && (rand(1, 100) <= 70);
 
-            $review = Review::create([
-                'booking_id' => $booking->id,
-                'berth_id' => $booking->berth_id,
-                'guest_id' => $booking->guest_id,
-                'rating_ormeggio' => $ratingOrmeggio,
-                'rating_servizi' => $ratingServizi,
-                'rating_posizione' => $ratingPosizione,
-                'rating_qualita_prezzo' => $ratingQualitaPrezzo,
-                'rating_accoglienza' => $ratingAccoglienza,
-                'average_rating' => $averageRating,
-                'comment' => $comments[$index % count($comments)],
-                'is_verified' => $isVerified,
-            ]);
+            $review = Review::firstOrCreate(
+                ['booking_id' => $booking->id],
+                [
+                    'berth_id' => $booking->berth_id,
+                    'guest_id' => $booking->guest_id,
+                    'rating_ormeggio' => $ratingOrmeggio,
+                    'rating_servizi' => $ratingServizi,
+                    'rating_posizione' => $ratingPosizione,
+                    'rating_qualita_prezzo' => $ratingQualitaPrezzo,
+                    'rating_accoglienza' => $ratingAccoglienza,
+                    'average_rating' => $averageRating,
+                    'comment' => $comments[$index % count($comments)],
+                    'is_verified' => $isVerified,
+                ]
+            );
 
-            // Crea 3-4 verifiche per ogni recensione
-            $numVerifications = rand(3, 4);
-            $selectedKeys = collect($verificationKeys)->shuffle()->take($numVerifications);
+            // Crea verifiche solo se la review è nuova
+            if ($review->wasRecentlyCreated) {
+                $numVerifications = rand(3, 4);
+                $selectedKeys = collect($verificationKeys)->shuffle()->take($numVerifications);
 
-            foreach ($selectedKeys as $key) {
-                ReviewVerification::create([
-                    'review_id' => $review->id,
-                    'question_key' => $key,
-                    'answer' => (bool) rand(0, 1),
-                ]);
+                foreach ($selectedKeys as $key) {
+                    ReviewVerification::firstOrCreate([
+                        'review_id' => $review->id,
+                        'question_key' => $key,
+                    ], [
+                        'answer' => (bool) rand(0, 1),
+                    ]);
+                }
             }
         }
 
