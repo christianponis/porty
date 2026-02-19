@@ -1,0 +1,1810 @@
+[
+    {
+        "name": "Fortica Harbour",
+        "city": "Fortica Harbour",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 44.3226717,
+        "longitude": 15.2543491
+    },
+    {
+        "name": "Marijanov Mul",
+        "city": "Marijanov Mul",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 44.3179809,
+        "longitude": 15.0568721
+    },
+    {
+        "name": "Marina",
+        "city": "Marina",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 44.3767559,
+        "longitude": 15.2664561
+    },
+    {
+        "name": "Marina Prelog",
+        "city": "Marina Prelog",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 46.323749,
+        "longitude": 16.605692
+    },
+    {
+        "name": "Marina Vukovar",
+        "city": "Marina Vukovar",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 45.3444071,
+        "longitude": 19.0168376
+    },
+    {
+        "name": "Mol",
+        "city": "Mol",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 44.3094691,
+        "longitude": 15.0888599
+    },
+    {
+        "name": "Nehaj",
+        "city": "Nehaj",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 45.641525,
+        "longitude": 18.5129513
+    },
+    {
+        "name": "Osiječki Mul",
+        "city": "Osiječki Mul",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 44.3183704,
+        "longitude": 15.0558729
+    },
+    {
+        "name": "Pag Harbour",
+        "city": "Pag Harbour",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 44.4421735,
+        "longitude": 15.0550267
+    },
+    {
+        "name": "Windsurf Station",
+        "city": "Windsurf Station",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 44.7851239,
+        "longitude": 13.9171236
+    },
+    {
+        "name": "Zimska Luka",
+        "city": "Zimska Luka",
+        "province": "",
+        "region": "Croazia",
+        "latitude": 45.5629855,
+        "longitude": 18.6805252
+    },
+    {
+        "name": "Aci Marina Milna",
+        "city": "Aci Marina Milna",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.3261382,
+        "longitude": 16.4479299
+    },
+    {
+        "name": "Aci Marina Palmižana",
+        "city": "Aci Marina Palmižana",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.1625123,
+        "longitude": 16.394183
+    },
+    {
+        "name": "Aci Marina Vrboska",
+        "city": "Aci Marina Vrboska",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.1791746,
+        "longitude": 16.6755209
+    },
+    {
+        "name": "Bobovišća",
+        "city": "Bobovišća",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.3506603,
+        "longitude": 16.4620207
+    },
+    {
+        "name": "Drvenik Veliki",
+        "city": "Drvenik Veliki",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.4517302,
+        "longitude": 16.1429094
+    },
+    {
+        "name": "Harbour Omiš",
+        "city": "Harbour Omiš",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.4416566,
+        "longitude": 16.6945533
+    },
+    {
+        "name": "Igrane",
+        "city": "Igrane",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.194349,
+        "longitude": 17.1398521
+    },
+    {
+        "name": "Igrane",
+        "city": "Igrane",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.1957808,
+        "longitude": 17.1439464
+    },
+    {
+        "name": "Konoba Pipo",
+        "city": "Konoba Pipo",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.3392285,
+        "longitude": 16.7954101
+    },
+    {
+        "name": "Krilo Jesenice",
+        "city": "Krilo Jesenice",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.4598531,
+        "longitude": 16.5986964
+    },
+    {
+        "name": "Lučica Slatine",
+        "city": "Lučica Slatine",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.4993609,
+        "longitude": 16.3395421
+    },
+    {
+        "name": "Marina Lav",
+        "city": "Marina Lav",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.4915343,
+        "longitude": 16.5375707
+    },
+    {
+        "name": "Marina Ramova",
+        "city": "Marina Ramova",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.3240251,
+        "longitude": 16.9821567
+    },
+    {
+        "name": "Marina Tučepi",
+        "city": "Marina Tučepi",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.2635413,
+        "longitude": 17.0578554
+    },
+    {
+        "name": "Marina Vlaška",
+        "city": "Marina Vlaška",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.3294534,
+        "longitude": 16.4396584
+    },
+    {
+        "name": "Maslinica",
+        "city": "Maslinica",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.3978832,
+        "longitude": 16.2051255
+    },
+    {
+        "name": "Okrug Gornji",
+        "city": "Okrug Gornji",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.4959483,
+        "longitude": 16.2602504
+    },
+    {
+        "name": "Port Bol",
+        "city": "Port Bol",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.2615364,
+        "longitude": 16.657635
+    },
+    {
+        "name": "Porto Di Gelsa",
+        "city": "Port Of Jelsa",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.1625271,
+        "longitude": 16.6943315
+    },
+    {
+        "name": "Povlja",
+        "city": "Povlja",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.3337503,
+        "longitude": 16.8360281
+    },
+    {
+        "name": "Sidrište Luka Hvar",
+        "city": "Sidrište Luka Hvar",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.1714582,
+        "longitude": 16.4400915
+    },
+    {
+        "name": "Sportska Lučica Zenta",
+        "city": "Sportska Lučica Zenta",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.4999023,
+        "longitude": 16.4596563
+    },
+    {
+        "name": "Sportsko-Turistička Luka Baška Voda",
+        "city": "Sportsko-Turistička Luka Baška Voda",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.3576542,
+        "longitude": 16.9469251
+    },
+    {
+        "name": "Stari Grad",
+        "city": "Stari Grad",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.1846482,
+        "longitude": 16.5945941
+    },
+    {
+        "name": "San Giorgio",
+        "city": "Sućuraj",
+        "province": "",
+        "region": "Dalmazia Centrale",
+        "latitude": 43.1254913,
+        "longitude": 17.1874063
+    },
+    {
+        "name": "Aci Marina",
+        "city": "Aci Marina",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.958788,
+        "longitude": 17.1354577
+    },
+    {
+        "name": "Aci Marina Dubrovnik",
+        "city": "Aci Marina Dubrovnik",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.6704888,
+        "longitude": 18.1253596
+    },
+    {
+        "name": "Aci Marina Korčula",
+        "city": "Aci Marina Korčula",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.9584677,
+        "longitude": 17.1367901
+    },
+    {
+        "name": "Bojenfeld Badija",
+        "city": "Bojenfeld Badija",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.9505425,
+        "longitude": 17.1631518
+    },
+    {
+        "name": "Marina Frapa Dubrovnik",
+        "city": "Dubrovnik",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.6584268,
+        "longitude": 18.0818209
+    },
+    {
+        "name": "Komunalna Lučica Luka Korčula (Porto Uš)",
+        "city": "Korčula",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.953459,
+        "longitude": 17.1399855
+    },
+    {
+        "name": "Luka Karbuni",
+        "city": "Luka Karbuni",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.9149097,
+        "longitude": 16.730698
+    },
+    {
+        "name": "Marina Ci Valdinoce",
+        "city": "Marina Orašac",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.6943096,
+        "longitude": 18.0178348
+    },
+    {
+        "name": "Marina Orebic",
+        "city": "Marina Orebic",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.9738384,
+        "longitude": 17.1750434
+    },
+    {
+        "name": "Marina Rogač",
+        "city": "Marina Rogač",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.783033,
+        "longitude": 17.8772727
+    },
+    {
+        "name": "Port Of Kuciste",
+        "city": "Port Of Kuciste",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.9800272,
+        "longitude": 17.1156881
+    },
+    {
+        "name": "Private",
+        "city": "Private",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.9512713,
+        "longitude": 17.2695208
+    },
+    {
+        "name": "Skrivena Luka",
+        "city": "Skrivena Luka",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.7338206,
+        "longitude": 16.8862777
+    },
+    {
+        "name": "Slano",
+        "city": "Slano",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.7861972,
+        "longitude": 17.8885102
+    },
+    {
+        "name": "Aci Marina „Veljko Barbieri“ Slano",
+        "city": "Slano",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.7826715,
+        "longitude": 17.8885695
+    },
+    {
+        "name": "Marina Korkyra",
+        "city": "Vela Luka",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.9602591,
+        "longitude": 16.71239
+    },
+    {
+        "name": "Yc Orsan",
+        "city": "Yc Orsan",
+        "province": "",
+        "region": "Dalmazia Meridionale",
+        "latitude": 42.660076,
+        "longitude": 18.0798074
+    },
+    {
+        "name": "Aci Marina  Žut (Recepcija)",
+        "city": "Aci Marina  Žut (Recepcija)",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8828749,
+        "longitude": 15.2847997
+    },
+    {
+        "name": "Aci Marina Jezera",
+        "city": "Aci Marina Jezera",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7836627,
+        "longitude": 15.6451524
+    },
+    {
+        "name": "Aci Marina Piškera",
+        "city": "Aci Marina Piškera",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7589974,
+        "longitude": 15.3454865
+    },
+    {
+        "name": "Aci Marina Split",
+        "city": "Aci Marina Split",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5026218,
+        "longitude": 16.4307491
+    },
+    {
+        "name": "Aci Marina Trogir",
+        "city": "Aci Marina Trogir",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5138362,
+        "longitude": 16.2481757
+    },
+    {
+        "name": "Aci Marina Vodice",
+        "city": "Aci Marina Vodice",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7575165,
+        "longitude": 15.7785382
+    },
+    {
+        "name": "Aci Marina Žut",
+        "city": "Aci Marina Žut",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8824925,
+        "longitude": 15.285608
+    },
+    {
+        "name": "Agana",
+        "city": "Agana",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5130834,
+        "longitude": 16.1129309
+    },
+    {
+        "name": "Batalaža",
+        "city": "Batalaža",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.0618116,
+        "longitude": 15.2109398
+    },
+    {
+        "name": "Porto Di Bosavia",
+        "city": "Božava",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.1394059,
+        "longitude": 14.907044
+    },
+    {
+        "name": "Brbinj",
+        "city": "Brbinj",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.084621,
+        "longitude": 14.995882
+    },
+    {
+        "name": "Bucht Soline 1, Insel Pašman",
+        "city": "Bucht Soline 1, Insel Pašman",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.931357,
+        "longitude": 15.3513683
+    },
+    {
+        "name": "Bucht Soline 2, Insel Pašman",
+        "city": "Bucht Soline 2, Insel Pašman",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9256544,
+        "longitude": 15.3596402
+    },
+    {
+        "name": "Bucht Triluke",
+        "city": "Bucht Triluke",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8909313,
+        "longitude": 15.4416604
+    },
+    {
+        "name": "Core Lounge",
+        "city": "Core Lounge",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8114096,
+        "longitude": 15.300354
+    },
+    {
+        "name": "D-Marin Borik",
+        "city": "D-Marin Borik",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.1297932,
+        "longitude": 15.2100886
+    },
+    {
+        "name": "D-Marin Dalmacija",
+        "city": "D-Marin Dalmacija",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.0551391,
+        "longitude": 15.299814
+    },
+    {
+        "name": "Diklo",
+        "city": "Diklo",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.1466406,
+        "longitude": 15.208908
+    },
+    {
+        "name": "Drage",
+        "city": "Drage",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8910066,
+        "longitude": 15.5318327
+    },
+    {
+        "name": "Drage",
+        "city": "Drage",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8894861,
+        "longitude": 15.5337881
+    },
+    {
+        "name": "Draženica",
+        "city": "Draženica",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.1269161,
+        "longitude": 15.2192227
+    },
+    {
+        "name": "Hotel's Marina",
+        "city": "Hotel's Marina",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9352997,
+        "longitude": 15.4424303
+    },
+    {
+        "name": "Insel Vrgada A U. B (Westteil)",
+        "city": "Insel Vrgada A U. B (Westteil)",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8621946,
+        "longitude": 15.5016256
+    },
+    {
+        "name": "Jazine",
+        "city": "Jazine",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.1117046,
+        "longitude": 15.2337187
+    },
+    {
+        "name": "Jedriličarski Klub Labud",
+        "city": "Jedriličarski Klub Labud",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5016083,
+        "longitude": 16.4288933
+    },
+    {
+        "name": "Konoba Levrnaka",
+        "city": "Konoba Levrnaka",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8209347,
+        "longitude": 15.2552714
+    },
+    {
+        "name": "Konoba Opat",
+        "city": "Konoba Opat",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7393103,
+        "longitude": 15.4528127
+    },
+    {
+        "name": "Konoba Piccolo",
+        "city": "Konoba Piccolo",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7267181,
+        "longitude": 15.4766051
+    },
+    {
+        "name": "Konoba Sandra",
+        "city": "Konoba Sandra",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8802438,
+        "longitude": 15.2864637
+    },
+    {
+        "name": "Konoba Smokvica",
+        "city": "Konoba Smokvica",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7259126,
+        "longitude": 15.4767519
+    },
+    {
+        "name": "Luka",
+        "city": "Luka",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9790027,
+        "longitude": 15.09754
+    },
+    {
+        "name": "Luka Krapanj",
+        "city": "Luka Krapanj",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.6721983,
+        "longitude": 15.9190481
+    },
+    {
+        "name": "Porto Di Sale",
+        "city": "Luka Sali",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9365881,
+        "longitude": 15.166874
+    },
+    {
+        "name": "Luka Vir",
+        "city": "Luka Vir",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.2967879,
+        "longitude": 15.084782
+    },
+    {
+        "name": "Luka Zablaće",
+        "city": "Luka Zablaće",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.706178,
+        "longitude": 15.8670262
+    },
+    {
+        "name": "Porto Di Zapuntello",
+        "city": "Luka Zapuntel",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.2611875,
+        "longitude": 14.7983687
+    },
+    {
+        "name": "Lučica Jadran",
+        "city": "Lučica Jadran",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5022816,
+        "longitude": 16.4235446
+    },
+    {
+        "name": "Lučica Spinut",
+        "city": "Lučica Spinut",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5154421,
+        "longitude": 16.4173363
+    },
+    {
+        "name": "Lučica Strožanac",
+        "city": "Lučica Strožanac",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5016082,
+        "longitude": 16.5329932
+    },
+    {
+        "name": "M-Marin Matešić",
+        "city": "M-Marin Matešić",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.1562409,
+        "longitude": 15.1958966
+    },
+    {
+        "name": "Marina Betina",
+        "city": "Marina Betina",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8275626,
+        "longitude": 15.6008697
+    },
+    {
+        "name": "Marina Dalmatia",
+        "city": "Marina Dalmatia",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.0526052,
+        "longitude": 15.3004796
+    },
+    {
+        "name": "Marina Hramina",
+        "city": "Marina Hramina",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8268424,
+        "longitude": 15.5917517
+    },
+    {
+        "name": "Marina Ist",
+        "city": "Marina Ist",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.2714204,
+        "longitude": 14.7668442
+    },
+    {
+        "name": "Marina Kaštela",
+        "city": "Marina Kaštela",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5455422,
+        "longitude": 16.4032056
+    },
+    {
+        "name": "Marina Kornati",
+        "city": "Marina Kornati",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9418034,
+        "longitude": 15.4422458
+    },
+    {
+        "name": "Marina Pirovac",
+        "city": "Marina Pirovac",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.815955,
+        "longitude": 15.6641998
+    },
+    {
+        "name": "Marina Tribunj",
+        "city": "Marina Tribunj",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7537626,
+        "longitude": 15.7475769
+    },
+    {
+        "name": "Marina Veli Iž (Recepcija)",
+        "city": "Marina Veli Iž (Recepcija)",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.0501779,
+        "longitude": 15.1103319
+    },
+    {
+        "name": "Marina Zadar",
+        "city": "Marina Zadar",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.119204,
+        "longitude": 15.2279169
+    },
+    {
+        "name": "Marina Zaton",
+        "city": "Marina Zaton",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.778606,
+        "longitude": 15.8306794
+    },
+    {
+        "name": "Marina Šangulin",
+        "city": "Marina Šangulin",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9400753,
+        "longitude": 15.4437285
+    },
+    {
+        "name": "Mljake, In Durchfahrt Zapuntel, Insel Ist",
+        "city": "Mljake, In Durchfahrt Zapuntel, Insel Ist",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.2668861,
+        "longitude": 14.7917616
+    },
+    {
+        "name": "Molo Terraferma",
+        "city": "Molo Terraferma",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.1116719,
+        "longitude": 15.227996
+    },
+    {
+        "name": "Molum Marine Club",
+        "city": "Molum Marine Club",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9596325,
+        "longitude": 15.4241804
+    },
+    {
+        "name": "Muna",
+        "city": "Muna",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.6619341,
+        "longitude": 15.6571426
+    },
+    {
+        "name": "Nautika Centar Nava",
+        "city": "Nautika Centar Nava",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5026532,
+        "longitude": 16.4282227
+    },
+    {
+        "name": "New Harbour",
+        "city": "New Harbour",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5847428,
+        "longitude": 15.9301521
+    },
+    {
+        "name": "Old Harbour",
+        "city": "Old Harbour",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5855446,
+        "longitude": 15.9231632
+    },
+    {
+        "name": "Pakoštane I",
+        "city": "Pakoštane I",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9056149,
+        "longitude": 15.5014275
+    },
+    {
+        "name": "Pakoštane Ii",
+        "city": "Pakoštane Ii",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9032409,
+        "longitude": 15.5158306
+    },
+    {
+        "name": "Pomorsko Športska Udruga \"Banj\"",
+        "city": "Pomorsko Športska Udruga \"Banj\"",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5157268,
+        "longitude": 16.2551349
+    },
+    {
+        "name": "Porto Di Sebenico",
+        "city": "Port Of Šibenik",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7335893,
+        "longitude": 15.8907519
+    },
+    {
+        "name": "Port Rogoznica",
+        "city": "Port Rogoznica",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5262219,
+        "longitude": 15.9689167
+    },
+    {
+        "name": "Marina Kremik",
+        "city": "Primošten",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5699917,
+        "longitude": 15.9410595
+    },
+    {
+        "name": "Prístav Arbanija",
+        "city": "Prístav Arbanija",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5138718,
+        "longitude": 16.3003588
+    },
+    {
+        "name": "Ravni Žakan",
+        "city": "Ravni Žakan",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7260504,
+        "longitude": 15.4329001
+    },
+    {
+        "name": "Restaurant Festa",
+        "city": "Restaurant Festa",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8803764,
+        "longitude": 15.2884183
+    },
+    {
+        "name": "Marina Frapa",
+        "city": "Rogoznica",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5298473,
+        "longitude": 15.9628575
+    },
+    {
+        "name": "Sailing Club Mornar",
+        "city": "Sailing Club Mornar",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.502117,
+        "longitude": 16.4278265
+    },
+    {
+        "name": "Marina Baotić",
+        "city": "Seget Donji",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5161497,
+        "longitude": 16.2340142
+    },
+    {
+        "name": "Aci Marina Skradin",
+        "city": "Skradin",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8162363,
+        "longitude": 15.9207269
+    },
+    {
+        "name": "Solaris Yacht Marina",
+        "city": "Solaris Yacht Marina",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7004807,
+        "longitude": 15.8772715
+    },
+    {
+        "name": "Sovlja",
+        "city": "Sovlja",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7624133,
+        "longitude": 15.730394
+    },
+    {
+        "name": "Lučica Split",
+        "city": "Split",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5154084,
+        "longitude": 16.421798
+    },
+    {
+        "name": "Sportska Lučica Marjan",
+        "city": "Sportska Lučica Marjan",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5171914,
+        "longitude": 16.4262487
+    },
+    {
+        "name": "Sportska Lučica Mornar",
+        "city": "Sportska Lučica Mornar",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5183497,
+        "longitude": 16.4271983
+    },
+    {
+        "name": "Sportska Lučica Poljud",
+        "city": "Sportska Lučica Poljud",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5204619,
+        "longitude": 16.4264488
+    },
+    {
+        "name": "Strižnja",
+        "city": "Strižnja",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8195156,
+        "longitude": 15.2850755
+    },
+    {
+        "name": "Stržna, Dugi Otok",
+        "city": "Stržna, Dugi Otok",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.069012,
+        "longitude": 15.0048578
+    },
+    {
+        "name": "Olive Island Marina",
+        "city": "Sutomišćica",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.0956175,
+        "longitude": 15.1698675
+    },
+    {
+        "name": "Tkon Harbour",
+        "city": "Tkon Harbour",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9234074,
+        "longitude": 15.4180978
+    },
+    {
+        "name": "Marina Trogir Sct",
+        "city": "Trogir",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5123879,
+        "longitude": 16.2416086
+    },
+    {
+        "name": "Uvala Luka",
+        "city": "Uvala Luka",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.983177,
+        "longitude": 15.0981055
+    },
+    {
+        "name": "Veli Rat",
+        "city": "Veli Rat",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.1436998,
+        "longitude": 14.8473482
+    },
+    {
+        "name": "Velika Stupica, Insel Žirje",
+        "city": "Velika Stupica, Insel Žirje",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.6359262,
+        "longitude": 15.6818561
+    },
+    {
+        "name": "Vinici",
+        "city": "Vinici",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.8259509,
+        "longitude": 15.5829159
+    },
+    {
+        "name": "Vodenjak Mooring Buoy Field",
+        "city": "Vodenjak Mooring Buoy Field",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.0147613,
+        "longitude": 15.1517538
+    },
+    {
+        "name": "Vodice",
+        "city": "Vodice",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7555527,
+        "longitude": 15.7754192
+    },
+    {
+        "name": "Vrulje",
+        "city": "Vrulje",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.81019,
+        "longitude": 15.3047555
+    },
+    {
+        "name": "Zapadna Obala",
+        "city": "Zapadna Obala",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.5038138,
+        "longitude": 16.4295625
+    },
+    {
+        "name": "Pliša",
+        "city": "Zaton",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.2161518,
+        "longitude": 15.1660246
+    },
+    {
+        "name": "Zdrelašćica, Ugljan",
+        "city": "Zdrelašćica, Ugljan",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.0199305,
+        "longitude": 15.2544225
+    },
+    {
+        "name": "D-Marin Mandalina",
+        "city": "Šibenik",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.7201321,
+        "longitude": 15.8982053
+    },
+    {
+        "name": "Školjić",
+        "city": "Školjić",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 44.2578681,
+        "longitude": 15.2129246
+    },
+    {
+        "name": "Žman",
+        "city": "Žman",
+        "province": "",
+        "region": "Dalmazia Settentrionale",
+        "latitude": 43.9700271,
+        "longitude": 15.1156711
+    },
+    {
+        "name": "Aci Marina Pomer",
+        "city": "Aci Marina Pomer",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.8216141,
+        "longitude": 13.9023336
+    },
+    {
+        "name": "Aci Marina Pola",
+        "city": "Aci Marina Pula",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.8730076,
+        "longitude": 13.8449419
+    },
+    {
+        "name": "Aci Marina Di Rovigno",
+        "city": "Aci Marina Rovinj",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.0756629,
+        "longitude": 13.6350185
+    },
+    {
+        "name": "Aci Marina Umag",
+        "city": "Aci Marina Umag",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.4393553,
+        "longitude": 13.5151208
+    },
+    {
+        "name": "Volme",
+        "city": "Banjole",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.8191223,
+        "longitude": 13.8711119
+    },
+    {
+        "name": "Fažana",
+        "city": "Fažana",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.9279053,
+        "longitude": 13.8016119
+    },
+    {
+        "name": "Luka Vrh Lima",
+        "city": "Luka Vrh Lima",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.1313798,
+        "longitude": 13.7338238
+    },
+    {
+        "name": "Marina Bijela Uvala",
+        "city": "Marina Bijela Uvala",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.1862163,
+        "longitude": 13.5937753
+    },
+    {
+        "name": "Marina Bunarina - Pula",
+        "city": "Marina Bunarina - Pula",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.8395956,
+        "longitude": 13.8381119
+    },
+    {
+        "name": "Marina Funtana",
+        "city": "Marina Funtana",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.1779358,
+        "longitude": 13.597195
+    },
+    {
+        "name": "Marina Medulin",
+        "city": "Marina Medulin",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.817469,
+        "longitude": 13.9330604
+    },
+    {
+        "name": "Marina Nautica",
+        "city": "Marina Nautica",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.320415,
+        "longitude": 13.5625221
+    },
+    {
+        "name": "Marina Novigrad",
+        "city": "Marina Novigrad",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.3168911,
+        "longitude": 13.561527
+    },
+    {
+        "name": "Marina Parentium",
+        "city": "Marina Parentium",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.2043845,
+        "longitude": 13.5894152
+    },
+    {
+        "name": "Marina Polesana Pula",
+        "city": "Marina Polesana Pula",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.8781103,
+        "longitude": 13.8226034
+    },
+    {
+        "name": "Marina Poreč",
+        "city": "Marina Poreč",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.224449,
+        "longitude": 13.5950223
+    },
+    {
+        "name": "Marina Valalta",
+        "city": "Marina Valalta",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.1272674,
+        "longitude": 13.6236935
+    },
+    {
+        "name": "Marina Veruda - Pula",
+        "city": "Marina Veruda - Pula",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.84,
+        "longitude": 13.841667
+    },
+    {
+        "name": "Marina Orsera",
+        "city": "Marina Vrsar",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.1504398,
+        "longitude": 13.5998861
+    },
+    {
+        "name": "Marina Červar",
+        "city": "Marina Červar",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.2757081,
+        "longitude": 13.5975695
+    },
+    {
+        "name": "Marina-Brioni",
+        "city": "Marina-Brioni",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.9170747,
+        "longitude": 13.7681665
+    },
+    {
+        "name": "Rovigno - Porto Di Santa Caterina",
+        "city": "Rovinj - Južna Luka",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.0809742,
+        "longitude": 13.6347344
+    },
+    {
+        "name": "San Pelagio",
+        "city": "San Pelagio",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.0972586,
+        "longitude": 13.6364874
+    },
+    {
+        "name": "Santa Maria",
+        "city": "Santa Maria",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.2823665,
+        "longitude": 13.5969582
+    },
+    {
+        "name": "Sv. Mikula",
+        "city": "Sv. Mikula",
+        "province": "",
+        "region": "Istria",
+        "latitude": 44.9335435,
+        "longitude": 13.7387588
+    },
+    {
+        "name": "Sveta Marina",
+        "city": "Sveta Marina",
+        "province": "",
+        "region": "Istria",
+        "latitude": 45.0319781,
+        "longitude": 14.1574319
+    },
+    {
+        "name": "Aci - Marina Mali Losinj",
+        "city": "Aci - Marina Mali Losinj",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.5436418,
+        "longitude": 14.4604554
+    },
+    {
+        "name": "Aci Marina Cres",
+        "city": "Aci Marina Cres",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.9481564,
+        "longitude": 14.414965
+    },
+    {
+        "name": "Aci Marina Opatija",
+        "city": "Aci Marina Opatija",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.3147256,
+        "longitude": 14.2897508
+    },
+    {
+        "name": "Aci Marina Rab",
+        "city": "Aci Marina Rab",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.7569677,
+        "longitude": 14.7631222
+    },
+    {
+        "name": "Aci Marina Supetarska Draga",
+        "city": "Aci Marina Supetarska Draga",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.8032697,
+        "longitude": 14.7253992
+    },
+    {
+        "name": "Aci Marina Šimuni",
+        "city": "Aci Marina Šimuni",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.4704162,
+        "longitude": 14.9540184
+    },
+    {
+        "name": "Admiral",
+        "city": "Admiral",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.3273399,
+        "longitude": 14.3009425
+    },
+    {
+        "name": "Porto Di Asinello",
+        "city": "Ankerplatz Ilovik",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.4630856,
+        "longitude": 14.5512533
+    },
+    {
+        "name": "Bakarac Harbour",
+        "city": "Bakarac Harbour",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.2807494,
+        "longitude": 14.5807138
+    },
+    {
+        "name": "Brsec Harbour",
+        "city": "Brsec Harbour",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1823387,
+        "longitude": 14.2427289
+    },
+    {
+        "name": "Bucht Sv. Nikola, Insel Olib",
+        "city": "Bucht Sv. Nikola, Insel Olib",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.3535695,
+        "longitude": 14.7742092
+    },
+    {
+        "name": "Camp Slatina",
+        "city": "Camp Slatina",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.8161333,
+        "longitude": 14.3411626
+    },
+    {
+        "name": "Crikvenica Harbour",
+        "city": "Crikvenica Harbour",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1726094,
+        "longitude": 14.6886955
+    },
+    {
+        "name": "Isola Calva",
+        "city": "Goli Otok",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.8407124,
+        "longitude": 14.8042648
+    },
+    {
+        "name": "Ilovik",
+        "city": "Ilovik",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.4617877,
+        "longitude": 14.5486475
+    },
+    {
+        "name": "Jadranovo",
+        "city": "Jadranovo",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.2270329,
+        "longitude": 14.6129515
+    },
+    {
+        "name": "Kraljevica Harbour",
+        "city": "Kraljevica",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.2750634,
+        "longitude": 14.5650292
+    },
+    {
+        "name": "Porto",
+        "city": "Luka",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.3060197,
+        "longitude": 14.5357701
+    },
+    {
+        "name": "Luka Koromačna",
+        "city": "Luka Koromačna",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.7859201,
+        "longitude": 14.4479607
+    },
+    {
+        "name": "Luka Mandre",
+        "city": "Luka Mandre",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.4777778,
+        "longitude": 14.9191049
+    },
+    {
+        "name": "Luka Nerezine",
+        "city": "Luka Nerezine",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.6603914,
+        "longitude": 14.3986716
+    },
+    {
+        "name": "Luka Novi Vinodolski",
+        "city": "Luka Novi Vinodolski",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1283208,
+        "longitude": 14.7851817
+    },
+    {
+        "name": "Luka Silba",
+        "city": "Luka Silba",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.374775,
+        "longitude": 14.7017064
+    },
+    {
+        "name": "Porto Di Sansego",
+        "city": "Luka Susak",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.5127995,
+        "longitude": 14.3102778
+    },
+    {
+        "name": "Porto Di Volosca",
+        "city": "Luka Volosko",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.3481377,
+        "longitude": 14.3211006
+    },
+    {
+        "name": "Porto Di Volosca - Ormeggio Di Preluca",
+        "city": "Luka Volosko – Privezište Preluk",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.3556157,
+        "longitude": 14.3315458
+    },
+    {
+        "name": "Luka Črni Mul",
+        "city": "Luka Črni Mul",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1820923,
+        "longitude": 14.6796867
+    },
+    {
+        "name": "Lučica Ičići",
+        "city": "Lučica Ičići",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.3105683,
+        "longitude": 14.2864107
+    },
+    {
+        "name": "Lučica Porat",
+        "city": "Lučica Porat",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1217241,
+        "longitude": 14.4949963
+    },
+    {
+        "name": "Lučica Vantačići",
+        "city": "Lučica Vantačići",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1161501,
+        "longitude": 14.504819
+    },
+    {
+        "name": "Marina Yachting Club",
+        "city": "Mali Lošinj",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.5436341,
+        "longitude": 14.4608055
+    },
+    {
+        "name": "Malinska",
+        "city": "Malinska",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1252608,
+        "longitude": 14.5261682
+    },
+    {
+        "name": "Porto Di Lussinpiccolo",
+        "city": "Marina Mali Lošinj",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.5333823,
+        "longitude": 14.4663561
+    },
+    {
+        "name": "Marina Novi",
+        "city": "Marina Novi",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1264384,
+        "longitude": 14.786617
+    },
+    {
+        "name": "Marina Olib",
+        "city": "Marina Olib",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.3803326,
+        "longitude": 14.7759388
+    },
+    {
+        "name": "Marina Punat",
+        "city": "Marina Punat",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.0300148,
+        "longitude": 14.6277876
+    },
+    {
+        "name": "Medveja",
+        "city": "Medveja",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.271097,
+        "longitude": 14.2710811
+    },
+    {
+        "name": "Mitan Marina",
+        "city": "Mitan Marina",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1207979,
+        "longitude": 14.8064653
+    },
+    {
+        "name": "Neue Steganlage - Marina",
+        "city": "Neue Steganlage - Marina",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.5443759,
+        "longitude": 14.4577088
+    },
+    {
+        "name": "Njivice",
+        "city": "Njivice",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1654133,
+        "longitude": 14.5425449
+    },
+    {
+        "name": "Porto Di Novaglia",
+        "city": "Novalja",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.5561365,
+        "longitude": 14.8816623
+    },
+    {
+        "name": "Omorika Harbour",
+        "city": "Omorika Harbour",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1879209,
+        "longitude": 14.6730303
+    },
+    {
+        "name": "Isola Di Ulbo",
+        "city": "Otok Olib",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.3816329,
+        "longitude": 14.7757864
+    },
+    {
+        "name": "Pazdehova Harbour",
+        "city": "Pazdehova Harbour",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1927616,
+        "longitude": 14.6654508
+    },
+    {
+        "name": "Podvorska Harbour",
+        "city": "Podvorska Harbour",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.170321,
+        "longitude": 14.69609
+    },
+    {
+        "name": "Port Cres",
+        "city": "Port Cres",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.9588903,
+        "longitude": 14.4082508
+    },
+    {
+        "name": "Port Of Ufratar",
+        "city": "Port Of Ufratar",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.664662,
+        "longitude": 14.3984953
+    },
+    {
+        "name": "Privezište Ika",
+        "city": "Privezište Ika",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.3049558,
+        "longitude": 14.2821265
+    },
+    {
+        "name": "Rovenska",
+        "city": "Rovenska",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 44.5211564,
+        "longitude": 14.5072009
+    },
+    {
+        "name": "Selce Harbour",
+        "city": "Selce Harbour",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1569834,
+        "longitude": 14.7183537
+    },
+    {
+        "name": "Slana Harbour",
+        "city": "Slana Harbour",
+        "province": "",
+        "region": "Quarnero",
+        "latitude": 45.1514313,
+        "longitude": 14.7220893
+    }
+]
