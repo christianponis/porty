@@ -10,6 +10,11 @@
 
     <div class="py-8">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            @if($berth->port->image_url)
+                <div class="h-56 md:h-72 rounded-2xl overflow-hidden mb-8 shadow-lg">
+                    <img src="{{ $berth->port->image_url }}" alt="{{ $berth->port->name }}" class="w-full h-full object-cover">
+                </div>
+            @endif
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
                 {{-- Colonna principale --}}

@@ -1,0 +1,1578 @@
+[
+    {
+        "name": "Vieux-Port de Bastia",
+        "city": "Bastia",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.6961398,
+        "longitude": 9.4500424
+    },
+    {
+        "name": "appontement Saint-Joseph",
+        "city": "Ajaccio",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.9317993,
+        "longitude": 8.7558685
+    },
+    {
+        "name": "marine de Pietracorbara",
+        "city": "Pietracorbara",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.8361385,
+        "longitude": 9.4807089
+    },
+    {
+        "name": "port Charles Ornano",
+        "city": "Ajaccio",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.9294649,
+        "longitude": 8.7409939
+    },
+    {
+        "name": "port Eugène Ceccaldi - Sant'Ambroggio",
+        "city": "Lumio",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.6035651,
+        "longitude": 8.8270494
+    },
+    {
+        "name": "port Isula Grande",
+        "city": "L'Île-Rousse",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.6405587,
+        "longitude": 8.9355959
+    },
+    {
+        "name": "port Jean-Baptiste Tomi",
+        "city": "Serra-di-Ferro",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.7073983,
+        "longitude": 8.7937279
+    },
+    {
+        "name": "port Tino Rossi",
+        "city": "Ajaccio",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.918075,
+        "longitude": 8.7431052
+    },
+    {
+        "name": "port de Barcaggio",
+        "city": "Ersa",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 43.0065706,
+        "longitude": 9.4028241
+    },
+    {
+        "name": "port de Bonifacio",
+        "city": "Bonifacio",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.3896024,
+        "longitude": 9.1650218
+    },
+    {
+        "name": "port de Calvi - Xavier Colonna",
+        "city": "Calvi",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.5651448,
+        "longitude": 8.7564645
+    },
+    {
+        "name": "port de Cargèse - Toussaint Rochiccioli",
+        "city": "Cargèse",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 42.1303427,
+        "longitude": 8.5959448
+    },
+    {
+        "name": "port de Cavallo",
+        "city": "Bonifacio",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.3627523,
+        "longitude": 9.265357
+    },
+    {
+        "name": "port de Centuri",
+        "city": "Centuri",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.9659762,
+        "longitude": 9.3507338
+    },
+    {
+        "name": "port de Galeria",
+        "city": "Galéria",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.4148318,
+        "longitude": 8.6440369
+    },
+    {
+        "name": "port de Giottani",
+        "city": "Barrettali",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.8672858,
+        "longitude": 9.3402239
+    },
+    {
+        "name": "port de Girolata",
+        "city": "Osani",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 42.349459,
+        "longitude": 8.6129345
+    },
+    {
+        "name": "port de Macinaggio",
+        "city": "Rogliano",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.9575134,
+        "longitude": 9.4555664
+    },
+    {
+        "name": "port de Marina di Fiori",
+        "city": "Porto-Vecchio",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.6101142,
+        "longitude": 9.2934265
+    },
+    {
+        "name": "port de Pianottoli-Caldarello",
+        "city": "Pianottoli-Caldarello",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.4751782,
+        "longitude": 9.0721094
+    },
+    {
+        "name": "port de Porticciolo",
+        "city": "Cagnano",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.8706273,
+        "longitude": 9.4782005
+    },
+    {
+        "name": "port de Porto",
+        "city": "Ota",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 42.2660906,
+        "longitude": 8.6936623
+    },
+    {
+        "name": "port de Porto-Vecchio",
+        "city": "Porto-Vecchio",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.5901222,
+        "longitude": 9.2832003
+    },
+    {
+        "name": "port de Propriano (Portu Valincu)",
+        "city": "Propriano",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.6763974,
+        "longitude": 8.9036204
+    },
+    {
+        "name": "port de Sagone",
+        "city": "Vico",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 42.1120544,
+        "longitude": 8.6880159
+    },
+    {
+        "name": "port de Saint-Florent",
+        "city": "Saint-Florent",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.6813043,
+        "longitude": 9.299881
+    },
+    {
+        "name": "port de San Damiano",
+        "city": "Algajola",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.610262,
+        "longitude": 8.8536909
+    },
+    {
+        "name": "port de Sant'Amanza",
+        "city": "Bonifacio",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.4051397,
+        "longitude": 9.2222053
+    },
+    {
+        "name": "port de Santa Severa",
+        "city": "Luri",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.8880498,
+        "longitude": 9.4746234
+    },
+    {
+        "name": "port de Solenzara",
+        "city": "Sari-Solenzara",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.8583523,
+        "longitude": 9.4025328
+    },
+    {
+        "name": "port de Taverna",
+        "city": "Santa-Maria-Poggio",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.339113,
+        "longitude": 9.5399553
+    },
+    {
+        "name": "port de Tizzano",
+        "city": "Sartène",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.5419947,
+        "longitude": 8.8512158
+    },
+    {
+        "name": "port de Toga",
+        "city": "Bastia",
+        "province": "2B",
+        "region": "Corse",
+        "latitude": 42.708115,
+        "longitude": 9.4547432
+    },
+    {
+        "name": "port de la Tonnara",
+        "city": "Bonifacio",
+        "province": "2A",
+        "region": "Corse",
+        "latitude": 41.4271541,
+        "longitude": 9.105832
+    },
+    {
+        "name": "port Ambonne",
+        "city": "Agde",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.2951124,
+        "longitude": 3.5233429
+    },
+    {
+        "name": "port Camargue",
+        "city": "Le Grau-du-Roi",
+        "province": "30",
+        "region": "Occitanie",
+        "latitude": 43.5204765,
+        "longitude": 4.1262978
+    },
+    {
+        "name": "port Leucate",
+        "city": "Leucate",
+        "province": "11",
+        "region": "Occitanie",
+        "latitude": 42.866307,
+        "longitude": 3.0418956
+    },
+    {
+        "name": "port de Argelès-sur-Mer",
+        "city": "Argelès-sur-Mer",
+        "province": "66",
+        "region": "Occitanie",
+        "latitude": 42.5420251,
+        "longitude": 3.0477159
+    },
+    {
+        "name": "port de Banyuls",
+        "city": "Banyuls-sur-Mer",
+        "province": "66",
+        "region": "Occitanie",
+        "latitude": 42.4809476,
+        "longitude": 3.1367089
+    },
+    {
+        "name": "port de Canet-en-Roussillon",
+        "city": "Canet-en-Roussillon",
+        "province": "66",
+        "region": "Occitanie",
+        "latitude": 42.7038981,
+        "longitude": 3.0347593
+    },
+    {
+        "name": "port de Carnon",
+        "city": "Mauguio",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.5441753,
+        "longitude": 3.9740846
+    },
+    {
+        "name": "port de Collioure",
+        "city": "Collioure",
+        "province": "66",
+        "region": "Occitanie",
+        "latitude": 42.5266103,
+        "longitude": 3.085324
+    },
+    {
+        "name": "port de La Grande-Motte",
+        "city": "La Grande-Motte",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.5564746,
+        "longitude": 4.0821095
+    },
+    {
+        "name": "port de Le Barcarès",
+        "city": "Le Barcarès",
+        "province": "66",
+        "region": "Occitanie",
+        "latitude": 42.7977911,
+        "longitude": 3.039067
+    },
+    {
+        "name": "port de Marseillan Plage",
+        "city": "Marseillan",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.3178855,
+        "longitude": 3.5573811
+    },
+    {
+        "name": "port de Narbonne Plage",
+        "city": "Narbonne",
+        "province": "11",
+        "region": "Occitanie",
+        "latitude": 43.1702324,
+        "longitude": 3.181716
+    },
+    {
+        "name": "port de Port-Vendres",
+        "city": "Port-Vendres",
+        "province": "66",
+        "region": "Occitanie",
+        "latitude": 42.5175564,
+        "longitude": 3.108841
+    },
+    {
+        "name": "port de Port-la-Nouvelle",
+        "city": "Port-la-Nouvelle",
+        "province": "11",
+        "region": "Occitanie",
+        "latitude": 43.0146106,
+        "longitude": 3.0633028
+    },
+    {
+        "name": "port de Saint-Cyprien",
+        "city": "Saint-Cyprien",
+        "province": "66",
+        "region": "Occitanie",
+        "latitude": 42.6213232,
+        "longitude": 3.0388332
+    },
+    {
+        "name": "port de Sète-Frontignan",
+        "city": "Sète",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.3999778,
+        "longitude": 3.7016747
+    },
+    {
+        "name": "port de la Pointe Courte",
+        "city": "Sète",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.4140274,
+        "longitude": 3.6918101
+    },
+    {
+        "name": "port de plaisance de Frontignan",
+        "city": "Frontignan",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.4349526,
+        "longitude": 3.7752906
+    },
+    {
+        "name": "port de plaisance de Gruissan",
+        "city": "Gruissan",
+        "province": "11",
+        "region": "Occitanie",
+        "latitude": 43.1074969,
+        "longitude": 3.0992434
+    },
+    {
+        "name": "port de plaisance de Palavas-les-Flots",
+        "city": "Palavas-les-Flots",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.5254053,
+        "longitude": 3.9330963
+    },
+    {
+        "name": "port de plaisance de Sainte Marie La Mer",
+        "city": "Sainte-Marie-la-Mer",
+        "province": "66",
+        "region": "Occitanie",
+        "latitude": 42.723148,
+        "longitude": 3.0374045
+    },
+    {
+        "name": "port des Quilles",
+        "city": "Sète",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.3937184,
+        "longitude": 3.6624625
+    },
+    {
+        "name": "port du Grau-du-Roi",
+        "city": "Le Grau-du-Roi",
+        "province": "30",
+        "region": "Occitanie",
+        "latitude": 43.5404789,
+        "longitude": 4.1375057
+    },
+    {
+        "name": "port principal du cap d'Agde",
+        "city": "Agde",
+        "province": "34",
+        "region": "Occitanie",
+        "latitude": 43.2727463,
+        "longitude": 3.5086122
+    },
+    {
+        "name": "Port-Vieux La Ciotat",
+        "city": "La Ciotat",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1722722,
+        "longitude": 5.6073842
+    },
+    {
+        "name": "Vieux-Port de Cannes",
+        "city": "Cannes",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5512322,
+        "longitude": 7.0160896
+    },
+    {
+        "name": "Vieux-Port de Golfe-Juan",
+        "city": "Vallauris",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5643283,
+        "longitude": 7.0739932
+    },
+    {
+        "name": "Vieux-Port de Marseille",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2934686,
+        "longitude": 5.3637131
+    },
+    {
+        "name": "Vieux-Port de Menton",
+        "city": "Menton",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.7755291,
+        "longitude": 7.5092618
+    },
+    {
+        "name": "Vieux-Port de Saint-Raphaël",
+        "city": "Saint-Raphaël",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4229963,
+        "longitude": 6.7631665
+    },
+    {
+        "name": "Vieux-Port de la Sante",
+        "city": "Villefranche-sur-Mer",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.7026922,
+        "longitude": 7.3121179
+    },
+    {
+        "name": "appontement de Tamaris",
+        "city": "La Seyne-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0908982,
+        "longitude": 5.9011797
+    },
+    {
+        "name": "darse de Poindimié",
+        "city": "Poindimié",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -20.9352506,
+        "longitude": 165.3715795
+    },
+    {
+        "name": "marina Baie des Anges",
+        "city": "Villeneuve-Loubet",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.6340642,
+        "longitude": 7.1383958
+    },
+    {
+        "name": "marina de Boulari",
+        "city": "Le Mont-Dore",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -22.2324425,
+        "longitude": 166.5249187
+    },
+    {
+        "name": "marina de Hienghène",
+        "city": "Hienghène",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -20.6919245,
+        "longitude": 164.9429457
+    },
+    {
+        "name": "marina de Port Brunelet",
+        "city": "Nouméa",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -22.2900882,
+        "longitude": 166.4381127
+    },
+    {
+        "name": "marina de Port Ouenghi",
+        "city": "Bouloupari",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -21.9058277,
+        "longitude": 166.0655807
+    },
+    {
+        "name": "marina de Thio Mission",
+        "city": "Thio",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -21.6137052,
+        "longitude": 166.2415041
+    },
+    {
+        "name": "marina de port du sud",
+        "city": "Nouméa",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -22.2844355,
+        "longitude": 166.4422218
+    },
+    {
+        "name": "marina du Cercle nautique calédonien",
+        "city": "Nouméa",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -22.2934605,
+        "longitude": 166.4370147
+    },
+    {
+        "name": "nouveau port des Lecques",
+        "city": "Saint-Cyr-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1799622,
+        "longitude": 5.6813166
+    },
+    {
+        "name": "port Abri du Rouet",
+        "city": "Carry-le-Rouet",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3331449,
+        "longitude": 5.1725341
+    },
+    {
+        "name": "port Auguier",
+        "city": "Hyères",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0279836,
+        "longitude": 6.1466938
+    },
+    {
+        "name": "port Balaguier",
+        "city": "La Seyne-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0950217,
+        "longitude": 5.9097799
+    },
+    {
+        "name": "port Camille Rayon",
+        "city": "Vallauris",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5648694,
+        "longitude": 7.0781033
+    },
+    {
+        "name": "port Corbières",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3601141,
+        "longitude": 5.2959963
+    },
+    {
+        "name": "port Ferréol",
+        "city": "Roquebrune-sur-Argens",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3588799,
+        "longitude": 6.7179034
+    },
+    {
+        "name": "port Fréjus",
+        "city": "Fréjus",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4212762,
+        "longitude": 6.7490111
+    },
+    {
+        "name": "port Gallice",
+        "city": "Antibes",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5629348,
+        "longitude": 7.1160105
+    },
+    {
+        "name": "port Gardian",
+        "city": "Saintes-Maries-de-la-Mer",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4492669,
+        "longitude": 4.4216059
+    },
+    {
+        "name": "port Garnier",
+        "city": "Nouméa",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -22.2896225,
+        "longitude": 166.4399373
+    },
+    {
+        "name": "port Hercule",
+        "city": "Monaco",
+        "province": "99",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.7359588,
+        "longitude": 7.4272346
+    },
+    {
+        "name": "port Héracléa",
+        "city": "Cavalaire-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1726155,
+        "longitude": 6.5366339
+    },
+    {
+        "name": "port Moselle",
+        "city": "Nouméa",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -22.2776072,
+        "longitude": 166.4405914
+    },
+    {
+        "name": "port Napoléon",
+        "city": "Port-Saint-Louis-du-Rhône",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3774562,
+        "longitude": 4.8295419
+    },
+    {
+        "name": "port Pierre Canto",
+        "city": "Cannes",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5401426,
+        "longitude": 7.0327238
+    },
+    {
+        "name": "port Pin Rolland",
+        "city": "Saint-Mandrier-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0789584,
+        "longitude": 5.9054328
+    },
+    {
+        "name": "port Renaissance",
+        "city": "Port-de-Bouc",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4027841,
+        "longitude": 4.9824744
+    },
+    {
+        "name": "port Saint-Gervais",
+        "city": "Fos-sur-Mer",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.427528,
+        "longitude": 4.9408524
+    },
+    {
+        "name": "port Saint-Jean",
+        "city": "La Ciotat",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1867506,
+        "longitude": 5.6274868
+    },
+    {
+        "name": "port Saint-Laurent-du-Var",
+        "city": "Saint-Laurent-du-Var",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.65527,
+        "longitude": 7.1807916
+    },
+    {
+        "name": "port Saint-Pierre",
+        "city": "Hyères",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0800613,
+        "longitude": 6.1575285
+    },
+    {
+        "name": "port Vauban",
+        "city": "Antibes",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5853812,
+        "longitude": 7.1271719
+    },
+    {
+        "name": "port d'Agay",
+        "city": "Saint-Raphaël",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4299917,
+        "longitude": 6.8567378
+    },
+    {
+        "name": "port de Bandol",
+        "city": "Bandol",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1345758,
+        "longitude": 5.7577023
+    },
+    {
+        "name": "port de Beaulieu Fourmis",
+        "city": "Beaulieu-sur-Mer",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.7037132,
+        "longitude": 7.3314067
+    },
+    {
+        "name": "port de Beaulieu Plaisance",
+        "city": "Beaulieu-sur-Mer",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.7088205,
+        "longitude": 7.3349147
+    },
+    {
+        "name": "port de Bormes-les-Mimosas",
+        "city": "Bormes-les-Mimosas",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.123549,
+        "longitude": 6.3655426
+    },
+    {
+        "name": "port de Boulouris",
+        "city": "Saint-Raphaël",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4138036,
+        "longitude": 6.8071964
+    },
+    {
+        "name": "port de Cannes Marina",
+        "city": "Mandelieu-la-Napoule",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5345843,
+        "longitude": 6.9369452
+    },
+    {
+        "name": "port de Cap d'Ail",
+        "city": "Cap-d'Ail",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.724863,
+        "longitude": 7.4134695
+    },
+    {
+        "name": "port de Carro",
+        "city": "Martigues",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3294047,
+        "longitude": 5.0401603
+    },
+    {
+        "name": "port de Cassis",
+        "city": "Cassis",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2131317,
+        "longitude": 5.535348
+    },
+    {
+        "name": "port de Dzaoudzi",
+        "city": "Dzaoudzi",
+        "province": "97",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -12.782844,
+        "longitude": 45.2544171
+    },
+    {
+        "name": "port de Ferrières",
+        "city": "Martigues",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4055093,
+        "longitude": 5.0516112
+    },
+    {
+        "name": "port de Figuières",
+        "city": "Ensuès-la-Redonne",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3306167,
+        "longitude": 5.2107271
+    },
+    {
+        "name": "port de Fontvieille",
+        "city": "Monaco",
+        "province": "99",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.7286186,
+        "longitude": 7.4212979
+    },
+    {
+        "name": "port de Garavan",
+        "city": "Menton",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.7841257,
+        "longitude": 7.5190686
+    },
+    {
+        "name": "port de La Capte",
+        "city": "Hyères",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0653687,
+        "longitude": 6.150675
+    },
+    {
+        "name": "port de La Darse",
+        "city": "Villefranche-sur-Mer",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.6982347,
+        "longitude": 7.3069586
+    },
+    {
+        "name": "port de La Galère",
+        "city": "Théoule-sur-Mer",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4986311,
+        "longitude": 6.9549294
+    },
+    {
+        "name": "port de La Madrague",
+        "city": "Saint-Cyr-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1658168,
+        "longitude": 5.6943564
+    },
+    {
+        "name": "port de La Napoule",
+        "city": "Mandelieu-la-Napoule",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5239839,
+        "longitude": 6.94572
+    },
+    {
+        "name": "port de La Rague",
+        "city": "Mandelieu-la-Napoule",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5172581,
+        "longitude": 6.9396645
+    },
+    {
+        "name": "port de La Salis",
+        "city": "Antibes",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5690436,
+        "longitude": 7.1312687
+    },
+    {
+        "name": "port de La Seyne-sur-Mer",
+        "city": "La Seyne-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1030505,
+        "longitude": 5.8821311
+    },
+    {
+        "name": "port de Mamoudzou",
+        "city": "Mamoudzou",
+        "province": "97",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -12.7781814,
+        "longitude": 45.2322966
+    },
+    {
+        "name": "port de Martigues",
+        "city": "Martigues",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3993826,
+        "longitude": 5.0338317
+    },
+    {
+        "name": "port de Miramar",
+        "city": "La Londe-les-Maures",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1168197,
+        "longitude": 6.2484099
+    },
+    {
+        "name": "port de Morgiou",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2126234,
+        "longitude": 5.4435199
+    },
+    {
+        "name": "port de Nice-Villefranche",
+        "city": "Nice",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.6968183,
+        "longitude": 7.284083
+    },
+    {
+        "name": "port de Niolon",
+        "city": "Le Rove",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3395844,
+        "longitude": 5.2585993
+    },
+    {
+        "name": "port de Numbo",
+        "city": "Nouméa",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -22.2393896,
+        "longitude": 166.4151971
+    },
+    {
+        "name": "port de Pandop",
+        "city": "Koumac",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -20.5789357,
+        "longitude": 164.2740412
+    },
+    {
+        "name": "port de Pointe Croisette",
+        "city": "Cannes",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5367427,
+        "longitude": 7.036091
+    },
+    {
+        "name": "port de Porquerolles",
+        "city": "Hyères",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0031999,
+        "longitude": 6.2007823
+    },
+    {
+        "name": "port de Port-Grimaud",
+        "city": "Grimaud",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2722973,
+        "longitude": 6.5857898
+    },
+    {
+        "name": "port de Saint Louis du Mourillon",
+        "city": "Toulon",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1068535,
+        "longitude": 5.9385628
+    },
+    {
+        "name": "port de Saint-Aygulf",
+        "city": "Saint-Raphaël",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3913743,
+        "longitude": 6.7309377
+    },
+    {
+        "name": "port de Saint-Elme",
+        "city": "La Seyne-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0756173,
+        "longitude": 5.8993812
+    },
+    {
+        "name": "port de Saint-Gilles",
+        "city": "Saint-Paul",
+        "province": "97",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -21.0544056,
+        "longitude": 55.2251197
+    },
+    {
+        "name": "port de Saint-Jean-Cap-Ferrat",
+        "city": "Saint-Jean-Cap-Ferrat",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.6912334,
+        "longitude": 7.3338303
+    },
+    {
+        "name": "port de Saint-Leu",
+        "city": "Saint-Leu",
+        "province": "97",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -21.1684958,
+        "longitude": 55.2863901
+    },
+    {
+        "name": "port de Saint-Mandrier-sur-Mer",
+        "city": "Saint-Mandrier-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0803044,
+        "longitude": 5.923002
+    },
+    {
+        "name": "port de Saint-Pierre",
+        "city": "Saint-Pierre",
+        "province": "97",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -21.3440193,
+        "longitude": 55.4753833
+    },
+    {
+        "name": "port de Saint-Tropez",
+        "city": "Saint-Tropez",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2725317,
+        "longitude": 6.6362549
+    },
+    {
+        "name": "port de Sainte-Marie",
+        "city": "Sainte-Marie",
+        "province": "97",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -20.8923453,
+        "longitude": 55.5355816
+    },
+    {
+        "name": "port de Sainte-Maxime",
+        "city": "Sainte-Maxime",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3061282,
+        "longitude": 6.6391741
+    },
+    {
+        "name": "port de Sainte-Rose",
+        "city": "Sainte-Rose",
+        "province": "97",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -21.1253785,
+        "longitude": 55.7882697
+    },
+    {
+        "name": "port de San Peïre",
+        "city": "Roquebrune-sur-Argens",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3411111,
+        "longitude": 6.6856824
+    },
+    {
+        "name": "port de Sanary-sur-Mer",
+        "city": "Sanary-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.115337,
+        "longitude": 5.7988174
+    },
+    {
+        "name": "port de Santa-Lucia",
+        "city": "Saint-Raphaël",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4134132,
+        "longitude": 6.7803089
+    },
+    {
+        "name": "port de Sausset-les-Pins",
+        "city": "Sausset-les-Pins",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3298671,
+        "longitude": 5.107774
+    },
+    {
+        "name": "port de Silva Maris",
+        "city": "Èze",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.716319,
+        "longitude": 7.3509006
+    },
+    {
+        "name": "port de Sormiou",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2114624,
+        "longitude": 5.4232474
+    },
+    {
+        "name": "port de Théoule",
+        "city": "Théoule-sur-Mer",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5081373,
+        "longitude": 6.9391641
+    },
+    {
+        "name": "port de Touho",
+        "city": "Touho",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -20.7732759,
+        "longitude": 165.2392562
+    },
+    {
+        "name": "port de Toulon Darse nord du Mourillon",
+        "city": "Toulon",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1143675,
+        "longitude": 5.9343221
+    },
+    {
+        "name": "port de Toulon vieille Darse",
+        "city": "Toulon",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1174795,
+        "longitude": 5.9299549
+    },
+    {
+        "name": "port de Wé",
+        "city": "Lifou",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -20.9193893,
+        "longitude": 167.2785465
+    },
+    {
+        "name": "port de l'Anse de la Réserve",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2932971,
+        "longitude": 5.3619898
+    },
+    {
+        "name": "port de l'Ayguade",
+        "city": "Hyères",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1012553,
+        "longitude": 6.1734745
+    },
+    {
+        "name": "port de l'Ayguade du Levant",
+        "city": "Hyères",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0153118,
+        "longitude": 6.4346692
+    },
+    {
+        "name": "port de l'Escalette",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2252928,
+        "longitude": 5.3482807
+    },
+    {
+        "name": "port de l'Estaque",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3585733,
+        "longitude": 5.3181365
+    },
+    {
+        "name": "port de l'Ile de Port-Cros",
+        "city": "Hyères",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0100862,
+        "longitude": 6.3811716
+    },
+    {
+        "name": "port de la Coudoulière",
+        "city": "Six-Fours-les-Plages",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0971093,
+        "longitude": 5.811614
+    },
+    {
+        "name": "port de la Figueirette",
+        "city": "Théoule-sur-Mer",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4848861,
+        "longitude": 6.9337564
+    },
+    {
+        "name": "port de la Lèque",
+        "city": "Port-de-Bouc",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3976208,
+        "longitude": 4.9817835
+    },
+    {
+        "name": "port de la Madrague de Gignac",
+        "city": "Ensuès-la-Redonne",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3311929,
+        "longitude": 5.1958818
+    },
+    {
+        "name": "port de la Madrague de Montredon",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2322558,
+        "longitude": 5.3534374
+    },
+    {
+        "name": "port de la Pointe Rouge",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2451752,
+        "longitude": 5.3644499
+    },
+    {
+        "name": "port de la Redonne",
+        "city": "Ensuès-la-Redonne",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.332704,
+        "longitude": 5.1998217
+    },
+    {
+        "name": "port de plaisance d'Olga",
+        "city": "Port-Saint-Louis-du-Rhône",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3895117,
+        "longitude": 4.8517591
+    },
+    {
+        "name": "port de plaisance de Carry-le-Rouet",
+        "city": "Carry-le-Rouet",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3287922,
+        "longitude": 5.1533541
+    },
+    {
+        "name": "port de plaisance de Carteau",
+        "city": "Port-Saint-Louis-du-Rhône",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.388074,
+        "longitude": 4.8513749
+    },
+    {
+        "name": "port de plaisance de La Ciotat",
+        "city": "La Ciotat",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1763645,
+        "longitude": 5.6123019
+    },
+    {
+        "name": "port de plaisance de Port-Saint-Louis-du-Rhône",
+        "city": "Port-Saint-Louis-du-Rhône",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3882409,
+        "longitude": 4.8097429
+    },
+    {
+        "name": "port de plaisance des marines de Cogolin",
+        "city": "Cogolin",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2653938,
+        "longitude": 6.5881988
+    },
+    {
+        "name": "port des Capucins",
+        "city": "La Ciotat",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1807221,
+        "longitude": 5.6136441
+    },
+    {
+        "name": "port des Embiez",
+        "city": "Six-Fours-les-Plages",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0777452,
+        "longitude": 5.7829975
+    },
+    {
+        "name": "port des Goudes",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2162131,
+        "longitude": 5.3449539
+    },
+    {
+        "name": "port des Laurons",
+        "city": "Martigues",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.352918,
+        "longitude": 5.0236675
+    },
+    {
+        "name": "port des Oursinières",
+        "city": "Le Pradet",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0849694,
+        "longitude": 6.0191513
+    },
+    {
+        "name": "port des Salettes",
+        "city": "Carqueiranne",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0877322,
+        "longitude": 6.07818
+    },
+    {
+        "name": "port des Tamaris",
+        "city": "Martigues",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3293536,
+        "longitude": 5.0784512
+    },
+    {
+        "name": "port du Brusc",
+        "city": "Six-Fours-les-Plages",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.074796,
+        "longitude": 5.798638
+    },
+    {
+        "name": "port du Cros de Cagnes",
+        "city": "Cagnes-sur-Mer",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.6570301,
+        "longitude": 7.1715194
+    },
+    {
+        "name": "port du Crouton",
+        "city": "Antibes",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5609507,
+        "longitude": 7.1183931
+    },
+    {
+        "name": "port du Frioul",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2774814,
+        "longitude": 5.3036902
+    },
+    {
+        "name": "port du Grand Méjean",
+        "city": "Ensuès-la-Redonne",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3317879,
+        "longitude": 5.2182912
+    },
+    {
+        "name": "port du Grau de la Dent",
+        "city": "Arles",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3477024,
+        "longitude": 4.6616878
+    },
+    {
+        "name": "port du Lavandou",
+        "city": "Le Lavandou",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.1364928,
+        "longitude": 6.3730522
+    },
+    {
+        "name": "port du Lazaret",
+        "city": "La Seyne-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0799983,
+        "longitude": 5.8977471
+    },
+    {
+        "name": "port du Manteau",
+        "city": "La Seyne-sur-Mer",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0934779,
+        "longitude": 5.9059553
+    },
+    {
+        "name": "port du Mouré Rouge",
+        "city": "Cannes",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5426382,
+        "longitude": 7.0415084
+    },
+    {
+        "name": "port du Niel",
+        "city": "Hyères",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.0358364,
+        "longitude": 6.1266466
+    },
+    {
+        "name": "port du Petit Méjean",
+        "city": "Ensuès-la-Redonne",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.3313878,
+        "longitude": 5.2172446
+    },
+    {
+        "name": "port du Poussaï",
+        "city": "Saint-Raphaël",
+        "province": "83",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.4145347,
+        "longitude": 6.8482927
+    },
+    {
+        "name": "port du vallon des Auffes",
+        "city": "Marseille",
+        "province": "13",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.2853388,
+        "longitude": 5.3514398
+    },
+    {
+        "name": "port le Beal",
+        "city": "Cannes",
+        "province": "06",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": 43.5358331,
+        "longitude": 6.9540329
+    },
+    {
+        "name": "wharf de Port Boisé",
+        "city": "Le Mont-Dore",
+        "province": "98",
+        "region": "Provence-Alpes-Côte d'Azur",
+        "latitude": -22.3477007,
+        "longitude": 166.9634123
+    }
+]

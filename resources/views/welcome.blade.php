@@ -43,15 +43,11 @@
     <section class="relative overflow-hidden min-h-[520px] lg:min-h-[600px]" x-data="heroSlideshow()" x-init="start()">
         {{-- Slideshow background --}}
         <div class="absolute inset-0">
-            @foreach([
-                ['src' => '/porto_santa_marinella.jpg', 'alt' => 'Porto Santa Marinella'],
-                ['src' => '/porto-cervo.jpg', 'alt' => 'Porto Cervo'],
-                ['src' => '/Sestri-Levante.jpg', 'alt' => 'Sestri Levante'],
-            ] as $i => $slide)
+            @foreach($heroImages as $i => $img)
                 <div class="absolute inset-0 transition-opacity duration-1000 ease-in-out"
                      :class="current === {{ $i }} ? 'opacity-100' : 'opacity-0'">
-                    <img src="{{ $slide['src'] }}" alt="{{ $slide['alt'] }}"
-                         class="w-full h-full object-cover">
+                    <img src="{{ $img }}"
+                         alt="Porto" class="w-full h-full object-cover">
                 </div>
             @endforeach
             {{-- Overlay leggero per leggibilita --}}
@@ -81,7 +77,7 @@
 
             {{-- Indicatori slide --}}
             <div class="flex justify-center gap-2 mt-10">
-                @for($i = 0; $i < 3; $i++)
+                @for($i = 0; $i < $heroImages->count(); $i++)
                     <button @click="goTo({{ $i }})"
                         class="w-2.5 h-2.5 rounded-full transition-all duration-300"
                         :class="current === {{ $i }} ? 'bg-white w-8' : 'bg-white/40 hover:bg-white/60'">
@@ -107,9 +103,8 @@
         function heroSlideshow() {
             return {
                 current: 0,
-                total: 3,
+                total: {{ $heroImages->count() }},
                 interval: null,
-                captions: ['Porto Santa Marinella', 'Porto Cervo', 'Sestri Levante'],
                 start() {
                     this.interval = setInterval(() => this.next(), 5000);
                 },
@@ -164,8 +159,16 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 @foreach($topBerths as $berth)
                     <a href="{{ route('berths.show', $berth) }}" class="card group hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300 overflow-hidden relative block">
-                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-ocean-500 to-ocean-600"></div>
-                        <div class="p-6 pt-5">
+                        @if($berth->port->image_url)
+                            <div class="overflow-hidden">
+                                <img src="{{ $berth->port->image_url }}" alt="{{ $berth->port->name }}" class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-500">
+                            </div>
+                        @else
+                            <div class="h-40 bg-gradient-to-br from-ocean-100 via-ocean-50 to-slate-100 flex items-center justify-center">
+                                <svg class="w-10 h-10 text-ocean-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9l2-2m0 0l7-7 7 7M5 7v11a2 2 0 002 2h10a2 2 0 002-2V7"/></svg>
+                            </div>
+                        @endif
+                        <div class="p-6 pt-4">
                             <div class="flex justify-between items-start mb-2">
                                 <h3 class="text-base font-bold text-slate-900 group-hover:text-ocean-700 transition-colors">{{ $berth->title }}</h3>
                                 <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-ocean-50 text-ocean-700 ring-1 ring-inset ring-ocean-500/20">{{ $berth->code }}</span>
@@ -207,8 +210,16 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 @foreach($latestBerths as $berth)
                     <a href="{{ route('berths.show', $berth) }}" class="card group hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300 overflow-hidden relative block">
-                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-seafoam-400 to-seafoam-500"></div>
-                        <div class="p-6 pt-5">
+                        @if($berth->port->image_url)
+                            <div class="overflow-hidden">
+                                <img src="{{ $berth->port->image_url }}" alt="{{ $berth->port->name }}" class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-500">
+                            </div>
+                        @else
+                            <div class="h-40 bg-gradient-to-br from-seafoam-100 via-seafoam-50 to-slate-100 flex items-center justify-center">
+                                <svg class="w-10 h-10 text-seafoam-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 9l2-2m0 0l7-7 7 7M5 7v11a2 2 0 002 2h10a2 2 0 002-2V7"/></svg>
+                            </div>
+                        @endif
+                        <div class="p-6 pt-4">
                             <div class="flex justify-between items-start mb-2">
                                 <h3 class="text-base font-bold text-slate-900 group-hover:text-ocean-700 transition-colors">{{ $berth->title }}</h3>
                                 <span class="text-xs text-slate-400">{{ $berth->created_at->diffForHumans() }}</span>

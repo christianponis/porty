@@ -15,9 +15,10 @@ class SearchController extends Controller
             ->active()
             ->available()
             ->when($request->port_id, fn($q, $id) => $q->where('port_id', $id))
+            ->when($request->country, fn($q, $c) => $q->whereHas('port', fn($pq) => $pq->where('country', $c)))
             ->when($request->region, fn($q, $r) => $q->whereHas('port', fn($pq) => $pq->where('region', $r)))
-            ->when($request->city, fn($q, $c) => $q->whereHas('port', fn($pq) => $pq->where('city', 'like', "%{$c}%")))
             ->when($request->min_length, fn($q, $l) => $q->where('length_m', '>=', $l))
+            ->when($request->min_width, fn($q, $w) => $q->where('width_m', '>=', $w))
             ->when($request->max_price, fn($q, $p) => $q->where('price_per_day', '<=', $p))
             ->when($request->min_anchors, fn($q, $a) => $q->where(function($q2) use ($a) {
                 $q2->where('blue_anchor_count', '>=', $a)
@@ -26,13 +27,15 @@ class SearchController extends Controller
             ->orderBy('price_per_day')
             ->paginate(12);
 
-        $regions = \App\Models\Port::active()
-            ->whereNotNull('region')
-            ->distinct()
-            ->pluck('region')
-            ->sort();
+        $allPorts = \App\Models\Port::active()
+            ->orderBy('country')
+            ->orderBy('region')
+            ->orderBy('name')
+            ->get(['id', 'name', 'city', 'region', 'country']);
 
-        return view('guest.search', compact('berths', 'regions'));
+        $countries = $allPorts->pluck('country')->unique()->sort()->values();
+
+        return view('guest.search', compact('berths', 'allPorts', 'countries'));
     }
 
     public function show(Berth $berth)

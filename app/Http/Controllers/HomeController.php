@@ -29,6 +29,13 @@ class HomeController extends Controller
             ->take(config('porty.homepage.latest_berths_count', 6))
             ->get();
 
-        return view('welcome', compact('topBerths', 'latestBerths'));
+        $heroImages = collect(\Illuminate\Support\Facades\File::allFiles(public_path('ports')))
+            ->filter(fn ($f) => in_array(strtolower($f->getExtension()), ['jpg', 'jpeg', 'png', 'webp']))
+            ->map(fn ($f) => '/ports/' . str_replace('\\', '/', $f->getRelativePathname()))
+            ->shuffle()
+            ->take(5)
+            ->values();
+
+        return view('welcome', compact('topBerths', 'latestBerths', 'heroImages'));
     }
 }

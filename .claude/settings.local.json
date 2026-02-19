@@ -11,7 +11,13 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Bash(php artisan migrate:*)",
-      "Bash(php artisan db:seed:*)"
+      "Bash(php artisan db:seed:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:dati.mit.gov.it)",
+      "Bash(curl -skL \"https://dati.mit.gov.it/catalog/dataset/72d632e5-56d9-4d00-810e-89c24002943f/resource/661bba97-829e-453e-8923-97023de9fced/download/anagraficaporti.csv\" -o storage/ports_italy_mit.csv)",
+      "Bash(php:*)",
+      "WebFetch(domain:www.data.gouv.fr)",
+      "Bash(curl:*)"
     ]
   }
 }

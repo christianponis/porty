@@ -1,0 +1,2972 @@
+[
+    {
+        "name": "Calasetta",
+        "city": "Calasetta",
+        "province": "SU",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITCLS"
+    },
+    {
+        "name": "Portici",
+        "city": "Portici",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPTC"
+    },
+    {
+        "name": "Porto Azzurro",
+        "city": "Porto Azzurro",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPAZ"
+    },
+    {
+        "name": "Porto Cervo",
+        "city": "Porto Cervo",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPCE"
+    },
+    {
+        "name": "Porto Conte",
+        "city": "Porto Conte",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": 40.5833333333,
+        "longitude": 8.2,
+        "locode": "ITPCN"
+    },
+    {
+        "name": "Porto Empedocle",
+        "city": "Porto Empedocle",
+        "province": "AG",
+        "region": "Sicilia",
+        "latitude": 37.2843916667,
+        "longitude": 13.5280138889,
+        "locode": "ITPEM"
+    },
+    {
+        "name": "Porto Ercole",
+        "city": "Porto Ercole",
+        "province": "GR",
+        "region": "Toscana",
+        "latitude": 42.4,
+        "longitude": 11.2,
+        "locode": "ITPTH"
+    },
+    {
+        "name": "Porto Garibaldi",
+        "city": "Porto Garibaldi",
+        "province": "FE",
+        "region": "Emilia-Romagna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPGA"
+    },
+    {
+        "name": "Porto Levante",
+        "city": "Porto Levante",
+        "province": "RO",
+        "region": "Veneto",
+        "latitude": 45.0333333333,
+        "longitude": 12.35,
+        "locode": "ITPVT"
+    },
+    {
+        "name": "Porto Lignano",
+        "city": "Porto Lignano",
+        "province": "UD",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPLI"
+    },
+    {
+        "name": "Porto Maurizio",
+        "city": "Porto Maurizio",
+        "province": "IM",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPMZ"
+    },
+    {
+        "name": "Porto Nogaro",
+        "city": "Porto Nogaro",
+        "province": "UD",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPNG"
+    },
+    {
+        "name": "Porto Palo",
+        "city": "Porto Palo",
+        "province": "AG",
+        "region": "Sicilia",
+        "latitude": 37.5833333333,
+        "longitude": 12.9166666667,
+        "locode": "ITPPF"
+    },
+    {
+        "name": "Porto Recanati",
+        "city": "Porto Recanati",
+        "province": "MC",
+        "region": "Marche",
+        "latitude": 43.4333333333,
+        "longitude": 13.6666666667,
+        "locode": "ITPRF"
+    },
+    {
+        "name": "Porto San Giorgio",
+        "city": "Porto San Giorgio",
+        "province": "FM",
+        "region": "Marche",
+        "latitude": 43.1833333333,
+        "longitude": 13.7833333333,
+        "locode": "ITSIG"
+    },
+    {
+        "name": "Porto Santo Stefano",
+        "city": "Porto Santo Stefano",
+        "province": "GR",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPSS"
+    },
+    {
+        "name": "Porto Tolle",
+        "city": "Porto Tolle",
+        "province": "RO",
+        "region": "Veneto",
+        "latitude": 44.95,
+        "longitude": 12.3333333333,
+        "locode": "ITPPT"
+    },
+    {
+        "name": "Porto Torres",
+        "city": "Porto Torres",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": 40.8402166667,
+        "longitude": 8.3997638889,
+        "locode": "ITPTO"
+    },
+    {
+        "name": "Porto Venere",
+        "city": "Porto Venere",
+        "province": "SP",
+        "region": "Liguria",
+        "latitude": 44.05,
+        "longitude": 9.8333333333,
+        "locode": "ITPRW"
+    },
+    {
+        "name": "Porto Viro",
+        "city": "Porto Viro",
+        "province": "RO",
+        "region": "Veneto",
+        "latitude": 45.0166666667,
+        "longitude": 12.2166666667,
+        "locode": "ITPOQ"
+    },
+    {
+        "name": "Portoferraio",
+        "city": "Portoferraio",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 42.8126583333,
+        "longitude": 10.3245333333,
+        "locode": "ITPFE"
+    },
+    {
+        "name": "Portofino",
+        "city": "Portofino",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPTF"
+    },
+    {
+        "name": "Portopalo",
+        "city": "Portopalo",
+        "province": "SR",
+        "region": "Sicilia",
+        "latitude": 36.6833333333,
+        "longitude": 15.1333333333,
+        "locode": "ITPPL"
+    },
+    {
+        "name": "Pozzillo",
+        "city": "Pozzillo",
+        "province": "CT",
+        "region": "Sicilia",
+        "latitude": 37.65,
+        "longitude": 15.1833333333,
+        "locode": "ITOZI"
+    },
+    {
+        "name": "Pozzuoli",
+        "city": "Pozzuoli",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPOZ"
+    },
+    {
+        "name": "Praia a Mare",
+        "city": "Praia A Mare",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.9,
+        "longitude": 15.7833333333,
+        "locode": "ITPIM"
+    },
+    {
+        "name": "Priolo Gargallo",
+        "city": "Priolo Gargallo",
+        "province": "SR",
+        "region": "Sicilia",
+        "latitude": 37.15,
+        "longitude": 15.1833333333,
+        "locode": "ITPRL"
+    },
+    {
+        "name": "Procida",
+        "city": "Procida",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPRO"
+    },
+    {
+        "name": "Punta Cugno",
+        "city": "Punta Cugno",
+        "province": "SU",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPUC"
+    },
+    {
+        "name": "Rapallo",
+        "city": "Rapallo",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": 44.35,
+        "longitude": 9.2333333333,
+        "locode": "ITRPO"
+    },
+    {
+        "name": "Savelletri",
+        "city": "Savelletri",
+        "province": "BR",
+        "region": "Puglia",
+        "latitude": 40.8666666667,
+        "longitude": 17.4,
+        "locode": "ITLLT"
+    },
+    {
+        "name": "Torvaianica",
+        "city": "Torvaianica",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": 41.6166666667,
+        "longitude": 12.45,
+        "locode": "ITICA"
+    },
+    {
+        "name": "Trani",
+        "city": "Trani",
+        "province": "BT",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITTNI"
+    },
+    {
+        "name": "Trapani",
+        "city": "Trapani",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": 38.01135,
+        "longitude": 12.5181277778,
+        "locode": "ITTPS"
+    },
+    {
+        "name": "Otranto",
+        "city": "Otranto",
+        "province": "LE",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITOTO"
+    },
+    {
+        "name": "Augusta",
+        "city": "Augusta",
+        "province": "SR",
+        "region": "Sicilia",
+        "latitude": 37.2427972222,
+        "longitude": 15.2137111111,
+        "locode": "ITAUG"
+    },
+    {
+        "name": "Avola",
+        "city": "Avola",
+        "province": "SR",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITAVO"
+    },
+    {
+        "name": "Bagnara Calabra",
+        "city": "Bagnara Calabra",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 38.2833333333,
+        "longitude": 15.8,
+        "locode": "ITBCB"
+    },
+    {
+        "name": "Bagnoli",
+        "city": "Bagnoli",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITBLN"
+    },
+    {
+        "name": "Baia",
+        "city": "Baia",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITBAI"
+    },
+    {
+        "name": "Bari",
+        "city": "Bari",
+        "province": "BA",
+        "region": "Puglia",
+        "latitude": 41.1344944444,
+        "longitude": 16.8640666667,
+        "locode": "ITBRI"
+    },
+    {
+        "name": "Vulcano porto",
+        "city": "Vulcano Porto",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITVUL"
+    },
+    {
+        "name": "Termoli",
+        "city": "Termoli",
+        "province": "CB",
+        "region": "Molise",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITTMI"
+    },
+    {
+        "name": "Acciaroli",
+        "city": "Acciaroli",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.1666666667,
+        "longitude": 15.0166666667,
+        "locode": "ITAOL"
+    },
+    {
+        "name": "Aci Castello",
+        "city": "Aci Castello",
+        "province": "CT",
+        "region": "Sicilia",
+        "latitude": 37.55,
+        "longitude": 15.1166666667,
+        "locode": "ITACL"
+    },
+    {
+        "name": "Acitrezza",
+        "city": "Acitrezza",
+        "province": "CT",
+        "region": "Sicilia",
+        "latitude": 37.55,
+        "longitude": 15.15,
+        "locode": "ITACT"
+    },
+    {
+        "name": "Agropoli",
+        "city": "Agropoli",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.35,
+        "longitude": 14.9833333333,
+        "locode": "ITAGP"
+    },
+    {
+        "name": "Alassio",
+        "city": "Alassio",
+        "province": "SV",
+        "region": "Liguria",
+        "latitude": 44,
+        "longitude": 8.1666666667,
+        "locode": "ITALS"
+    },
+    {
+        "name": "Alghero",
+        "city": "Alghero",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITAHO"
+    },
+    {
+        "name": "Alicudi",
+        "city": "Alicudi",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITALI"
+    },
+    {
+        "name": "Amalfi",
+        "city": "Amalfi",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITAMA"
+    },
+    {
+        "name": "Amantea",
+        "city": "Amantea",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.1166666667,
+        "longitude": 16.0666666667,
+        "locode": "ITAMT"
+    },
+    {
+        "name": "Camogli",
+        "city": "Camogli",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": 44.35,
+        "longitude": 9.15,
+        "locode": "ITGLJ"
+    },
+    {
+        "name": "Cannigione",
+        "city": "Cannigione",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITNIG"
+    },
+    {
+        "name": "Caorle",
+        "city": "Caorle",
+        "province": "VE",
+        "region": "Veneto",
+        "latitude": 45.6,
+        "longitude": 12.8833333333,
+        "locode": "ITAOR"
+    },
+    {
+        "name": "Cape Carbonara",
+        "city": "Cape Carbonara",
+        "province": "SU",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITCCB"
+    },
+    {
+        "name": "Capo d'Orlando",
+        "city": "Capo D'orlando",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 38.1666666667,
+        "longitude": 14.75,
+        "locode": "ITCOQ"
+    },
+    {
+        "name": "Capri",
+        "city": "Capri",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPRJ"
+    },
+    {
+        "name": "Formia",
+        "city": "Formia",
+        "province": "LT",
+        "region": "Lazio",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITFOM"
+    },
+    {
+        "name": "Cesenatico",
+        "city": "Cesenatico",
+        "province": "FC",
+        "region": "Emilia-Romagna",
+        "latitude": 44.2,
+        "longitude": 12.4,
+        "locode": "ITCNT"
+    },
+    {
+        "name": "Cetara",
+        "city": "Cetara",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.6333333333,
+        "longitude": 14.7,
+        "locode": "ITTAA"
+    },
+    {
+        "name": "Cetraro",
+        "city": "Cetraro",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.5,
+        "longitude": 15.9333333333,
+        "locode": "ITCCQ"
+    },
+    {
+        "name": "Chiavari",
+        "city": "Chiavari",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": 44.3166666667,
+        "longitude": 9.35,
+        "locode": "ITCHX"
+    },
+    {
+        "name": "Chioggia",
+        "city": "Chioggia",
+        "province": "VE",
+        "region": "Veneto",
+        "latitude": 45.2131277778,
+        "longitude": 12.2693888889,
+        "locode": "ITCHI"
+    },
+    {
+        "name": "Ciro Marina",
+        "city": "Ciro Marina",
+        "province": "KR",
+        "region": "Calabria",
+        "latitude": 39.3666666667,
+        "longitude": 17.1166666667,
+        "locode": "ITMRM"
+    },
+    {
+        "name": "Civitanova Marche",
+        "city": "Civitanova Marche",
+        "province": "MC",
+        "region": "Marche",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITIOA"
+    },
+    {
+        "name": "Civitavecchia",
+        "city": "Civitavecchia",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": 42.0944472222,
+        "longitude": 11.7823777778,
+        "locode": "ITCVV"
+    },
+    {
+        "name": "Copanello",
+        "city": "Copanello",
+        "province": "CZ",
+        "region": "Calabria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITCPN"
+    },
+    {
+        "name": "Corigliano Calabro",
+        "city": "Corigliano Calabro",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.6634916667,
+        "longitude": 16.5249694444,
+        "locode": "ITCGC"
+    },
+    {
+        "name": "Crotone",
+        "city": "Crotone",
+        "province": "KR",
+        "region": "Calabria",
+        "latitude": 39.0858972222,
+        "longitude": 17.1290083333,
+        "locode": "ITCRV"
+    },
+    {
+        "name": "Cupra Marittima",
+        "city": "Cupra Marittima",
+        "province": "AP",
+        "region": "Marche",
+        "latitude": 43.0166666667,
+        "longitude": 13.85,
+        "locode": "ITCPM"
+    },
+    {
+        "name": "Diamante",
+        "city": "Diamante",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.6833333333,
+        "longitude": 15.8166666667,
+        "locode": "ITDIA"
+    },
+    {
+        "name": "Duino",
+        "city": "Duino",
+        "province": "TS",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": 45.7666666667,
+        "longitude": 13.5833333333,
+        "locode": "ITDNO"
+    },
+    {
+        "name": "Fiumicino",
+        "city": "Fiumicino",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": 41.7706694444,
+        "longitude": 12.2256694444,
+        "locode": "ITFCO"
+    },
+    {
+        "name": "Falconara",
+        "city": "Falconara",
+        "province": "AN",
+        "region": "Marche",
+        "latitude": 43.6396861111,
+        "longitude": 13.3873333333,
+        "locode": "ITFAL"
+    },
+    {
+        "name": "Fano",
+        "city": "Fano",
+        "province": "PU",
+        "region": "Marche",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITFAO"
+    },
+    {
+        "name": "Favignana",
+        "city": "Favignana",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITFAV"
+    },
+    {
+        "name": "Filicudi Porto",
+        "city": "Filicudi Porto",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITFPO"
+    },
+    {
+        "name": "Finale Ligure",
+        "city": "Finale Ligure",
+        "province": "SV",
+        "region": "Liguria",
+        "latitude": 44.1666666667,
+        "longitude": 8.3333333333,
+        "locode": "ITFNL"
+    },
+    {
+        "name": "Foce Varano",
+        "city": "Foce Varano",
+        "province": "FG",
+        "region": "Puglia",
+        "latitude": 41.9166666667,
+        "longitude": 15.8,
+        "locode": "ITFCV"
+    },
+    {
+        "name": "Follonica",
+        "city": "Follonica",
+        "province": "GR",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITFOL"
+    },
+    {
+        "name": "Forio",
+        "city": "Forio",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": 40.7333333333,
+        "longitude": 13.85,
+        "locode": "ITFRD"
+    },
+    {
+        "name": "Forte dei Marmi",
+        "city": "Forte Dei Marmi",
+        "province": "LU",
+        "region": "Toscana",
+        "latitude": 43.9666666667,
+        "longitude": 10.1666666667,
+        "locode": "ITFDM"
+    },
+    {
+        "name": "Francavilla al Mare",
+        "city": "Francavilla Al Mare",
+        "province": "CH",
+        "region": "Abruzzo",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITFME"
+    },
+    {
+        "name": "Fregene",
+        "city": "Fregene",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": 41.85,
+        "longitude": 12.2,
+        "locode": "ITFGE"
+    },
+    {
+        "name": "Fusina",
+        "city": "Fusina",
+        "province": "VE",
+        "region": "Veneto",
+        "latitude": 45.4166666667,
+        "longitude": 12.2333333333,
+        "locode": "ITFSA"
+    },
+    {
+        "name": "Gabicce Mare",
+        "city": "Gabicce Mare",
+        "province": "PU",
+        "region": "Marche",
+        "latitude": 43.9666666667,
+        "longitude": 12.7666666667,
+        "locode": "ITGMA"
+    },
+    {
+        "name": "Gaeta",
+        "city": "Gaeta",
+        "province": "LT",
+        "region": "Lazio",
+        "latitude": 41.2229111111,
+        "longitude": 13.5727722222,
+        "locode": "ITGAE"
+    },
+    {
+        "name": "Gallipoli",
+        "city": "Gallipoli",
+        "province": "LE",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITGAL"
+    },
+    {
+        "name": "Gela",
+        "city": "Gela",
+        "province": "CL",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITGEA"
+    },
+    {
+        "name": "Patti",
+        "city": "Patti",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPTI"
+    },
+    {
+        "name": "Pedaso",
+        "city": "Pedaso",
+        "province": "FM",
+        "region": "Marche",
+        "latitude": 43.1,
+        "longitude": 13.8333333333,
+        "locode": "ITPED"
+    },
+    {
+        "name": "Pesaro",
+        "city": "Pesaro",
+        "province": "PU",
+        "region": "Marche",
+        "latitude": 43.9229166667,
+        "longitude": 12.9052555556,
+        "locode": "ITPES"
+    },
+    {
+        "name": "Pescara",
+        "city": "Pescara",
+        "province": "PE",
+        "region": "Abruzzo",
+        "latitude": 42.4691027778,
+        "longitude": 14.2317194444,
+        "locode": "ITPSR"
+    },
+    {
+        "name": "Levanto",
+        "city": "Levanto",
+        "province": "SP",
+        "region": "Liguria",
+        "latitude": 44.1666666667,
+        "longitude": 9.6,
+        "locode": "ITLEN"
+    },
+    {
+        "name": "Levanzo",
+        "city": "Levanzo",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITLEV"
+    },
+    {
+        "name": "Licata",
+        "city": "Licata",
+        "province": "AG",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITLIC"
+    },
+    {
+        "name": "Zaule",
+        "city": "Zaule",
+        "province": "TS",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITULE"
+    },
+    {
+        "name": "Lampedusa",
+        "city": "Lampedusa",
+        "province": "AG",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITLMP"
+    },
+    {
+        "name": "Mazara del Vallo",
+        "city": "Mazara Del Vallo",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITMAZ"
+    },
+    {
+        "name": "Linosa",
+        "city": "Linosa",
+        "province": "AG",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITLIU"
+    },
+    {
+        "name": "Ancona",
+        "city": "Ancona",
+        "province": "AN",
+        "region": "Marche",
+        "latitude": 43.6206333333,
+        "longitude": 13.5029972222,
+        "locode": "ITAOI"
+    },
+    {
+        "name": "Andora",
+        "city": "Andora",
+        "province": "SV",
+        "region": "Liguria",
+        "latitude": 43.95,
+        "longitude": 8.15,
+        "locode": "ITADA"
+    },
+    {
+        "name": "Anzio",
+        "city": "Anzio",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITANZ"
+    },
+    {
+        "name": "Arbatax",
+        "city": "Arbatax",
+        "province": "NU",
+        "region": "Sardegna",
+        "latitude": 39.9333333333,
+        "longitude": 9.7,
+        "locode": "ITATX"
+    },
+    {
+        "name": "Arenzano",
+        "city": "Arenzano",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": 44.4,
+        "longitude": 8.6666666667,
+        "locode": "ITAZA"
+    },
+    {
+        "name": "Arma di Taggia",
+        "city": "Arma Di Taggia",
+        "province": "IM",
+        "region": "Liguria",
+        "latitude": 43.8166666667,
+        "longitude": 7.85,
+        "locode": "ITATA"
+    },
+    {
+        "name": "Lipari",
+        "city": "Lipari",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITLIP"
+    },
+    {
+        "name": "Paola",
+        "city": "Paola",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.3833333333,
+        "longitude": 16.0333333333,
+        "locode": "ITAOA"
+    },
+    {
+        "name": "Rimini",
+        "city": "Rimini",
+        "province": "RN",
+        "region": "Emilia-Romagna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITRMI"
+    },
+    {
+        "name": "Peschici",
+        "city": "Peschici",
+        "province": "FG",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPCH"
+    },
+    {
+        "name": "Piano di Sorrento",
+        "city": "Piano Di Sorrento",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": 40.6333333333,
+        "longitude": 14.4166666667,
+        "locode": "ITPRR"
+    },
+    {
+        "name": "Pianosa",
+        "city": "Pianosa",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 42.5666666667,
+        "longitude": 10.0666666667,
+        "locode": "ITPIA"
+    },
+    {
+        "name": "Pier Isab",
+        "city": "Pier Isab",
+        "province": "SR",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITISB"
+    },
+    {
+        "name": "Piombino",
+        "city": "Piombino",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 42.9342138889,
+        "longitude": 10.5447027778,
+        "locode": "ITPIO"
+    },
+    {
+        "name": "Pizzo",
+        "city": "Pizzo",
+        "province": "VV",
+        "region": "Calabria",
+        "latitude": 38.7333333333,
+        "longitude": 16.15,
+        "locode": "ITPIZ"
+    },
+    {
+        "name": "Policoro",
+        "city": "Policoro",
+        "province": "MT",
+        "region": "Basilicata",
+        "latitude": 40.2166666667,
+        "longitude": 16.6833333333,
+        "locode": "ITPCR"
+    },
+    {
+        "name": "Polignano a Mare",
+        "city": "Polignano A Mare",
+        "province": "BA",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITZQQ"
+    },
+    {
+        "name": "Ponza",
+        "city": "Ponza",
+        "province": "LT",
+        "region": "Lazio",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPNZ"
+    },
+    {
+        "name": "Porticello",
+        "city": "Porticello",
+        "province": "PA",
+        "region": "Sicilia",
+        "latitude": 38.0833333333,
+        "longitude": 13.5333333333,
+        "locode": "ITORL"
+    },
+    {
+        "name": "Barletta",
+        "city": "Barletta",
+        "province": "BT",
+        "region": "Puglia",
+        "latitude": 41.3255277778,
+        "longitude": 16.2904,
+        "locode": "ITBLT"
+    },
+    {
+        "name": "Bellaria",
+        "city": "Bellaria",
+        "province": "RN",
+        "region": "Emilia-Romagna",
+        "latitude": 44.15,
+        "longitude": 12.4666666667,
+        "locode": "ITBLA"
+    },
+    {
+        "name": "Belvedere Marittimo",
+        "city": "Belvedere Marittimo",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.6166666667,
+        "longitude": 15.85,
+        "locode": "ITBMT"
+    },
+    {
+        "name": "Bianco",
+        "city": "Bianco",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 38.0833333333,
+        "longitude": 16.1333333333,
+        "locode": "ITBNC"
+    },
+    {
+        "name": "Bisceglie",
+        "city": "Bisceglie",
+        "province": "BT",
+        "region": "Puglia",
+        "latitude": 41.2333333333,
+        "longitude": 16.5,
+        "locode": "ITBCE"
+    },
+    {
+        "name": "Bonagia",
+        "city": "Bonagia",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": 38.05,
+        "longitude": 12.5833333333,
+        "locode": "ITOAA"
+    },
+    {
+        "name": "Bordighera",
+        "city": "Bordighera",
+        "province": "IM",
+        "region": "Liguria",
+        "latitude": 43.7666666667,
+        "longitude": 7.6666666667,
+        "locode": "ITBGH"
+    },
+    {
+        "name": "Bosa",
+        "city": "Bosa",
+        "province": "OR",
+        "region": "Sardegna",
+        "latitude": 40.2833333333,
+        "longitude": 8.4833333333,
+        "locode": "ITBOA"
+    },
+    {
+        "name": "Bova Marina",
+        "city": "Bova Marina",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 37.9333333333,
+        "longitude": 15.9166666667,
+        "locode": "ITBVM"
+    },
+    {
+        "name": "Bovalino Marina",
+        "city": "Bovalino Marina",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITBMA"
+    },
+    {
+        "name": "Brindisi",
+        "city": "Brindisi",
+        "province": "BR",
+        "region": "Puglia",
+        "latitude": 40.6505805556,
+        "longitude": 17.9656805556,
+        "locode": "ITBDS"
+    },
+    {
+        "name": "Cagliari",
+        "city": "Cagliari",
+        "province": "CA",
+        "region": "Sardegna",
+        "latitude": 39.2106027778,
+        "longitude": 9.112075,
+        "locode": "ITCAG"
+    },
+    {
+        "name": "Cala Gonone",
+        "city": "Cala Gonone",
+        "province": "NU",
+        "region": "Sardegna",
+        "latitude": 40.3,
+        "longitude": 9.6333333333,
+        "locode": "ITNNE"
+    },
+    {
+        "name": "Capraia",
+        "city": "Capraia",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 43.0512027778,
+        "longitude": 9.8376527778,
+        "locode": "ITCPA"
+    },
+    {
+        "name": "Cariati",
+        "city": "Cariati",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.4833333333,
+        "longitude": 16.95,
+        "locode": "ITCRT"
+    },
+    {
+        "name": "Carloforte",
+        "city": "Carloforte",
+        "province": "SU",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITCLF"
+    },
+    {
+        "name": "Casamicciola",
+        "city": "Casamicciola Terme",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITCML"
+    },
+    {
+        "name": "Castel Volturno",
+        "city": "Castel Volturno",
+        "province": "CE",
+        "region": "Campania",
+        "latitude": 41.0333333333,
+        "longitude": 13.95,
+        "locode": "ITAEL"
+    },
+    {
+        "name": "Castellammare del Golfo",
+        "city": "Castellammare Del Golfo",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": 38.0166666667,
+        "longitude": 12.8833333333,
+        "locode": "ITCTR"
+    },
+    {
+        "name": "Castellammare di Stabia",
+        "city": "Castellammare Di Stabia",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": 40.6941166667,
+        "longitude": 14.4714361111,
+        "locode": "ITCAS"
+    },
+    {
+        "name": "Castelsardo",
+        "city": "Castelsardo",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": 40.9,
+        "longitude": 8.7,
+        "locode": "ITCTK"
+    },
+    {
+        "name": "Castiglioncello",
+        "city": "Castiglioncello",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 43.4,
+        "longitude": 10.4166666667,
+        "locode": "ITATI"
+    },
+    {
+        "name": "Castiglione della Pescaia",
+        "city": "Castiglione Della Pescaia",
+        "province": "GR",
+        "region": "Toscana",
+        "latitude": 42.7666666667,
+        "longitude": 10.8833333333,
+        "locode": "ITCEQ"
+    },
+    {
+        "name": "Castro Marina",
+        "city": "Castro Marina",
+        "province": "LE",
+        "region": "Puglia",
+        "latitude": 39.9833333333,
+        "longitude": 18.4,
+        "locode": "ITCRQ"
+    },
+    {
+        "name": "Catania",
+        "city": "Catania",
+        "province": "CT",
+        "region": "Sicilia",
+        "latitude": 37.4964444444,
+        "longitude": 15.0941583333,
+        "locode": "ITCTA"
+    },
+    {
+        "name": "Cattolica",
+        "city": "Cattolica",
+        "province": "RN",
+        "region": "Emilia-Romagna",
+        "latitude": 43.95,
+        "longitude": 12.7333333333,
+        "locode": "ITCCL"
+    },
+    {
+        "name": "Cavo",
+        "city": "Cavo",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 42.8602416667,
+        "longitude": 10.4233305556,
+        "locode": "ITCVX"
+    },
+    {
+        "name": "Cecina",
+        "city": "Cecina",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITCEC"
+    },
+    {
+        "name": "Cefalu",
+        "city": "Cefalu",
+        "province": "PA",
+        "region": "Sicilia",
+        "latitude": 38.0333333333,
+        "longitude": 14.0166666667,
+        "locode": "ITCFU"
+    },
+    {
+        "name": "Genova",
+        "city": "Genova",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": 44.4090972222,
+        "longitude": 8.9179666667,
+        "locode": "ITGOA"
+    },
+    {
+        "name": "Giannutri",
+        "city": "Giannutri",
+        "province": "GR",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITGII"
+    },
+    {
+        "name": "Giardini",
+        "city": "Giardini",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITGIA"
+    },
+    {
+        "name": "Gioia Tauro",
+        "city": "Gioia Tauro",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 38.4468777778,
+        "longitude": 15.901875,
+        "locode": "ITGIT"
+    },
+    {
+        "name": "Giovinazzo",
+        "city": "Giovinazzo",
+        "province": "BA",
+        "region": "Puglia",
+        "latitude": 41.1833333333,
+        "longitude": 16.6666666667,
+        "locode": "ITGVZ"
+    },
+    {
+        "name": "Giulianova Lido",
+        "city": "Giulianova Lido",
+        "province": "TE",
+        "region": "Abruzzo",
+        "latitude": 42.65,
+        "longitude": 13.9333333333,
+        "locode": "ITGUI"
+    },
+    {
+        "name": "Golfo Aranci",
+        "city": "Golfo Aranci",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": 40.995075,
+        "longitude": 9.6226027778,
+        "locode": "ITGAI"
+    },
+    {
+        "name": "Gorgona",
+        "city": "Gorgona",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITGOR"
+    },
+    {
+        "name": "Goro",
+        "city": "Goro",
+        "province": "FE",
+        "region": "Emilia-Romagna",
+        "latitude": 44.85,
+        "longitude": 12.3,
+        "locode": "ITGOO"
+    },
+    {
+        "name": "Grado",
+        "city": "Grado",
+        "province": "GO",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITGRD"
+    },
+    {
+        "name": "Imperia",
+        "city": "Imperia",
+        "province": "IM",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITIMP"
+    },
+    {
+        "name": "Ischia",
+        "city": "Ischia",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITISH"
+    },
+    {
+        "name": "Isola Asinara",
+        "city": "Isola Asinara",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITISN"
+    },
+    {
+        "name": "Isola Santo Stefano",
+        "city": "Isola Santo Stefano",
+        "province": "LT",
+        "region": "Lazio",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITISS"
+    },
+    {
+        "name": "Isola del Giglio",
+        "city": "Isola Del Giglio",
+        "province": "GR",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITIDG"
+    },
+    {
+        "name": "Isola delle Femmine",
+        "city": "Isola Delle Femmine",
+        "province": "PA",
+        "region": "Sicilia",
+        "latitude": 38.2,
+        "longitude": 13.25,
+        "locode": "ITIDF"
+    },
+    {
+        "name": "Isolotto Formica",
+        "city": "Isolotto Formica",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITFOR"
+    },
+    {
+        "name": "Jesolo",
+        "city": "Jesolo",
+        "province": "VE",
+        "region": "Veneto",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITJLO"
+    },
+    {
+        "name": "La Maddalena",
+        "city": "La Maddalena",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": 41.2166666667,
+        "longitude": 9.3833333333,
+        "locode": "ITMDA"
+    },
+    {
+        "name": "Marina di Carrara",
+        "city": "Marina Di Carrara",
+        "province": "MS",
+        "region": "Toscana",
+        "latitude": 44.0333416667,
+        "longitude": 10.0402472222,
+        "locode": "ITMDC"
+    },
+    {
+        "name": "Marina di Davoli",
+        "city": "Marina Di Davoli",
+        "province": "CZ",
+        "region": "Calabria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITAAS"
+    },
+    {
+        "name": "La Spezia",
+        "city": "La Spezia",
+        "province": "SP",
+        "region": "Liguria",
+        "latitude": 44.1045361111,
+        "longitude": 9.843625,
+        "locode": "ITSPE"
+    },
+    {
+        "name": "Lacco Ameno",
+        "city": "Lacco Ameno",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": 40.75,
+        "longitude": 13.9,
+        "locode": "ITLAE"
+    },
+    {
+        "name": "Ladispoli",
+        "city": "Ladispoli",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": 41.9333333333,
+        "longitude": 12.0833333333,
+        "locode": "ITLAD"
+    },
+    {
+        "name": "Lavagna",
+        "city": "Lavagna",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": 44.3,
+        "longitude": 9.35,
+        "locode": "ITLAW"
+    },
+    {
+        "name": "Lerici",
+        "city": "Lerici",
+        "province": "SP",
+        "region": "Liguria",
+        "latitude": 44.0833333333,
+        "longitude": 9.9166666667,
+        "locode": "ITLER"
+    },
+    {
+        "name": "Lesina",
+        "city": "Lesina",
+        "province": "FG",
+        "region": "Puglia",
+        "latitude": 41.85,
+        "longitude": 15.35,
+        "locode": "ITLES"
+    },
+    {
+        "name": "Leuca",
+        "city": "Leuca",
+        "province": "LE",
+        "region": "Puglia",
+        "latitude": 39.8,
+        "longitude": 18.35,
+        "locode": "ITLEC"
+    },
+    {
+        "name": "Lignano Sabbiadoro",
+        "city": "Lignano Sabbiadoro",
+        "province": "UD",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": 45.6666666667,
+        "longitude": 13.1,
+        "locode": "ITLSD"
+    },
+    {
+        "name": "Livorno",
+        "city": "Livorno",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 43.56095,
+        "longitude": 10.3014138889,
+        "locode": "ITLIV"
+    },
+    {
+        "name": "Loano",
+        "city": "Loano",
+        "province": "SV",
+        "region": "Liguria",
+        "latitude": 44.1333333333,
+        "longitude": 8.25,
+        "locode": "ITLOA"
+    },
+    {
+        "name": "Maiori",
+        "city": "Maiori",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.65,
+        "longitude": 14.6333333333,
+        "locode": "ITIOI"
+    },
+    {
+        "name": "Manfredonia",
+        "city": "Manfredonia",
+        "province": "FG",
+        "region": "Puglia",
+        "latitude": 41.6250333333,
+        "longitude": 15.9178138889,
+        "locode": "ITMFR"
+    },
+    {
+        "name": "Marano Lagunare",
+        "city": "Marano Lagunare",
+        "province": "UD",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": 45.75,
+        "longitude": 13.1666666667,
+        "locode": "ITMAJ"
+    },
+    {
+        "name": "Maratea",
+        "city": "Maratea",
+        "province": "PZ",
+        "region": "Basilicata",
+        "latitude": 39.9833333333,
+        "longitude": 15.7166666667,
+        "locode": "ITTEA"
+    },
+    {
+        "name": "Marciana Marina",
+        "city": "Marciana Marina",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 42.8,
+        "longitude": 10.1833333333,
+        "locode": "ITMAM"
+    },
+    {
+        "name": "Marettimo",
+        "city": "Marettimo",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITMMO"
+    },
+    {
+        "name": "Marghera",
+        "city": "Marghera",
+        "province": "VE",
+        "region": "Veneto",
+        "latitude": 45.45,
+        "longitude": 12.2166666667,
+        "locode": "ITPMA"
+    },
+    {
+        "name": "Margherita di Savoia",
+        "city": "Margherita Di Savoia",
+        "province": "BT",
+        "region": "Puglia",
+        "latitude": 41.3666666667,
+        "longitude": 16.1333333333,
+        "locode": "ITMDW"
+    },
+    {
+        "name": "Marina Grande",
+        "city": "Marina Grande",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": 40.55,
+        "longitude": 14.25,
+        "locode": "ITMGE"
+    },
+    {
+        "name": "Marina della Lobra",
+        "city": "Marina Della Lobra",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": 40.6,
+        "longitude": 14.3333333333,
+        "locode": "ITMLB"
+    },
+    {
+        "name": "Marina di Camerota",
+        "city": "Marina Di Camerota",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40,
+        "longitude": 15.3666666667,
+        "locode": "ITMIT"
+    },
+    {
+        "name": "Marina di Campo",
+        "city": "Marina Di Campo",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 42.7333333333,
+        "longitude": 10.55,
+        "locode": "ITMRP"
+    },
+    {
+        "name": "Marina di Ginosa",
+        "city": "Marina Di Ginosa",
+        "province": "TA",
+        "region": "Basilicata",
+        "latitude": 40.4166666667,
+        "longitude": 16.8833333333,
+        "locode": "ITMAH"
+    },
+    {
+        "name": "Marina di Grosseto",
+        "city": "Marina Di Grosseto",
+        "province": "GR",
+        "region": "Toscana",
+        "latitude": 42.7166666667,
+        "longitude": 10.9666666667,
+        "locode": "ITMSD"
+    },
+    {
+        "name": "Marina di Massa",
+        "city": "Marina Di Massa",
+        "province": "MS",
+        "region": "Toscana",
+        "latitude": 44,
+        "longitude": 10.1,
+        "locode": "ITQMM"
+    },
+    {
+        "name": "Ospedaletti",
+        "city": "Ospedaletti",
+        "province": "IM",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITOPD"
+    },
+    {
+        "name": "Marina di Monasterace",
+        "city": "Marina Di Monasterace",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 38.4333333333,
+        "longitude": 16.5666666667,
+        "locode": "ITMMN"
+    },
+    {
+        "name": "Marina di Pisa",
+        "city": "Marina Di Pisa",
+        "province": "PI",
+        "region": "Toscana",
+        "latitude": 43.6666666667,
+        "longitude": 10.2666666667,
+        "locode": "ITMPA"
+    },
+    {
+        "name": "Marina di Pisciotta",
+        "city": "Marina Di Pisciotta",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.1166666667,
+        "longitude": 15.2333333333,
+        "locode": "ITMSB"
+    },
+    {
+        "name": "Marinella di Selinunte",
+        "city": "Marinella Di Selinunte",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": 37.5833333333,
+        "longitude": 12.7833333333,
+        "locode": "ITMNU"
+    },
+    {
+        "name": "Marotta",
+        "city": "Marotta",
+        "province": "PU",
+        "region": "Marche",
+        "latitude": 43.7666666667,
+        "longitude": 13.1333333333,
+        "locode": "ITRTT"
+    },
+    {
+        "name": "Marsala",
+        "city": "Marsala",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": 37.8,
+        "longitude": 12.4333333333,
+        "locode": "ITMRA"
+    },
+    {
+        "name": "Martinsicuro",
+        "city": "Martinsicuro",
+        "province": "TE",
+        "region": "Abruzzo",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITMTS"
+    },
+    {
+        "name": "Massa",
+        "city": "Massa",
+        "province": "MS",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITMSA"
+    },
+    {
+        "name": "Melito di Porto Salvo",
+        "city": "Melito Di Porto Salvo",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITMPS"
+    },
+    {
+        "name": "Sant' Antioco",
+        "city": "Sant' Antioco",
+        "province": "SU",
+        "region": "Sardegna",
+        "latitude": 39.0666666667,
+        "longitude": 8.45,
+        "locode": "ITNTA"
+    },
+    {
+        "name": "Palermo",
+        "city": "Palermo",
+        "province": "PA",
+        "region": "Sicilia",
+        "latitude": 38.1285666667,
+        "longitude": 13.3672722222,
+        "locode": "ITPMO"
+    },
+    {
+        "name": "Palinuro",
+        "city": "Palinuro",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.05,
+        "longitude": 15.2833333333,
+        "locode": "ITPLN"
+    },
+    {
+        "name": "Palmi",
+        "city": "Palmi",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 38.3904611111,
+        "longitude": 15.8619888889,
+        "locode": "ITPMM"
+    },
+    {
+        "name": "Panarea",
+        "city": "Panarea",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPAN"
+    },
+    {
+        "name": "Messina",
+        "city": "Messina",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 38.1892027778,
+        "longitude": 15.5609138889,
+        "locode": "ITMSN"
+    },
+    {
+        "name": "Milazzo",
+        "city": "Milazzo",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 38.2164722222,
+        "longitude": 15.2428833333,
+        "locode": "ITMLZ"
+    },
+    {
+        "name": "Mili Marina",
+        "city": "Mili Marina",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 38.1166666667,
+        "longitude": 15.5166666667,
+        "locode": "ITMIM"
+    },
+    {
+        "name": "Misano Adriatico",
+        "city": "Misano Adriatico",
+        "province": "RN",
+        "region": "Emilia-Romagna",
+        "latitude": 43.9666666667,
+        "longitude": 12.7,
+        "locode": "ITMIS"
+    },
+    {
+        "name": "Mola di Bari",
+        "city": "Mola Di Bari",
+        "province": "BA",
+        "region": "Puglia",
+        "latitude": 41.05,
+        "longitude": 17.0833333333,
+        "locode": "ITODB"
+    },
+    {
+        "name": "Molfetta",
+        "city": "Molfetta",
+        "province": "BA",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITMOL"
+    },
+    {
+        "name": "Mondello",
+        "city": "Mondello",
+        "province": "PA",
+        "region": "Sicilia",
+        "latitude": 38.2,
+        "longitude": 13.3333333333,
+        "locode": "ITMND"
+    },
+    {
+        "name": "Mondragone",
+        "city": "Mondragone",
+        "province": "CE",
+        "region": "Campania",
+        "latitude": 41.1166666667,
+        "longitude": 13.9,
+        "locode": "ITODG"
+    },
+    {
+        "name": "Monfalcone",
+        "city": "Monfalcone",
+        "province": "GO",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": 45.788976,
+        "longitude": 13.536257,
+        "locode": "ITMNF"
+    },
+    {
+        "name": "Monopoli",
+        "city": "Monopoli",
+        "province": "BA",
+        "region": "Puglia",
+        "latitude": 40.9554222222,
+        "longitude": 17.3030305556,
+        "locode": "ITMNP"
+    },
+    {
+        "name": "Montalto di Castro",
+        "city": "Montalto Di Castro",
+        "province": "VT",
+        "region": "Lazio",
+        "latitude": 42.35,
+        "longitude": 11.6,
+        "locode": "ITMLS"
+    },
+    {
+        "name": "Monterosso al Mare",
+        "city": "Monterosso Al Mare",
+        "province": "SP",
+        "region": "Liguria",
+        "latitude": 44.15,
+        "longitude": 9.65,
+        "locode": "ITRSM"
+    },
+    {
+        "name": "Muggia",
+        "city": "Muggia",
+        "province": "TS",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": 45.6,
+        "longitude": 13.7666666667,
+        "locode": "ITUGG"
+    },
+    {
+        "name": "Multedo",
+        "city": "Multedo",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITMUT"
+    },
+    {
+        "name": "Napoli",
+        "city": "Napoli",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": 40.8397722222,
+        "longitude": 14.2762805556,
+        "locode": "ITNAP"
+    },
+    {
+        "name": "Nettuno",
+        "city": "Nettuno",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": 41.4666666667,
+        "longitude": 12.6833333333,
+        "locode": "ITNTT"
+    },
+    {
+        "name": "Noli",
+        "city": "Noli",
+        "province": "SV",
+        "region": "Liguria",
+        "latitude": 44.2,
+        "longitude": 8.4166666667,
+        "locode": "ITNLI"
+    },
+    {
+        "name": "Noto",
+        "city": "Noto",
+        "province": "SR",
+        "region": "Sicilia",
+        "latitude": 36.8833333333,
+        "longitude": 15.0666666667,
+        "locode": "ITNTO"
+    },
+    {
+        "name": "Nova Siri",
+        "city": "Nova Siri",
+        "province": "MT",
+        "region": "Basilicata",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITNSR"
+    },
+    {
+        "name": "Numana",
+        "city": "Numana",
+        "province": "AN",
+        "region": "Marche",
+        "latitude": 43.5,
+        "longitude": 13.6166666667,
+        "locode": "ITNUM"
+    },
+    {
+        "name": "Ognina",
+        "city": "Ognina",
+        "province": "SR",
+        "region": "Sicilia",
+        "latitude": 36.9833333333,
+        "longitude": 15.25,
+        "locode": "ITOGN"
+    },
+    {
+        "name": "Sant'Agata di Militello",
+        "city": "Sant'agata Di Militello",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 38.0666666667,
+        "longitude": 14.6333333333,
+        "locode": "ITSAG"
+    },
+    {
+        "name": "Olbia",
+        "city": "Olbia",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": 40.9235861111,
+        "longitude": 9.5192972222,
+        "locode": "ITOLB"
+    },
+    {
+        "name": "Oneglia",
+        "city": "Oneglia",
+        "province": "IM",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITONE"
+    },
+    {
+        "name": "Orbetello",
+        "city": "Orbetello",
+        "province": "GR",
+        "region": "Toscana",
+        "latitude": 42.4333333333,
+        "longitude": 11.2166666667,
+        "locode": "ITOBT"
+    },
+    {
+        "name": "Oristano",
+        "city": "Oristano",
+        "province": "OR",
+        "region": "Sardegna",
+        "latitude": 39.8625833333,
+        "longitude": 8.5519055556,
+        "locode": "ITQOS"
+    },
+    {
+        "name": "Ortona",
+        "city": "Ortona",
+        "province": "CH",
+        "region": "Abruzzo",
+        "latitude": 42.3513583333,
+        "longitude": 14.411925,
+        "locode": "ITOTN"
+    },
+    {
+        "name": "Ostia",
+        "city": "Ostia",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": 41.75,
+        "longitude": 12.3,
+        "locode": "ITSIT"
+    },
+    {
+        "name": "Palau",
+        "city": "Palau",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPAU"
+    },
+    {
+        "name": "Portoscuso (Porto Vesme)",
+        "city": "Portoscuso (porto Vesme)",
+        "province": "SU",
+        "region": "Sardegna",
+        "latitude": 39.1974777778,
+        "longitude": 8.3899333333,
+        "locode": "ITPVE"
+    },
+    {
+        "name": "Positano",
+        "city": "Positano",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPOS"
+    },
+    {
+        "name": "Pozzallo",
+        "city": "Pozzallo",
+        "province": "RG",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPZL"
+    },
+    {
+        "name": "Pantelleria",
+        "city": "Pantelleria",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITPNL"
+    },
+    {
+        "name": "Ravenna",
+        "city": "Ravenna",
+        "province": "RA",
+        "region": "Emilia-Romagna",
+        "latitude": 44.4566861111,
+        "longitude": 12.2486361111,
+        "locode": "ITRAN"
+    },
+    {
+        "name": "Recco",
+        "city": "Recco",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": 44.35,
+        "longitude": 9.1333333333,
+        "locode": "ITREC"
+    },
+    {
+        "name": "Reggio Calabria",
+        "city": "Reggio Calabria",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 38.1228416667,
+        "longitude": 15.6501833333,
+        "locode": "ITREG"
+    },
+    {
+        "name": "Riccione",
+        "city": "Riccione",
+        "province": "RN",
+        "region": "Emilia-Romagna",
+        "latitude": 44,
+        "longitude": 12.65,
+        "locode": "ITRCE"
+    },
+    {
+        "name": "Rinella",
+        "city": "Rinella",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITRIN"
+    },
+    {
+        "name": "Rio Marina",
+        "city": "Rio Marina",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": 42.8153444444,
+        "longitude": 10.4297638889,
+        "locode": "ITRMA"
+    },
+    {
+        "name": "Riomaggiore",
+        "city": "Riomaggiore",
+        "province": "SP",
+        "region": "Liguria",
+        "latitude": 44.1,
+        "longitude": 9.7333333333,
+        "locode": "ITRMG"
+    },
+    {
+        "name": "Riposto",
+        "city": "Riposto",
+        "province": "CT",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITRPT"
+    },
+    {
+        "name": "Riva Trigoso",
+        "city": "Riva Trigoso",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": 44.25,
+        "longitude": 9.4166666667,
+        "locode": "ITRTS"
+    },
+    {
+        "name": "Roccella Ionica",
+        "city": "Roccella Ionica",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 38.3166666667,
+        "longitude": 16.4,
+        "locode": "ITROC"
+    },
+    {
+        "name": "Rodi Garganico",
+        "city": "Rodi Garganico",
+        "province": "FG",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITRGG"
+    },
+    {
+        "name": "Roma",
+        "city": "Roma",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITROM"
+    },
+    {
+        "name": "Roseto Degli Abbruzzi",
+        "city": "Roseto Degli Abbruzzi",
+        "province": "TE",
+        "region": "Abruzzo",
+        "latitude": 42.6833333333,
+        "longitude": 14.0166666667,
+        "locode": "ITRDA"
+    },
+    {
+        "name": "Rosignano Solvay",
+        "city": "Rosignano Solvay",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITGSV"
+    },
+    {
+        "name": "San Benedetto Del Tronto",
+        "city": "San Benedetto Del Tronto",
+        "province": "AP",
+        "region": "Marche",
+        "latitude": 42.956425,
+        "longitude": 13.8886361111,
+        "locode": "ITSDB"
+    },
+    {
+        "name": "Salerno",
+        "city": "Salerno",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.6740666667,
+        "longitude": 14.7464611111,
+        "locode": "ITSAL"
+    },
+    {
+        "name": "Saline",
+        "city": "Saline",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 37.95,
+        "longitude": 15.7,
+        "locode": "ITSLC"
+    },
+    {
+        "name": "Sammichele",
+        "city": "Sammichele",
+        "province": "BA",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITSI6"
+    },
+    {
+        "name": "San Cataldo",
+        "city": "San Cataldo",
+        "province": "LE",
+        "region": "Puglia",
+        "latitude": 40.3833333333,
+        "longitude": 18.3,
+        "locode": "ITNCT"
+    },
+    {
+        "name": "San Felice Circeo",
+        "city": "San Felice Circeo",
+        "province": "LT",
+        "region": "Lazio",
+        "latitude": 41.2333333333,
+        "longitude": 13.0833333333,
+        "locode": "ITSFE"
+    },
+    {
+        "name": "San Pietro",
+        "city": "San Pietro",
+        "province": "SU",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITSNP"
+    },
+    {
+        "name": "San Remo",
+        "city": "San Remo",
+        "province": "IM",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITSRE"
+    },
+    {
+        "name": "San Vito lo Capo",
+        "city": "San Vito Lo Capo",
+        "province": "TP",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITSVC"
+    },
+    {
+        "name": "Santa Foca di Melendugno",
+        "city": "Santa Foca Di Melendugno",
+        "province": "LE",
+        "region": "Puglia",
+        "latitude": 40.2666666667,
+        "longitude": 18.3333333333,
+        "locode": "ITSFM"
+    },
+    {
+        "name": "Santa Margherita Ligure",
+        "city": "Santa Margherita Ligure",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITSML"
+    },
+    {
+        "name": "Santa Maria Navarrese",
+        "city": "Santa Maria Navarrese",
+        "province": "NU",
+        "region": "Sardegna",
+        "latitude": 39.9833333333,
+        "longitude": 9.6833333333,
+        "locode": "ITAMN"
+    },
+    {
+        "name": "Santa Maria di Castellabate",
+        "city": "Santa Maria Di Castellabate",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.2833333333,
+        "longitude": 14.95,
+        "locode": "ITSMK"
+    },
+    {
+        "name": "Santa Marina Salina",
+        "city": "Santa Marina Salina",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 38.5666666667,
+        "longitude": 14.8666666667,
+        "locode": "ITSLA"
+    },
+    {
+        "name": "Santa Marinella",
+        "city": "Santa Marinella",
+        "province": "RM",
+        "region": "Lazio",
+        "latitude": 42.0333333333,
+        "longitude": 11.8333333333,
+        "locode": "ITSMA"
+    },
+    {
+        "name": "Santa Panagia",
+        "city": "Santa Panagia",
+        "province": "SR",
+        "region": "Sicilia",
+        "latitude": 37.1,
+        "longitude": 15.25,
+        "locode": "ITSPA"
+    },
+    {
+        "name": "Santa Teresa di Gallura",
+        "city": "Santa Teresa Di Gallura",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": 41.2369277778,
+        "longitude": 9.1944944444,
+        "locode": "ITSTE"
+    },
+    {
+        "name": "Santo Stefano al Mare",
+        "city": "Santo Stefano Al Mare",
+        "province": "IM",
+        "region": "Liguria",
+        "latitude": 43.8333333333,
+        "longitude": 7.8833333333,
+        "locode": "ITSSF"
+    },
+    {
+        "name": "Santo Stefano di Camastra",
+        "city": "Santo Stefano Di Camastra",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 38.0166666667,
+        "longitude": 14.35,
+        "locode": "ITTEF"
+    },
+    {
+        "name": "Sapri",
+        "city": "Sapri",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.05,
+        "longitude": 15.6166666667,
+        "locode": "ITPRH"
+    },
+    {
+        "name": "Sarroch (Porto Foxi)",
+        "city": "Sarroch (porto Foxi)",
+        "province": "CA",
+        "region": "Sardegna",
+        "latitude": 39.0895166667,
+        "longitude": 9.027575,
+        "locode": "ITPFX"
+    },
+    {
+        "name": "Savona",
+        "city": "Savona",
+        "province": "SV",
+        "region": "Liguria",
+        "latitude": 44.3101527778,
+        "longitude": 8.4904638889,
+        "locode": "ITSVN"
+    },
+    {
+        "name": "Scalea",
+        "city": "Scalea",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.8,
+        "longitude": 15.7833333333,
+        "locode": "ITLEA"
+    },
+    {
+        "name": "Scario",
+        "city": "Scario",
+        "province": "SA",
+        "region": "Campania",
+        "latitude": 40.05,
+        "longitude": 15.4833333333,
+        "locode": "ITSRH"
+    },
+    {
+        "name": "Scauri",
+        "city": "Scauri",
+        "province": "LT",
+        "region": "Lazio",
+        "latitude": 41.25,
+        "longitude": 13.7,
+        "locode": "ITURI"
+    },
+    {
+        "name": "Sciacca",
+        "city": "Sciacca",
+        "province": "AG",
+        "region": "Sicilia",
+        "latitude": 37.5,
+        "longitude": 13.0666666667,
+        "locode": "ITSCK"
+    },
+    {
+        "name": "Scilla",
+        "city": "Scilla",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 38.25,
+        "longitude": 15.7166666667,
+        "locode": "ITSLL"
+    },
+    {
+        "name": "Scoglitti",
+        "city": "Scoglitti",
+        "province": "RG",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITSCO"
+    },
+    {
+        "name": "Senigallia",
+        "city": "Senigallia",
+        "province": "AN",
+        "region": "Marche",
+        "latitude": 43.7166666667,
+        "longitude": 13.2166666667,
+        "locode": "ITSEG"
+    },
+    {
+        "name": "Sestri Levante",
+        "city": "Sestri Levante",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": 44.2666666667,
+        "longitude": 9.3833333333,
+        "locode": "ITNTE"
+    },
+    {
+        "name": "Sferracavallo",
+        "city": "Sferracavallo",
+        "province": "PA",
+        "region": "Sicilia",
+        "latitude": 38.2,
+        "longitude": 13.2333333333,
+        "locode": "ITRRV"
+    },
+    {
+        "name": "Siderno Marina",
+        "city": "Siderno Marina",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITSID"
+    },
+    {
+        "name": "Silvi Marina",
+        "city": "Silvi Marina",
+        "province": "TE",
+        "region": "Abruzzo",
+        "latitude": 42.5666666667,
+        "longitude": 14.1,
+        "locode": "ITSLV"
+    },
+    {
+        "name": "Siracusa",
+        "city": "Siracusa",
+        "province": "SR",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITSIR"
+    },
+    {
+        "name": "Sorrento",
+        "city": "Sorrento",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITRRO"
+    },
+    {
+        "name": "Soverato",
+        "city": "Soverato",
+        "province": "CZ",
+        "region": "Calabria",
+        "latitude": 38.6833333333,
+        "longitude": 16.5333333333,
+        "locode": "ITSOO"
+    },
+    {
+        "name": "Sperlonga",
+        "city": "Sperlonga",
+        "province": "LT",
+        "region": "Lazio",
+        "latitude": 41.25,
+        "longitude": 13.4166666667,
+        "locode": "ITNGA"
+    },
+    {
+        "name": "Spotorno",
+        "city": "Spotorno",
+        "province": "SV",
+        "region": "Liguria",
+        "latitude": 44.2166666667,
+        "longitude": 8.4166666667,
+        "locode": "ITRNS"
+    },
+    {
+        "name": "Stintino",
+        "city": "Stintino",
+        "province": "SS",
+        "region": "Sardegna",
+        "latitude": 40.9333333333,
+        "longitude": 8.2166666667,
+        "locode": "ITTTN"
+    },
+    {
+        "name": "Stromboli",
+        "city": "Stromboli",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITSTR"
+    },
+    {
+        "name": "Talamone",
+        "city": "Talamone",
+        "province": "GR",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITTAL"
+    },
+    {
+        "name": "Vieste",
+        "city": "Vieste",
+        "province": "FG",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITVIE"
+    },
+    {
+        "name": "Villa San Giovanni",
+        "city": "Villa San Giovanni",
+        "province": "RC",
+        "region": "Calabria",
+        "latitude": 38.2181388889,
+        "longitude": 15.6332944444,
+        "locode": "ITVSG"
+    },
+    {
+        "name": "Voltri",
+        "city": "Voltri",
+        "province": "GE",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITVTI"
+    },
+    {
+        "name": "Taranto",
+        "city": "Taranto",
+        "province": "TA",
+        "region": "Puglia",
+        "latitude": 40.4758833333,
+        "longitude": 17.2134194444,
+        "locode": "ITTAR"
+    },
+    {
+        "name": "Termini Imerese",
+        "city": "Termini Imerese",
+        "province": "PA",
+        "region": "Sicilia",
+        "latitude": 37.9859722222,
+        "longitude": 13.7049527778,
+        "locode": "ITTRI"
+    },
+    {
+        "name": "Terracina",
+        "city": "Terracina",
+        "province": "LT",
+        "region": "Lazio",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITTRC"
+    },
+    {
+        "name": "Terrasini",
+        "city": "Terrasini",
+        "province": "PA",
+        "region": "Sicilia",
+        "latitude": 38.15,
+        "longitude": 13.0833333333,
+        "locode": "ITSNR"
+    },
+    {
+        "name": "Tirrenia",
+        "city": "Tirrenia",
+        "province": "PI",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITTTF"
+    },
+    {
+        "name": "Torre Annunziata",
+        "city": "Torre Annunziata",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITTOA"
+    },
+    {
+        "name": "Torre Cesarea",
+        "city": "Torre Cesarea",
+        "province": "LE",
+        "region": "Puglia",
+        "latitude": 40.0333333333,
+        "longitude": 18.45,
+        "locode": "ITTCS"
+    },
+    {
+        "name": "Torre Faro",
+        "city": "Torre Faro",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 38.25,
+        "longitude": 15.6333333333,
+        "locode": "ITTRH"
+    },
+    {
+        "name": "Torre Gaveta",
+        "city": "Torre Gaveta",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": 40.8166666667,
+        "longitude": 14.0333333333,
+        "locode": "ITTGV"
+    },
+    {
+        "name": "Torre San Giovanni",
+        "city": "Torre San Giovanni",
+        "province": "LE",
+        "region": "Puglia",
+        "latitude": 39.8833333333,
+        "longitude": 18.1166666667,
+        "locode": "ITTRU"
+    },
+    {
+        "name": "Torre del Greco",
+        "city": "Torre Del Greco",
+        "province": "NA",
+        "region": "Campania",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITTDG"
+    },
+    {
+        "name": "Torregrande",
+        "city": "Torregrande",
+        "province": "OR",
+        "region": "Sardegna",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITTGR"
+    },
+    {
+        "name": "Tortoreto Lido",
+        "city": "Tortoreto Lido",
+        "province": "TE",
+        "region": "Abruzzo",
+        "latitude": 42.8,
+        "longitude": 13.8666666667,
+        "locode": "ITTTL"
+    },
+    {
+        "name": "Trebisacce",
+        "city": "Trebisacce",
+        "province": "CS",
+        "region": "Calabria",
+        "latitude": 39.8666666667,
+        "longitude": 16.5166666667,
+        "locode": "ITTCC"
+    },
+    {
+        "name": "Tremestieri",
+        "city": "Tremestieri",
+        "province": "ME",
+        "region": "Sicilia",
+        "latitude": 38.1319027778,
+        "longitude": 15.523875,
+        "locode": "ITZVK"
+    },
+    {
+        "name": "Tremiti",
+        "city": "Tremiti",
+        "province": "FG",
+        "region": "Puglia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITTMT"
+    },
+    {
+        "name": "Trieste",
+        "city": "Trieste",
+        "province": "TS",
+        "region": "Friuli-Venezia Giulia",
+        "latitude": 45.6338305556,
+        "longitude": 13.7617555556,
+        "locode": "ITTRS"
+    },
+    {
+        "name": "Tropea",
+        "city": "Tropea",
+        "province": "VV",
+        "region": "Calabria",
+        "latitude": 38.6833333333,
+        "longitude": 15.9,
+        "locode": "ITTRP"
+    },
+    {
+        "name": "Ustica",
+        "city": "Ustica",
+        "province": "PA",
+        "region": "Sicilia",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITUST"
+    },
+    {
+        "name": "Vada",
+        "city": "Vada",
+        "province": "LI",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITVDA"
+    },
+    {
+        "name": "Vado Ligure",
+        "city": "Vado Ligure",
+        "province": "SV",
+        "region": "Liguria",
+        "latitude": 44.2656361111,
+        "longitude": 8.4453611111,
+        "locode": "ITVDL"
+    },
+    {
+        "name": "Varazze",
+        "city": "Varazze",
+        "province": "SV",
+        "region": "Liguria",
+        "latitude": 44.3666666667,
+        "longitude": 8.5666666667,
+        "locode": "ITVRZ"
+    },
+    {
+        "name": "Vasto",
+        "city": "Vasto",
+        "province": "CH",
+        "region": "Abruzzo",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITVSO"
+    },
+    {
+        "name": "Venezia",
+        "city": "Venezia",
+        "province": "VE",
+        "region": "Veneto",
+        "latitude": 45.4372111111,
+        "longitude": 12.3107083333,
+        "locode": "ITVCE"
+    },
+    {
+        "name": "Ventimiglia",
+        "city": "Ventimiglia",
+        "province": "IM",
+        "region": "Liguria",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITVEN"
+    },
+    {
+        "name": "Ventotene",
+        "city": "Ventotene",
+        "province": "LT",
+        "region": "Lazio",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITVTT"
+    },
+    {
+        "name": "Vernazza",
+        "city": "Vernazza",
+        "province": "SP",
+        "region": "Liguria",
+        "latitude": 44.1333333333,
+        "longitude": 9.6833333333,
+        "locode": "ITVZN"
+    },
+    {
+        "name": "Viareggio",
+        "city": "Viareggio",
+        "province": "LU",
+        "region": "Toscana",
+        "latitude": null,
+        "longitude": null,
+        "locode": "ITVIA"
+    },
+    {
+        "name": "Vibo Valentia",
+        "city": "Vibo Valentia",
+        "province": "VV",
+        "region": "Calabria",
+        "latitude": 38.7166722222,
+        "longitude": 16.126775,
+        "locode": "ITVVA"
+    }
+]
