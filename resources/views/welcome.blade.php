@@ -85,10 +85,6 @@
                 @endfor
             </div>
 
-            {{-- Nome porto corrente --}}
-            <div class="flex justify-center mt-4">
-                <span class="text-sm text-white/80 font-medium" x-text="captions[current]" style="text-shadow: 0 1px 4px rgba(0,0,0,0.5)"></span>
-            </div>
         </div>
 
         {{-- Wave bottom --}}
