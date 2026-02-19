@@ -1,0 +1,1178 @@
+[
+    {
+        "name": "Aegina Port",
+        "city": "Aegina Port",
+        "province": "",
+        "region": "Attiki",
+        "latitude": 37.7453757,
+        "longitude": 23.4262398
+    },
+    {
+        "name": "Alimos Marina",
+        "city": "Alimos Marina",
+        "province": "",
+        "region": "Attiki",
+        "latitude": 37.9140544,
+        "longitude": 23.7036731
+    },
+    {
+        "name": "Angistri",
+        "city": "Angistri",
+        "province": "",
+        "region": "Attiki",
+        "latitude": 37.7135806,
+        "longitude": 23.3475999
+    },
+    {
+        "name": "Athens Marina",
+        "city": "Athens Marina",
+        "province": "",
+        "region": "Attiki",
+        "latitude": 37.9399454,
+        "longitude": 23.6691255
+    },
+    {
+        "name": "Perdika",
+        "city": "Perdika",
+        "province": "",
+        "region": "Attiki",
+        "latitude": 37.690877,
+        "longitude": 23.4528665
+    },
+    {
+        "name": "Piraeus Cruise Port",
+        "city": "Piraeus Cruise Port",
+        "province": "",
+        "region": "Attiki",
+        "latitude": 37.9368861,
+        "longitude": 23.6306088
+    },
+    {
+        "name": "Stadthafen Poros",
+        "city": "Stadthafen Poros",
+        "province": "",
+        "region": "Attiki",
+        "latitude": 37.5015188,
+        "longitude": 23.4529711
+    },
+    {
+        "name": "Varkiza Fish Harbour",
+        "city": "Varkiza Fish Harbour",
+        "province": "",
+        "region": "Attiki",
+        "latitude": 37.8162587,
+        "longitude": 23.8026964
+    },
+    {
+        "name": "Vouliagmeni Marina",
+        "city": "Vouliagmeni Marina",
+        "province": "",
+        "region": "Attiki",
+        "latitude": 37.8035734,
+        "longitude": 23.7743963
+    },
+    {
+        "name": "Arvi Marina",
+        "city": "Arvi Marina",
+        "province": "",
+        "region": "Creta",
+        "latitude": 34.9909142,
+        "longitude": 25.4542795
+    },
+    {
+        "name": "Bali Marina",
+        "city": "Bali Marina",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.4136292,
+        "longitude": 24.7840075
+    },
+    {
+        "name": "Malia Marina",
+        "city": "Malia Marina",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.2949701,
+        "longitude": 25.4721541
+    },
+    {
+        "name": "Marina Elounda",
+        "city": "Marina Elounda",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.2626626,
+        "longitude": 25.7226294
+    },
+    {
+        "name": "Marina Of Agia Galini",
+        "city": "Marina Of Agia Galini",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.0954397,
+        "longitude": 24.6899895
+    },
+    {
+        "name": "Marina Of Chania",
+        "city": "Marina Of Chania",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.5191526,
+        "longitude": 24.0208811
+    },
+    {
+        "name": "Marina Of Chora Sfakion",
+        "city": "Marina Of Chora Sfakion",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.1986867,
+        "longitude": 24.1375472
+    },
+    {
+        "name": "Marina Of Frangokastello",
+        "city": "Marina Of Frangokastello",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.180343,
+        "longitude": 24.2311404
+    },
+    {
+        "name": "Marina Of Ierapetra",
+        "city": "Marina Of Ierapetra",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.0032283,
+        "longitude": 25.7365602
+    },
+    {
+        "name": "Marina Of Kokkinos Pyrgos",
+        "city": "Marina Of Kokkinos Pyrgos",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.0826429,
+        "longitude": 24.7368219
+    },
+    {
+        "name": "Marina Of Makrygialos",
+        "city": "Marina Of Makrygialos",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.0369134,
+        "longitude": 25.9736296
+    },
+    {
+        "name": "Marina Of Milatos",
+        "city": "Marina Of Milatos",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.3198109,
+        "longitude": 25.5616797
+    },
+    {
+        "name": "Marina Of Paleochora",
+        "city": "Marina Of Paleochora",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.224,
+        "longitude": 23.6765677
+    },
+    {
+        "name": "Marina Of Panormos",
+        "city": "Marina Of Panormos",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.4193011,
+        "longitude": 24.6914909
+    },
+    {
+        "name": "Marina Of Plakias",
+        "city": "Marina Of Plakias",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.1898353,
+        "longitude": 24.3934326
+    },
+    {
+        "name": "Marina Of Rethymno",
+        "city": "Marina Of Rethymno",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.3682623,
+        "longitude": 24.4813284
+    },
+    {
+        "name": "Marina Of Sisi",
+        "city": "Marina Of Sisi",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.3081916,
+        "longitude": 25.5190877
+    },
+    {
+        "name": "Marina Sitia",
+        "city": "Marina Sitia",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.2078051,
+        "longitude": 26.1084556
+    },
+    {
+        "name": "Myrtos Marina",
+        "city": "Myrtos Marina",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.0034135,
+        "longitude": 25.5877256
+    },
+    {
+        "name": "New Harbour Plakias",
+        "city": "New Harbour Plakias",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.1937562,
+        "longitude": 24.3799583
+    },
+    {
+        "name": "Old Port",
+        "city": "Old Port",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.3705409,
+        "longitude": 24.4768848
+    },
+    {
+        "name": "Venetian Harbour",
+        "city": "Venetian Harbour",
+        "province": "",
+        "region": "Creta",
+        "latitude": 35.3433702,
+        "longitude": 25.1358559
+    },
+    {
+        "name": "Agios Kirykos Marina (New)",
+        "city": "Agios Kirykos Marina (New)",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.6157961,
+        "longitude": 26.297935
+    },
+    {
+        "name": "Agios Kirykos Marina (Old)",
+        "city": "Agios Kirykos Marina (Old)",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.6140698,
+        "longitude": 26.2954171
+    },
+    {
+        "name": "Batsi",
+        "city": "Batsi",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.8566751,
+        "longitude": 24.785125
+    },
+    {
+        "name": "Commercial Harbor",
+        "city": "Commercial Harbor",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.442427,
+        "longitude": 28.2368952
+    },
+    {
+        "name": "Faliraki Harbor",
+        "city": "Faliraki Harbor",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.3357871,
+        "longitude": 28.2080391
+    },
+    {
+        "name": "Fishing Port",
+        "city": "Fishing Port",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.101661,
+        "longitude": 25.266144
+    },
+    {
+        "name": "Gialisktari",
+        "city": "Gialisktari",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.6327057,
+        "longitude": 26.1027087
+    },
+    {
+        "name": "Gialos",
+        "city": "Gialos",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.6160098,
+        "longitude": 27.83681
+    },
+    {
+        "name": "Kamiros Skala",
+        "city": "Kamiros Skala",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.2727692,
+        "longitude": 27.8249653
+    },
+    {
+        "name": "Kastro Small Marina",
+        "city": "Kastro Small Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.8462371,
+        "longitude": 24.93889
+    },
+    {
+        "name": "Korthiou",
+        "city": "Korthiou",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.7767366,
+        "longitude": 24.9535775
+    },
+    {
+        "name": "Kos Harbour",
+        "city": "Kos Harbour",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.8960521,
+        "longitude": 27.2881143
+    },
+    {
+        "name": "Kos Marina",
+        "city": "Kos Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.8917956,
+        "longitude": 27.3023035
+    },
+    {
+        "name": "Leros Marina",
+        "city": "Leros Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.1293053,
+        "longitude": 26.858068
+    },
+    {
+        "name": "Limin Loutra",
+        "city": "Limin Loutra",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.4425311,
+        "longitude": 24.4260185
+    },
+    {
+        "name": "Marina Lisso",
+        "city": "Lipsi Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.2947063,
+        "longitude": 26.7671469
+    },
+    {
+        "name": "Livádhi",
+        "city": "Livádhi",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.1424219,
+        "longitude": 24.5157414
+    },
+    {
+        "name": "Marina Exomitis \/ Vlychada",
+        "city": "Marina Exomitis \/ Vlychada",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.3365846,
+        "longitude": 25.4348918
+    },
+    {
+        "name": "Marina Ios",
+        "city": "Marina Ios",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.7227587,
+        "longitude": 25.2730889
+    },
+    {
+        "name": "Marina Lakki",
+        "city": "Marina Lakki",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.1298114,
+        "longitude": 26.8488479
+    },
+    {
+        "name": "Marina Lavrio",
+        "city": "Marina Lavrio",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.7113396,
+        "longitude": 24.0585638
+    },
+    {
+        "name": "Marina Pythagorio",
+        "city": "Marina Pythagorio",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.689857,
+        "longitude": 26.943841
+    },
+    {
+        "name": "Mastichari Harbour",
+        "city": "Mastichari Harbour",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.8514891,
+        "longitude": 27.0764682
+    },
+    {
+        "name": "Naxos Marina",
+        "city": "Naxos Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.1046989,
+        "longitude": 25.3745284
+    },
+    {
+        "name": "New Marina",
+        "city": "New Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.434234,
+        "longitude": 28.2386273
+    },
+    {
+        "name": "New Port Public Marina",
+        "city": "New Port Public Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.4654314,
+        "longitude": 25.3246341
+    },
+    {
+        "name": "Olympic Marina",
+        "city": "Olympic Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.6959739,
+        "longitude": 24.0620756
+    },
+    {
+        "name": "Paloi Marina",
+        "city": "Paloi Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.6193147,
+        "longitude": 27.1707141
+    },
+    {
+        "name": "Parikia",
+        "city": "Parikia",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.0873355,
+        "longitude": 25.1524136
+    },
+    {
+        "name": "Porto Bello Marina",
+        "city": "Porto Bello Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.7623986,
+        "longitude": 27.1188189
+    },
+    {
+        "name": "Sailing Rhodes Kiotari",
+        "city": "Sailing Rhodes Kiotari",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.0535439,
+        "longitude": 27.9745833
+    },
+    {
+        "name": "Samos Marina",
+        "city": "Samos Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.690575,
+        "longitude": 26.9551378
+    },
+    {
+        "name": "Skala Small Harbour",
+        "city": "Skala Small Harbour",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.675292,
+        "longitude": 25.1436494
+    },
+    {
+        "name": "Stegna Bay Port",
+        "city": "Stegna Bay Port",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.2033442,
+        "longitude": 28.140923
+    },
+    {
+        "name": "Syros Marina",
+        "city": "Syros Marina",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 37.4300263,
+        "longitude": 24.9417022
+    },
+    {
+        "name": "Tourist Port",
+        "city": "Tourist Port",
+        "province": "",
+        "region": "Egeo Meridionale",
+        "latitude": 36.4443313,
+        "longitude": 28.2320552
+    },
+    {
+        "name": "Avlaki A",
+        "city": "Avlaki A",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 39.3230746,
+        "longitude": 26.1610609
+    },
+    {
+        "name": "Fishing Port",
+        "city": "Fishing Port",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 38.9731003,
+        "longitude": 26.3691995
+    },
+    {
+        "name": "Gridia",
+        "city": "Gridia",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 38.2083225,
+        "longitude": 26.0955724
+    },
+    {
+        "name": "Kavaki",
+        "city": "Kavaki",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 39.3376941,
+        "longitude": 26.1792623
+    },
+    {
+        "name": "Limani Aghias Bay",
+        "city": "Limani Aghias Bay",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 39.8264791,
+        "longitude": 25.3549991
+    },
+    {
+        "name": "Passenger Port",
+        "city": "Passenger Port",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 39.1022587,
+        "longitude": 26.5619427
+    },
+    {
+        "name": "Port Of Sikaminea",
+        "city": "Port Of Sikaminea",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 39.3739729,
+        "longitude": 26.3032008
+    },
+    {
+        "name": "Sarpioskala",
+        "city": "Sarpioskala",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 39.8955929,
+        "longitude": 25.2149747
+    },
+    {
+        "name": "Tourist Port Of Plomari",
+        "city": "Tourist Port Of Plomari",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 38.9737458,
+        "longitude": 26.3710458
+    },
+    {
+        "name": "Xenios Gate Marina",
+        "city": "Xenios Gate Marina",
+        "province": "",
+        "region": "Egeo Settentrionale",
+        "latitude": 40.6149821,
+        "longitude": 24.6004501
+    },
+    {
+        "name": "Agioi Pantes Marina",
+        "city": "Agioi Pantes Marina",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 38.3555684,
+        "longitude": 22.298571
+    },
+    {
+        "name": "Chalkis Commercial Port",
+        "city": "Chalkis Commercial Port",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 38.4609691,
+        "longitude": 23.5895345
+    },
+    {
+        "name": "Chalkis Commercial Port",
+        "city": "Chalkis Commercial Port",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 38.4583141,
+        "longitude": 23.5898959
+    },
+    {
+        "name": "Dock To The Monastery",
+        "city": "Dock To The Monastery",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 39.3240516,
+        "longitude": 24.0932605
+    },
+    {
+        "name": "Koukounaries Marina",
+        "city": "Koukounaries Marina",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 39.1485249,
+        "longitude": 23.4064036
+    },
+    {
+        "name": "Nea Skioni",
+        "city": "Nea Skioni",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 39.9462067,
+        "longitude": 23.5290598
+    },
+    {
+        "name": "Ormos Katavathra",
+        "city": "Ormos Katavathra",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 39.1847599,
+        "longitude": 23.4446525
+    },
+    {
+        "name": "Sail Aegean Charter Office",
+        "city": "Sail Aegean Charter Office",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 39.3580934,
+        "longitude": 22.9432072
+    },
+    {
+        "name": "Stomion Small Harbour",
+        "city": "Stomion Small Harbour",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 39.8658586,
+        "longitude": 22.7451349
+    },
+    {
+        "name": "Volos",
+        "city": "Volos",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 39.3604868,
+        "longitude": 22.9425818
+    },
+    {
+        "name": "Volos Marina",
+        "city": "Volos Marina",
+        "province": "",
+        "region": "Grecia",
+        "latitude": 39.3579848,
+        "longitude": 22.9476765
+    },
+    {
+        "name": "Aghios Georgios",
+        "city": "Aghios Georgios",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.4260852,
+        "longitude": 19.9436907
+    },
+    {
+        "name": "Agia Effimia Marina",
+        "city": "Agia Effimia Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.3024957,
+        "longitude": 20.6005843
+    },
+    {
+        "name": "Apidies",
+        "city": "Apidies",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.7585883,
+        "longitude": 19.5231522
+    },
+    {
+        "name": "Arachovitika Marina",
+        "city": "Arachovitika Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.331587,
+        "longitude": 21.8428415
+    },
+    {
+        "name": "Benitses Marina",
+        "city": "Benitses Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.5481971,
+        "longitude": 19.9131572
+    },
+    {
+        "name": "Billy's Boat Hire",
+        "city": "Billy's Boat Hire",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.6539075,
+        "longitude": 19.8464544
+    },
+    {
+        "name": "Cleopatra Marina",
+        "city": "Cleopatra Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.949137,
+        "longitude": 20.7632804
+    },
+    {
+        "name": "Gouvia Marina",
+        "city": "Gouvia Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.6486319,
+        "longitude": 19.8539248
+    },
+    {
+        "name": "Ipsos",
+        "city": "Ipsos",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.6945441,
+        "longitude": 19.8390117
+    },
+    {
+        "name": "Kastrosikia",
+        "city": "Kastrosikia",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.0938049,
+        "longitude": 20.6432792
+    },
+    {
+        "name": "Katakolon Port",
+        "city": "Katakolon Port",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 37.6467635,
+        "longitude": 21.3216278
+    },
+    {
+        "name": "Kerentzas",
+        "city": "Kerentzas",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.2166601,
+        "longitude": 20.4828461
+    },
+    {
+        "name": "Kopraina",
+        "city": "Kopraina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.038267,
+        "longitude": 21.076139
+    },
+    {
+        "name": "Koronisia",
+        "city": "Koronisia",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.0147269,
+        "longitude": 20.9131716
+    },
+    {
+        "name": "Kouloura Marina",
+        "city": "Kouloura Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.7444363,
+        "longitude": 19.9409279
+    },
+    {
+        "name": "Kyradikia",
+        "city": "Kyradikia",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.5683127,
+        "longitude": 19.8298189
+    },
+    {
+        "name": "Lakka Port",
+        "city": "Lakka Port",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.2358112,
+        "longitude": 20.1357029
+    },
+    {
+        "name": "Lefkas Marina",
+        "city": "Lefkas Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.8302965,
+        "longitude": 20.7114541
+    },
+    {
+        "name": "Lefkas Marina",
+        "city": "Lefkas Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.8289054,
+        "longitude": 20.7113582
+    },
+    {
+        "name": "Limani",
+        "city": "Limani",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 37.2572866,
+        "longitude": 21.6653036
+    },
+    {
+        "name": "Lygia",
+        "city": "Lygia",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.1511296,
+        "longitude": 20.5653256
+    },
+    {
+        "name": "Marina Christina Skorpios",
+        "city": "Marina Christina Skorpios",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.6944918,
+        "longitude": 20.7459819
+    },
+    {
+        "name": "Marina Of Mandraki (Poiath)",
+        "city": "Marina Of Mandraki (Poiath)",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.6247016,
+        "longitude": 19.9284021
+    },
+    {
+        "name": "Molos",
+        "city": "Molos",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.9049864,
+        "longitude": 21.112389
+    },
+    {
+        "name": "Mongonisi",
+        "city": "Mongonisi",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.1825338,
+        "longitude": 20.205026
+    },
+    {
+        "name": "Mytika",
+        "city": "Mytika",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.0016467,
+        "longitude": 20.7071127
+    },
+    {
+        "name": "New Fortress Marina",
+        "city": "New Fortress Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.6272285,
+        "longitude": 19.9161969
+    },
+    {
+        "name": "Nikiana Marina",
+        "city": "Nikiana Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.7608832,
+        "longitude": 20.7205244
+    },
+    {
+        "name": "Northern Port Of Patras",
+        "city": "Northern Port Of Patras",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.2520472,
+        "longitude": 21.7322304
+    },
+    {
+        "name": "Odyseas Marina",
+        "city": "Odyseas Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.6648482,
+        "longitude": 20.7811514
+    },
+    {
+        "name": "Old Port Marina",
+        "city": "Old Port Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.6273511,
+        "longitude": 19.9192729
+    },
+    {
+        "name": "Old Town Marine (Naok)",
+        "city": "Old Town Marine (Naok)",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.6202182,
+        "longitude": 19.9254199
+    },
+    {
+        "name": "Patras Marina",
+        "city": "Patras Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.262487,
+        "longitude": 21.7377652
+    },
+    {
+        "name": "Port Of Sami",
+        "city": "Port Of Sami",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.2534579,
+        "longitude": 20.6482229
+    },
+    {
+        "name": "Preveza Marina",
+        "city": "Preveza Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.9611534,
+        "longitude": 20.7574329
+    },
+    {
+        "name": "Roda Marine",
+        "city": "Roda Marine",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.7917885,
+        "longitude": 19.7913972
+    },
+    {
+        "name": "Salaoras",
+        "city": "Salaoras",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.0310217,
+        "longitude": 20.8702637
+    },
+    {
+        "name": "Scout Camps",
+        "city": "Scout Camps",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.6449235,
+        "longitude": 19.9262539
+    },
+    {
+        "name": "Sivota",
+        "city": "Sivota",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.6219613,
+        "longitude": 20.6837174
+    },
+    {
+        "name": "Small Akrotiri Marina",
+        "city": "Small Akrotiri Marina",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.1505516,
+        "longitude": 20.3875663
+    },
+    {
+        "name": "Southern Port Of Patras",
+        "city": "Southern Port Of Patras",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 38.2266105,
+        "longitude": 21.7207268
+    },
+    {
+        "name": "Syvota",
+        "city": "Syvota",
+        "province": "",
+        "region": "Isole Ionie",
+        "latitude": 39.4082324,
+        "longitude": 20.2388956
+    },
+    {
+        "name": "Alykes Pydna",
+        "city": "Alykes Pydna",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.3771274,
+        "longitude": 22.6260781
+    },
+    {
+        "name": "Arkana (Port)",
+        "city": "Arkana (Port)",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.3156997,
+        "longitude": 24.2126837
+    },
+    {
+        "name": "Arsanas Ouranoupolis",
+        "city": "Arsanas Ouranoupolis",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.3254971,
+        "longitude": 23.9786097
+    },
+    {
+        "name": "Glastri",
+        "city": "Glastri",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.3271875,
+        "longitude": 23.9248577
+    },
+    {
+        "name": "Manitsas Marine",
+        "city": "Manitsas Marine",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.8500657,
+        "longitude": 24.314278
+    },
+    {
+        "name": "Mikro Limani",
+        "city": "Mikro Limani",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.3314233,
+        "longitude": 23.9231482
+    },
+    {
+        "name": "Paralia Katerinis Marina",
+        "city": "Paralia Katerinis Marina",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.2602342,
+        "longitude": 22.5954208
+    },
+    {
+        "name": "Porto Carras",
+        "city": "Porto Carras",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.0751751,
+        "longitude": 23.7940698
+    },
+    {
+        "name": "Sani Marina",
+        "city": "Sani Marina",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.0985679,
+        "longitude": 23.3107996
+    },
+    {
+        "name": "Tripiti",
+        "city": "Tripiti",
+        "province": "",
+        "region": "Macedonia",
+        "latitude": 40.3643682,
+        "longitude": 23.9183709
+    },
+    {
+        "name": "Agios Andreas",
+        "city": "Agios Andreas",
+        "province": "",
+        "region": "Peloponneso",
+        "latitude": 37.3711023,
+        "longitude": 22.7834694
+    },
+    {
+        "name": "Greek Sails",
+        "city": "Greek Sails",
+        "province": "",
+        "region": "Peloponneso",
+        "latitude": 37.4957357,
+        "longitude": 23.4605281
+    },
+    {
+        "name": "Monemvasia",
+        "city": "Monemvasia",
+        "province": "",
+        "region": "Peloponneso",
+        "latitude": 36.6831643,
+        "longitude": 23.0390469
+    },
+    {
+        "name": "Nea Kios Harbour",
+        "city": "Nea Kios Harbour",
+        "province": "",
+        "region": "Peloponneso",
+        "latitude": 37.5832046,
+        "longitude": 22.7471441
+    },
+    {
+        "name": "Poros",
+        "city": "Poros",
+        "province": "",
+        "region": "Peloponneso",
+        "latitude": 37.4975929,
+        "longitude": 23.4579295
+    },
+    {
+        "name": "Poros",
+        "city": "Poros",
+        "province": "",
+        "region": "Peloponneso",
+        "latitude": 37.4979845,
+        "longitude": 23.4566152
+    },
+    {
+        "name": "Staint Nicholas Marina",
+        "city": "Staint Nicholas Marina",
+        "province": "",
+        "region": "Peloponneso",
+        "latitude": 36.9841302,
+        "longitude": 22.9999025
+    }
+]

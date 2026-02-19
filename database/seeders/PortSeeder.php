@@ -18,9 +18,11 @@ class PortSeeder extends Seeder
     {
         $italianPorts = $this->loadJson(storage_path('ports_italy_mapped.json'));
         $frenchPorts = $this->loadJson(storage_path('ports_france_med.json'));
+        $greekPorts = $this->loadJson(storage_path('ports_greece.json'));
 
         $this->seedItalianPorts($italianPorts);
         $this->seedFrenchPorts($frenchPorts);
+        $this->seedGreekPorts($greekPorts);
     }
 
     private function seedItalianPorts(array $ports): void
@@ -106,6 +108,41 @@ class PortSeeder extends Seeder
 
         // Ensure first letter is uppercase
         return mb_strtoupper(mb_substr($name, 0, 1, 'UTF-8'), 'UTF-8') . mb_substr($name, 1, null, 'UTF-8');
+    }
+
+    private function seedGreekPorts(array $ports): void
+    {
+        $count = 0;
+        foreach ($ports as $port) {
+            $existing = Port::where('country', 'Greece')
+                ->where('city', $port['city'])
+                ->where('name', $port['name'])
+                ->first();
+
+            if ($existing) {
+                $existing->update([
+                    'province'  => $port['province'],
+                    'region'    => $port['region'],
+                    'latitude'  => $port['latitude'] ?: $existing->latitude,
+                    'longitude' => $port['longitude'] ?: $existing->longitude,
+                    'is_active' => true,
+                ]);
+            } else {
+                Port::create([
+                    'name'      => $port['name'],
+                    'city'      => $port['city'],
+                    'province'  => $port['province'],
+                    'region'    => $port['region'],
+                    'country'   => 'Greece',
+                    'latitude'  => $port['latitude'],
+                    'longitude' => $port['longitude'],
+                    'is_active' => true,
+                ]);
+            }
+            $count++;
+        }
+
+        $this->command->info("Seeded {$count} Greek ports.");
     }
 
     private function loadJson(string $path): array
