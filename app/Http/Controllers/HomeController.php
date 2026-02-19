@@ -21,6 +21,17 @@ class HomeController extends Controller
             ->take(config('porty.homepage.top_berths_count', 6))
             ->get();
 
+        // Fallback: se non ci sono ancora berths con rating, mostra i più costosi
+        if ($topBerths->isEmpty()) {
+            $topBerths = Berth::query()
+                ->with(['port', 'owner'])
+                ->active()
+                ->available()
+                ->orderBy('price_per_day', 'desc')
+                ->take(config('porty.homepage.top_berths_count', 6))
+                ->get();
+        }
+
         $latestBerths = Berth::query()
             ->with(['port', 'owner'])
             ->active()
