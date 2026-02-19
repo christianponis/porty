@@ -81,6 +81,21 @@ services:
       retries: 5
     restart: unless-stopped
 
+  adminer:
+    image: adminer:latest
+    container_name: porty_adminer
+    ports:
+      - "8080:8080"
+    environment:
+      ADMINER_DEFAULT_SERVER: db
+      ADMINER_DESIGN: dracula
+    depends_on:
+      - db
+      - db_auth
+    networks:
+      - porty_network
+    restart: unless-stopped
+
 volumes:
   mysql_data:
     driver: local
