@@ -1,0 +1,72 @@
+services:
+  # Next.js Frontend (dev mode with SSR)
+  frontend:
+    image: node:20-alpine
+    working_dir: /app
+    command: sh -c "npm install && npm run dev -- -H 0.0.0.0"
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - frontend_node_modules:/app/node_modules
+      - frontend_next:/app/.next
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8001
+      - INTERNAL_API_URL=http://api:8000
+    depends_on:
+      - api
+
+  # Laravel API Backend
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./backend:/var/www/html
+      - backend_vendor:/var/www/html/vendor
+    command: >
+      sh -c "composer install --no-dev --optimize-autoloader &&
+             rm -f bootstrap/cache/packages.php bootstrap/cache/services.php bootstrap/cache/routes-v7.php bootstrap/cache/config.php &&
+             php artisan package:discover --ansi &&
+             php artisan config:clear &&
+             php artisan route:clear &&
+             php artisan serve --host=0.0.0.0 --port=8000"
+    environment:
+      - DB_HOST=host.docker.internal
+      - DB_PORT=3307
+      - DB_DATABASE=porty
+      - DB_USERNAME=root
+      - DB_PASSWORD=${DB_ROOT_PASSWORD:-root_secret}
+      - DB_AUTH_HOST=host.docker.internal
+      - DB_AUTH_PORT=3308
+      - DB_AUTH_DATABASE=porty_auth
+      - DB_AUTH_USERNAME=root
+      - DB_AUTH_PASSWORD=${DB_ROOT_PASSWORD:-root_secret}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+  # Admin Console SPA
+  admin:
+    image: node:20-alpine
+    working_dir: /app
+    command: sh -c "npm install && npm run dev -- -H 0.0.0.0"
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./admin:/app
+      - admin_node_modules:/app/node_modules
+      - admin_next:/app/.next
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8001
+      - INTERNAL_API_URL=http://api:8000
+    depends_on:
+      - api
+
+volumes:
+  frontend_node_modules:
+  frontend_next:
+  backend_vendor:
+  admin_node_modules:
+  admin_next:
